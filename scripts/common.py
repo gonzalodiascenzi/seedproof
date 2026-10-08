@@ -2,6 +2,7 @@
 import json
 import os
 import re
+import urllib.error
 import urllib.request
 
 import yaml
@@ -64,8 +65,13 @@ def call_anthropic(system_prompt, user_payload, model, api_key, tools=None, max_
         },
         method="POST",
     )
-    with urllib.request.urlopen(req, timeout=120 if tools else 60) as resp:
-        return json.loads(resp.read().decode("utf-8"))
+    try:
+        with urllib.request.urlopen(req, timeout=120 if tools else 60) as resp:
+            return json.loads(resp.read().decode("utf-8"))
+    except urllib.error.HTTPError as e:
+        # el cuerpo del error de la API explica el 400 (nunca incluye la key)
+        detail = e.read().decode("utf-8", "replace")[:400]
+        raise RuntimeError(f"HTTP {e.code}: {detail}") from None
 
 
 def extract_model_json(response):

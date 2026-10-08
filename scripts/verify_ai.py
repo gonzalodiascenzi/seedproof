@@ -209,7 +209,7 @@ def main(today=None, ask_fn=None, fetch_fn=vs.fetch):
             print(f"{case['id']}: {checks[case['id']]['status']} "
                   f"({len(checks[case['id']]['domains'])} dominio(s) verificados, "
                   f"{checks[case['id']]['rejected_evidence']} cita(s) descartadas)")
-        except (urllib.error.URLError, TimeoutError, ValueError, KeyError) as e:
+        except (urllib.error.URLError, TimeoutError, ValueError, KeyError, RuntimeError) as e:
             failed += 1
             print(f"{case['id']}: la verificación falló ({e}); queda como estaba.", file=sys.stderr)
 
