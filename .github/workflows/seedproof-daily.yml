@@ -2,9 +2,10 @@ name: SeedProof — ciclo diario (validar fuentes, verificar IA, rankear)
 
 # Un solo ciclo, en este orden:
 #   1. validate_sources.py  — abre cada fuente citada y compara con ayer (sin IA)
-#   2. verify_ai.py         — segunda validación de "realmente es de IA"
+#   2. discover.py          — propone candidatos nuevos (solo entran con cita literal verificada)
+#   3. verify_ai.py         — segunda validación de "realmente es de IA"
 #                             (necesita ANTHROPIC_API_KEY, tope de casos por corrida)
-#   3. rank.py              — ranking: podio, repechaje y radar (sin IA)
+#   4. rank.py              — ranking: podio, repechaje y radar (sin IA)
 # Cada paso termina con 0 (hubo cambios), 3 (nada para hacer) o 1 (falló).
 # Solo se commitea si algún paso tuvo cambios: nunca hay commit de relleno.
 
@@ -46,7 +47,7 @@ jobs:
           set +e
           changed=false
           failed=false
-          for step in validate_sources verify_ai rank; do
+          for step in validate_sources discover verify_ai rank; do
             python "scripts/${step}.py"
             code=$?
             if [ "$code" -eq 0 ]; then

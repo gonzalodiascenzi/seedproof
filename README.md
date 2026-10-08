@@ -107,9 +107,14 @@ entrada en `data/cases.json`:
 Si actualizás un caso ya publicado, subí su `rev`: se vuelve a verificar y a
 reportar.
 
-**Pendiente a propósito:** el descubrimiento automático de candidatos nuevos
-(hoy no existe). Sin candidatos nuevos, el ranking solo se mueve cuando cambia
-la validación o los datos de un caso.
+### Descubrimiento automático (`discover.py`)
+
+Cada día un modelo con búsqueda web propone hasta `discover.max_new_per_run`
+candidatos. El script abre la URL de cada uno y exige que la cita literal
+aparezca en la página: sin eso no entra. Los que entran quedan con
+`"origin": "discovered"`, nivel de evidencia 1, semáforo 🟡 y sin ingresos ni
+fecha de inicio (nada se inventa), y **no compiten** hasta pasar la segunda
+validación. Un curador puede completarlos después y subir su `rev`.
 
 ## Probar sin GitHub
 

@@ -61,3 +61,13 @@ verify:
   min_independent_domains: 2  # dominios distintos donde la cita literal DEBE aparecer
   max_quote_words: 15
   web_search_max_uses: 5
+
+# --- Descubrimiento de candidatos nuevos ----------------------------------
+# Un modelo con búsqueda web propone; el script solo deja pasar los que
+# tienen una cita literal verificable en su página. Entran sin competir:
+# antes deben pasar la segunda validación (verify).
+discover:
+  model: claude-haiku-4-5-20251001
+  max_new_per_run: 3          # tope de casos nuevos por corrida
+  max_quote_words: 15
+  web_search_max_uses: 6
