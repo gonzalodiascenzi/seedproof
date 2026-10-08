@@ -1,0 +1,74 @@
+name: SeedProof — ciclo diario (validar fuentes, verificar IA, rankear)
+
+# Un solo ciclo, en este orden:
+#   1. validate_sources.py  — abre cada fuente citada y compara con ayer (sin IA)
+#   2. verify_ai.py         — segunda validación de "realmente es de IA"
+#                             (necesita ANTHROPIC_API_KEY, tope de casos por corrida)
+#   3. rank.py              — ranking: podio, repechaje y radar (sin IA)
+# Cada paso termina con 0 (hubo cambios), 3 (nada para hacer) o 1 (falló).
+# Solo se commitea si algún paso tuvo cambios: nunca hay commit de relleno.
+
+on:
+  schedule:
+    # Todos los días a las 08:30 UTC (05:30 ART).
+    - cron: "30 8 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: seedproof-daily
+  cancel-in-progress: false
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Ciclo diario
+        id: run
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          set -uo pipefail
+          set +e
+          changed=false
+          failed=false
+          for step in validate_sources verify_ai rank; do
+            python "scripts/${step}.py"
+            code=$?
+            if [ "$code" -eq 0 ]; then
+              changed=true
+            elif [ "$code" -ne 3 ]; then
+              echo "::error::${step} falló (exit ${code}) — ver el log de arriba."
+              failed=true
+            fi
+          done
+          echo "changed=${changed}" >> "$GITHUB_OUTPUT"
+          echo "failed=${failed}" >> "$GITHUB_OUTPUT"
+
+      - name: Commitear los cambios del día
+        if: steps.run.outputs.changed == 'true'
+        run: |
+          set -euo pipefail
+          git config user.name "seedproof-bot"
+          git config user.email "88945030+gonzalodiascenzi@users.noreply.github.com"
+          git add -A
+          git commit -m "Ciclo diario: validación de fuentes, verificación de IA y ranking"
+          git pull --rebase origin main
+          git push origin main
+
+      - name: Marcar la corrida como fallida si algún paso falló
+        if: steps.run.outputs.failed == 'true'
+        run: exit 1

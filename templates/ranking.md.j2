@@ -1,0 +1,88 @@
+# SeedProof — ranking diario — {{ generated_at }}
+
+> 🔵 **Ranking determinístico, sin IA.** Solo compiten los emprendimientos cuyo carácter de "basado en IA" fue **confirmado por una segunda validación** (citas literales que aparecen en al menos dos dominios distintos). El puntaje es una rúbrica con pesos iniciales que no están validados contra datos: ver `config.yml`.
+{% if baseline %}
+
+**Primera corrida: línea base.**
+{% endif %}
+
+Casos en el pool: {{ n_total }} · en ranking: {{ podium | length + repechaje | length + bench | length }} · sin validar: {{ unverified | length }} · descartados: {{ discarded | length }}
+
+## 🏆 Podio del día
+
+{% if podium %}
+| # | Emprendimiento | Semáforo | Puntaje | Mov. | Evidencia · Tracción · Antigüedad · Semáforo · Alertas |
+|---|---|---|---|---|---|
+{% for r in podium %}
+| {{ r.rank }} | {{ r.case.name }} | {{ light_icon[lights[r.case.light]] }} | {{ r.score.total }} | {{ r.move }} | {{ r.score.evidence }} · {{ r.score.traction }} · {{ r.score.age }} · {{ r.score.light }} · {{ r.score.flags }} |
+{% endfor %}
+{% else %}
+Todavía no hay casos validados: el podio queda vacío hasta que `verify_ai.py` confirme alguno.
+{% endif %}
+
+## ⚔️ Repechaje (puestos 4 a 10)
+
+{% if repechaje %}
+| # | Emprendimiento | Semáforo | Puntaje | Mov. | Datos faltantes |
+|---|---|---|---|---|---|
+{% for r in repechaje %}
+| {{ r.rank }} | {{ r.case.name }} | {{ light_icon[lights[r.case.light]] }} | {{ r.score.total }} | {{ r.move }} | {{ r.score.missing | join(", ") or "—" }} |
+{% endfor %}
+{% else %}
+Sin participantes en el repechaje todavía.
+{% endif %}
+{% if bench %}
+
+## Banca
+
+{% for r in bench %}
+- {{ r.rank }}. {{ r.case.name }} — {{ r.score.total }} {{ r.move }}
+{% endfor %}
+{% endif %}
+{% if zone_changes %}
+
+## Movimientos de zona
+
+{% for z in zone_changes %}
+- {{ z }}
+{% endfor %}
+{% endif %}
+
+## ⏳ Sin validar
+
+Todavía no pueden competir: la segunda validación no los confirmó (pendiente o sin evidencia suficiente).
+
+{% if unverified %}
+{% for r in unverified %}
+- {{ r.case.name }} — {{ "pendiente de validación" if r.status == "pending" else "validado sin evidencia suficiente" }}
+{% endfor %}
+{% else %}
+Ninguno.
+{% endif %}
+{% if discarded %}
+
+## 🚫 Descartados
+
+La evidencia verificada contradice que sean lo que se afirmaba.
+
+{% for r in discarded %}
+- {{ r.case.name }}
+{% endfor %}
+{% endif %}
+
+## 🎯 Radar de mercado
+
+Dónde el mercado entrega bien o mal, **solo con casos validados** y con un mínimo de muestra por grupo. Con pocos casos no opina.
+
+{% if radar %}
+| Dimensión | Grupo | Casos | 🟢 | 🟡 | 🔴 | Lectura |
+|---|---|---|---|---|---|---|
+{% for g in radar %}
+| {{ g.dimension }} | {{ g.group }} | {{ g.n }} | {{ g.green }} | {{ g.yellow }} | {{ g.red }} | {{ g.verdict }} |
+{% endfor %}
+{% else %}
+Sin casos validados todavía.
+{% endif %}
+
+---
+*Generado automáticamente por SeedProof. {{ generated_at }}.*

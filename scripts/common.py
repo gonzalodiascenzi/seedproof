@@ -42,16 +42,18 @@ def save_json(path, data):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
-def call_anthropic(system_prompt, user_payload, model, api_key):
+def call_anthropic(system_prompt, user_payload, model, api_key, tools=None, max_tokens=1536):
     body = {
         "model": model,
-        "max_tokens": 1536,
+        "max_tokens": max_tokens,
         "temperature": 0,
         "system": system_prompt,
         "messages": [
             {"role": "user", "content": json.dumps(user_payload, ensure_ascii=False)}
         ],
     }
+    if tools:
+        body["tools"] = tools
     req = urllib.request.Request(
         ANTHROPIC_URL,
         data=json.dumps(body).encode("utf-8"),
@@ -62,7 +64,7 @@ def call_anthropic(system_prompt, user_payload, model, api_key):
         },
         method="POST",
     )
-    with urllib.request.urlopen(req, timeout=60) as resp:
+    with urllib.request.urlopen(req, timeout=120 if tools else 60) as resp:
         return json.loads(resp.read().decode("utf-8"))
 
 

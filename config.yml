@@ -16,3 +16,48 @@ bulletin_model: claude-haiku-4-5-20251001
 validation_dir: validation
 validation_state_file: data/validation_state.json
 fetch_timeout_seconds: 25
+
+# --- Ranking diario -------------------------------------------------------
+# Todos los pesos son hipótesis iniciales, NO están validados contra datos:
+# se ajustan acá. Solo entran al ranking los casos con ai_check "confirmed"
+# (ver scripts/verify_ai.py).
+ai_checks_file: data/ai_checks.json
+ranking_dir: ranking
+ranking_state_file: data/ranking_state.json
+history_dir: data/history
+
+ranking:
+  podium_size: 3          # el podio del día
+  repechaje_size: 7       # puestos 4 a 10, compiten todos los días
+  min_cases_per_group: 5  # mínimo de casos validados para opinar sobre un grupo en el radar
+  evidence_points_per_level: 10   # nivel 1..4 -> hasta 40 puntos
+  # puntos de tracción por ingreso anual USD: [límite_superior_excluyente, puntos]
+  traction_bands: [[100000, 5], [1000000, 12], [10000000, 20], [100000000, 26]]
+  traction_top: 30
+  # el ingreso cuenta según cuán independiente es su base
+  basis_multiplier:
+    filing: 1.0
+    payments_dashboard: 1.0
+    acquirer: 0.8
+    press_reported: 0.5
+    self_reported: 0.25
+  # puntos por antigüedad en meses: [límite_superior_excluyente, puntos]; sin dato = 0
+  age_bands: [[6, 4], [12, 8], [24, 14]]
+  age_top: 20
+  light_points: {green: 10, yellow: 0, red: -25}
+  flag_penalties:
+    margin_near_zero: -10
+    regulatory_issue: -10
+    security_incident: -10
+    claim_retracted: -20
+    claim_disputed: -15
+    stale_source: -5
+
+# --- Verificación de "realmente es de IA" (segunda validación) ------------
+verify:
+  model: claude-haiku-4-5-20251001
+  max_cases_per_run: 5        # tope de gasto por corrida
+  recheck_days: 30
+  min_independent_domains: 2  # dominios distintos donde la cita literal DEBE aparecer
+  max_quote_words: 15
+  web_search_max_uses: 5

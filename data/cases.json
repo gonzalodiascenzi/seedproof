@@ -18,7 +18,19 @@
         "anchors": []
       }
     ],
-    "live": false
+    "live": false,
+    "category": "saas de generación de leads",
+    "ai_role": "built_with_ai",
+    "evidence_level": 1,
+    "launched": null,
+    "ended": "2025-03",
+    "metrics": {
+      "revenue_usd_annual": null,
+      "revenue_basis": null
+    },
+    "flags": [
+      "security_incident"
+    ]
   },
   {
     "id": "moltbook",
@@ -45,7 +57,20 @@
         "anchors": []
       }
     ],
-    "live": false
+    "live": false,
+    "category": "red social de agentes",
+    "ai_role": "ai_product",
+    "evidence_level": 2,
+    "launched": null,
+    "ended": null,
+    "metrics": {
+      "revenue_usd_annual": null,
+      "revenue_basis": null
+    },
+    "flags": [
+      "security_incident",
+      "claim_disputed"
+    ]
   },
   {
     "id": "fly-pieter",
@@ -66,7 +91,17 @@
         "anchors": []
       }
     ],
-    "live": false
+    "live": false,
+    "category": "juego de navegador",
+    "ai_role": "built_with_ai",
+    "evidence_level": 1,
+    "launched": null,
+    "ended": null,
+    "metrics": {
+      "revenue_usd_annual": 1044000,
+      "revenue_basis": "self_reported"
+    },
+    "flags": []
   },
   {
     "id": "photo-ai",
@@ -88,7 +123,17 @@
       }
     ],
     "nota": "Verificar si la fuente indica que el producto está escrito a mano en PHP y jQuery antes de agregarlo como hecho.",
-    "live": false
+    "live": false,
+    "category": "producto de imágenes con ia",
+    "ai_role": "ai_product",
+    "evidence_level": 1,
+    "launched": "2023-02",
+    "ended": null,
+    "metrics": {
+      "revenue_usd_annual": 1584000,
+      "revenue_basis": "self_reported"
+    },
+    "flags": []
   },
   {
     "id": "chatbase",
@@ -111,7 +156,19 @@
         "anchors": []
       }
     ],
-    "live": true
+    "live": true,
+    "category": "chatbots saas",
+    "ai_role": "ai_product",
+    "evidence_level": 3,
+    "launched": "2023-02",
+    "ended": null,
+    "metrics": {
+      "revenue_usd_annual": 10363584,
+      "revenue_basis": "payments_dashboard"
+    },
+    "flags": [
+      "stale_source"
+    ]
   },
   {
     "id": "base44",
@@ -132,7 +189,20 @@
         "anchors": []
       }
     ],
-    "live": false
+    "live": false,
+    "category": "plataforma de vibe coding",
+    "ai_role": "ai_product",
+    "evidence_level": 4,
+    "launched": "2024-12",
+    "ended": null,
+    "launched_approx": true,
+    "metrics": {
+      "revenue_usd_annual": 150000000,
+      "revenue_basis": "filing"
+    },
+    "flags": [
+      "margin_near_zero"
+    ]
   },
   {
     "id": "cal-ai",
@@ -147,7 +217,17 @@
         "anchors": []
       }
     ],
-    "live": false
+    "live": false,
+    "category": "app móvil de consumo",
+    "ai_role": "ai_product",
+    "evidence_level": 2,
+    "launched": null,
+    "ended": null,
+    "metrics": {
+      "revenue_usd_annual": 30000000,
+      "revenue_basis": "acquirer"
+    },
+    "flags": []
   },
   {
     "id": "medvi",
@@ -168,7 +248,19 @@
         "anchors": []
       }
     ],
-    "live": false
+    "live": false,
+    "category": "telesalud con ia",
+    "ai_role": "ai_assisted",
+    "evidence_level": 2,
+    "launched": null,
+    "ended": null,
+    "metrics": {
+      "revenue_usd_annual": 401000000,
+      "revenue_basis": "press_reported"
+    },
+    "flags": [
+      "regulatory_issue"
+    ]
   },
   {
     "id": "polsia",
@@ -189,7 +281,17 @@
         "anchors": []
       }
     ],
-    "live": false
+    "live": false,
+    "category": "plataforma de agentes",
+    "ai_role": "ai_product",
+    "evidence_level": 1,
+    "launched": null,
+    "ended": null,
+    "metrics": {
+      "revenue_usd_annual": 10000000,
+      "revenue_basis": "self_reported"
+    },
+    "flags": []
   },
   {
     "id": "cluely",
@@ -204,7 +306,19 @@
         "anchors": []
       }
     ],
-    "live": false
+    "live": false,
+    "category": "asistente de reuniones y entrevistas",
+    "ai_role": "ai_product",
+    "evidence_level": 2,
+    "launched": null,
+    "ended": null,
+    "metrics": {
+      "revenue_usd_annual": 5200000,
+      "revenue_basis": "self_reported"
+    },
+    "flags": [
+      "claim_retracted"
+    ]
   },
   {
     "id": "project-vend",
@@ -225,7 +339,17 @@
         "anchors": []
       }
     ],
-    "live": false
+    "live": false,
+    "category": "experimento de agentes",
+    "ai_role": "ai_product",
+    "evidence_level": 3,
+    "launched": null,
+    "ended": null,
+    "metrics": {
+      "revenue_usd_annual": null,
+      "revenue_basis": null
+    },
+    "flags": []
   },
   {
     "id": "lovable",
@@ -246,6 +370,16 @@
         "anchors": []
       }
     ],
-    "live": false
+    "live": false,
+    "category": "plataforma de vibe coding",
+    "ai_role": "ai_product",
+    "evidence_level": 2,
+    "launched": null,
+    "ended": null,
+    "metrics": {
+      "revenue_usd_annual": 400000000,
+      "revenue_basis": "self_reported"
+    },
+    "flags": []
   }
 ]
