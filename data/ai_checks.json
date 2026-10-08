@@ -86,5 +86,104 @@
       }
     ],
     "rejected_evidence": 2
+  },
+  "base44": {
+    "status": "confirmed",
+    "rev": 1,
+    "checked_at": "2026-10-08",
+    "model_verdict": "confirmed",
+    "domains": [
+      "certifiedcode.us",
+      "finance.yahoo.com",
+      "wix.com"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.wix.com/press-room/home/post/wix-further-expands-into-vibe-coding-with-acquisition-of-base44-a-hyper-growth-startup-that-simplif",
+        "quote": "Base44 delivers effortless, code-free digital creation through an intuitive, conversational AI experience"
+      },
+      {
+        "url": "https://finance.yahoo.com/news/wix-acquires-base44-boost-ai-130000539.html",
+        "quote": "Base44's core innovation lies in its fully automated, chat-based development environment"
+      },
+      {
+        "url": "https://www.certifiedcode.us/resources/article/what-is-base44-app-builder-and-how-does-it-work-with-wix",
+        "quote": "Base44 uses a conversational, chat-based interface where you describe your app requirements in plain English"
+      }
+    ],
+    "rejected_evidence": 1
+  },
+  "cal-ai": {
+    "status": "unconfirmed",
+    "rev": 1,
+    "checked_at": "2026-10-08",
+    "model_verdict": "confirmed",
+    "domains": [],
+    "evidence": [],
+    "rejected_evidence": 2
+  },
+  "medvi": {
+    "status": "unconfirmed",
+    "rev": 1,
+    "checked_at": "2026-10-08",
+    "model_verdict": "confirmed",
+    "domains": [],
+    "evidence": [],
+    "rejected_evidence": 3
+  },
+  "polsia": {
+    "status": "unconfirmed",
+    "rev": 1,
+    "checked_at": "2026-10-08",
+    "model_verdict": "confirmed",
+    "domains": [],
+    "evidence": [],
+    "rejected_evidence": 4
+  },
+  "cluely": {
+    "status": "unconfirmed",
+    "rev": 1,
+    "checked_at": "2026-10-08",
+    "model_verdict": "confirmed",
+    "domains": [],
+    "evidence": [],
+    "rejected_evidence": 3
+  },
+  "project-vend": {
+    "status": "unconfirmed",
+    "rev": 1,
+    "checked_at": "2026-10-08",
+    "model_verdict": "confirmed",
+    "domains": [
+      "the-decoder.com"
+    ],
+    "evidence": [
+      {
+        "url": "https://the-decoder.com/anthropics-ai-store-makes-money-while-debating-eternal-transcendence/",
+        "quote": "From October on, the system generated consistent weekly profits without dipping back into the red."
+      }
+    ],
+    "rejected_evidence": 2
+  },
+  "lovable": {
+    "status": "confirmed",
+    "rev": 1,
+    "checked_at": "2026-10-08",
+    "model_verdict": "confirmed",
+    "domains": [
+      "research.contrary.com",
+      "techjacksolutions.com"
+    ],
+    "evidence": [
+      {
+        "url": "https://research.contrary.com/company/lovable",
+        "quote": "Lovable is an AI platform that turns natural language prompts into working full-stack web applications."
+      },
+      {
+        "url": "https://techjacksolutions.com/ai-tools/lovable/what-is-lovable-ai/",
+        "quote": "Lovable AI is a full-stack app builder you control with natural language."
+      }
+    ],
+    "rejected_evidence": 3
   }
 }

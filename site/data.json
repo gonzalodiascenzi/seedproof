@@ -1,10 +1,75 @@
 {
-  "generated_at": "2026-10-08 22:17 UTC",
+  "generated_at": "2026-10-08 22:30 UTC",
   "ranking_date": "2026-10-08",
   "repo_url": "https://github.com/gonzalodiascenzi/seedproof",
   "podium_size": 3,
   "repechaje_size": 7,
   "ranked": [
+    {
+      "id": "base44",
+      "name": "Base44",
+      "light": "green",
+      "category": "plataforma de vibe coding",
+      "ai_role": "ai_product",
+      "evidence_level": 4,
+      "launched": "2024-12",
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": 150000000,
+        "revenue_basis": "filing"
+      },
+      "flags": [
+        "margin_near_zero"
+      ],
+      "status": "confirmed",
+      "rank": 1,
+      "zone": "podio",
+      "score": {
+        "total": 84.0,
+        "evidence": 40,
+        "traction": 30.0,
+        "age": 14,
+        "light": 10,
+        "flags": -10,
+        "age_months": 22,
+        "missing": []
+      },
+      "check": {
+        "checked_at": "2026-10-08",
+        "domains": [
+          "certifiedcode.us",
+          "finance.yahoo.com",
+          "wix.com"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.wix.com/press-room/home/post/wix-further-expands-into-vibe-coding-with-acquisition-of-base44-a-hyper-growth-startup-that-simplif",
+            "quote": "Base44 delivers effortless, code-free digital creation through an intuitive, conversational AI experience"
+          },
+          {
+            "url": "https://finance.yahoo.com/news/wix-acquires-base44-boost-ai-130000539.html",
+            "quote": "Base44's core innovation lies in its fully automated, chat-based development environment"
+          },
+          {
+            "url": "https://www.certifiedcode.us/resources/article/what-is-base44-app-builder-and-how-does-it-work-with-wix",
+            "quote": "Base44 uses a conversational, chat-based interface where you describe your app requirements in plain English"
+          }
+        ]
+      },
+      "facts": [
+        {
+          "text": "Wix compró Base44 por 80 millones de dólares en efectivo, de los cuales 25 millones son un bono de retención para 8 empleados; la empresa llevaba unos 6 meses.",
+          "source_url": "https://techcrunch.com/2025/06/18/six-month-old-solo-owned-vibe-coder-base44-sells-to-wix-for-80m-cash",
+          "label": "TechCrunch"
+        },
+        {
+          "text": "El comunicado de Wix del segundo trimestre de 2026 indica que el margen bruto no-GAAP de Base44 estaba cerca de cero al entrar a 2026, con un objetivo de 60% para el segundo semestre.",
+          "source_url": "https://www.globenewswire.com/de/news-release/2026/08/04/3338018/0/en/Wix-Reports-Second-Quarter-2026-Results.html",
+          "label": "Wix (comunicado)"
+        }
+      ],
+      "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/06-base44.md"
+    },
     {
       "id": "chatbase",
       "name": "Chatbase",
@@ -22,7 +87,7 @@
         "stale_source"
       ],
       "status": "confirmed",
-      "rank": 1,
+      "rank": 2,
       "zone": "podio",
       "score": {
         "total": 81.0,
@@ -66,6 +131,66 @@
       "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/05-chatbase.md"
     },
     {
+      "id": "lovable",
+      "name": "Lovable",
+      "light": "yellow",
+      "category": "plataforma de vibe coding",
+      "ai_role": "ai_product",
+      "evidence_level": 2,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": 400000000,
+        "revenue_basis": "self_reported"
+      },
+      "flags": [],
+      "status": "confirmed",
+      "rank": 3,
+      "zone": "podio",
+      "score": {
+        "total": 27.5,
+        "evidence": 20,
+        "traction": 7.5,
+        "age": 0,
+        "light": 0,
+        "flags": 0,
+        "age_months": null,
+        "missing": [
+          "antigüedad"
+        ]
+      },
+      "check": {
+        "checked_at": "2026-10-08",
+        "domains": [
+          "research.contrary.com",
+          "techjacksolutions.com"
+        ],
+        "evidence": [
+          {
+            "url": "https://research.contrary.com/company/lovable",
+            "quote": "Lovable is an AI platform that turns natural language prompts into working full-stack web applications."
+          },
+          {
+            "url": "https://techjacksolutions.com/ai-tools/lovable/what-is-lovable-ai/",
+            "quote": "Lovable AI is a full-stack app builder you control with natural language."
+          }
+        ]
+      },
+      "facts": [
+        {
+          "text": "Lovable declaró unos 400 millones de dólares de ARR en marzo de 2026, frente a 100 millones en junio de 2025; son cifras de la propia empresa.",
+          "source_url": "https://techcrunch.com/2026/03/23/vibe-coding-startup-lovable-is-on-the-hunt-for-acquisitions/",
+          "label": "TechCrunch"
+        },
+        {
+          "text": "Lovable dice tener casi 8 millones de usuarios y retención neta en dólares superior a 100%; Barclays reportó una caída de tráfico de 40% a septiembre.",
+          "source_url": "https://techcrunch.com/2025/11/10/lovable-says-its-nearing-8-million-users-as-the-year-old-ai-coding-startup-eyes-more-corporate-employees",
+          "label": "TechCrunch"
+        }
+      ],
+      "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/12-lovable.md"
+    },
+    {
       "id": "moltbook",
       "name": "Moltbook",
       "light": "red",
@@ -83,8 +208,8 @@
         "claim_disputed"
       ],
       "status": "confirmed",
-      "rank": 2,
-      "zone": "podio",
+      "rank": 4,
+      "zone": "repechaje",
       "score": {
         "total": 0.0,
         "evidence": 20,
@@ -149,8 +274,8 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 3,
-      "zone": "podio",
+      "rank": 5,
+      "zone": "repechaje",
       "score": {
         "total": 0.0,
         "evidence": 10,
@@ -301,54 +426,6 @@
       "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/04-photo-ai.md"
     },
     {
-      "id": "base44",
-      "name": "Base44",
-      "light": "green",
-      "category": "plataforma de vibe coding",
-      "ai_role": "ai_product",
-      "evidence_level": 4,
-      "launched": "2024-12",
-      "ended": null,
-      "metrics": {
-        "revenue_usd_annual": 150000000,
-        "revenue_basis": "filing"
-      },
-      "flags": [
-        "margin_near_zero"
-      ],
-      "status": "pending",
-      "rank": null,
-      "zone": null,
-      "score": {
-        "total": 84.0,
-        "evidence": 40,
-        "traction": 30.0,
-        "age": 14,
-        "light": 10,
-        "flags": -10,
-        "age_months": 22,
-        "missing": []
-      },
-      "check": {
-        "checked_at": null,
-        "domains": [],
-        "evidence": []
-      },
-      "facts": [
-        {
-          "text": "Wix compró Base44 por 80 millones de dólares en efectivo, de los cuales 25 millones son un bono de retención para 8 empleados; la empresa llevaba unos 6 meses.",
-          "source_url": "https://techcrunch.com/2025/06/18/six-month-old-solo-owned-vibe-coder-base44-sells-to-wix-for-80m-cash",
-          "label": "TechCrunch"
-        },
-        {
-          "text": "El comunicado de Wix del segundo trimestre de 2026 indica que el margen bruto no-GAAP de Base44 estaba cerca de cero al entrar a 2026, con un objetivo de 60% para el segundo semestre.",
-          "source_url": "https://www.globenewswire.com/de/news-release/2026/08/04/3338018/0/en/Wix-Reports-Second-Quarter-2026-Results.html",
-          "label": "Wix (comunicado)"
-        }
-      ],
-      "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/06-base44.md"
-    },
-    {
       "id": "cal-ai",
       "name": "Cal AI",
       "light": "yellow",
@@ -362,7 +439,7 @@
         "revenue_basis": "acquirer"
       },
       "flags": [],
-      "status": "pending",
+      "status": "unconfirmed",
       "rank": null,
       "zone": null,
       "score": {
@@ -378,7 +455,7 @@
         ]
       },
       "check": {
-        "checked_at": null,
+        "checked_at": "2026-10-08",
         "domains": [],
         "evidence": []
       },
@@ -407,7 +484,7 @@
       "flags": [
         "regulatory_issue"
       ],
-      "status": "pending",
+      "status": "unconfirmed",
       "rank": null,
       "zone": null,
       "score": {
@@ -423,7 +500,7 @@
         ]
       },
       "check": {
-        "checked_at": null,
+        "checked_at": "2026-10-08",
         "domains": [],
         "evidence": []
       },
@@ -455,7 +532,7 @@
         "revenue_basis": "self_reported"
       },
       "flags": [],
-      "status": "pending",
+      "status": "unconfirmed",
       "rank": null,
       "zone": null,
       "score": {
@@ -471,7 +548,7 @@
         ]
       },
       "check": {
-        "checked_at": null,
+        "checked_at": "2026-10-08",
         "domains": [],
         "evidence": []
       },
@@ -505,7 +582,7 @@
       "flags": [
         "claim_retracted"
       ],
-      "status": "pending",
+      "status": "unconfirmed",
       "rank": null,
       "zone": null,
       "score": {
@@ -521,7 +598,7 @@
         ]
       },
       "check": {
-        "checked_at": null,
+        "checked_at": "2026-10-08",
         "domains": [],
         "evidence": []
       },
@@ -548,7 +625,7 @@
         "revenue_basis": null
       },
       "flags": [],
-      "status": "pending",
+      "status": "unconfirmed",
       "rank": null,
       "zone": null,
       "score": {
@@ -565,9 +642,16 @@
         ]
       },
       "check": {
-        "checked_at": null,
-        "domains": [],
-        "evidence": []
+        "checked_at": "2026-10-08",
+        "domains": [
+          "the-decoder.com"
+        ],
+        "evidence": [
+          {
+            "url": "https://the-decoder.com/anthropics-ai-store-makes-money-while-debating-eternal-transcendence/",
+            "quote": "From October on, the system generated consistent weekly profits without dipping back into the red."
+          }
+        ]
       },
       "facts": [
         {
@@ -582,54 +666,6 @@
         }
       ],
       "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/11-project-vend.md"
-    },
-    {
-      "id": "lovable",
-      "name": "Lovable",
-      "light": "yellow",
-      "category": "plataforma de vibe coding",
-      "ai_role": "ai_product",
-      "evidence_level": 2,
-      "launched": null,
-      "ended": null,
-      "metrics": {
-        "revenue_usd_annual": 400000000,
-        "revenue_basis": "self_reported"
-      },
-      "flags": [],
-      "status": "pending",
-      "rank": null,
-      "zone": null,
-      "score": {
-        "total": 27.5,
-        "evidence": 20,
-        "traction": 7.5,
-        "age": 0,
-        "light": 0,
-        "flags": 0,
-        "age_months": null,
-        "missing": [
-          "antigüedad"
-        ]
-      },
-      "check": {
-        "checked_at": null,
-        "domains": [],
-        "evidence": []
-      },
-      "facts": [
-        {
-          "text": "Lovable declaró unos 400 millones de dólares de ARR en marzo de 2026, frente a 100 millones en junio de 2025; son cifras de la propia empresa.",
-          "source_url": "https://techcrunch.com/2026/03/23/vibe-coding-startup-lovable-is-on-the-hunt-for-acquisitions/",
-          "label": "TechCrunch"
-        },
-        {
-          "text": "Lovable dice tener casi 8 millones de usuarios y retención neta en dólares superior a 100%; Barclays reportó una caída de tráfico de 40% a septiembre.",
-          "source_url": "https://techcrunch.com/2025/11/10/lovable-says-its-nearing-8-million-users-as-the-year-old-ai-coding-startup-eyes-more-corporate-employees",
-          "label": "TechCrunch"
-        }
-      ],
-      "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/12-lovable.md"
     }
   ],
   "discarded": [],
@@ -654,6 +690,15 @@
     },
     {
       "dimension": "categoría",
+      "group": "plataforma de vibe coding",
+      "n": 2,
+      "green": 1,
+      "yellow": 1,
+      "red": 0,
+      "verdict": "sin muestra suficiente (mínimo 5)"
+    },
+    {
+      "dimension": "categoría",
       "group": "red social de agentes",
       "n": 1,
       "green": 0,
@@ -664,9 +709,9 @@
     {
       "dimension": "rol de la IA",
       "group": "ai_product",
-      "n": 2,
-      "green": 1,
-      "yellow": 0,
+      "n": 4,
+      "green": 2,
+      "yellow": 1,
       "red": 1,
       "verdict": "sin muestra suficiente (mínimo 5)"
     },
@@ -697,6 +742,21 @@
         "chatbase": 1,
         "moltbook": 2,
         "fly-pieter": 3
+      }
+    },
+    {
+      "date": "2026-10-08-3",
+      "podium": [
+        "base44",
+        "chatbase",
+        "lovable"
+      ],
+      "ranks": {
+        "base44": 1,
+        "chatbase": 2,
+        "lovable": 3,
+        "moltbook": 4,
+        "fly-pieter": 5
       }
     }
   ],

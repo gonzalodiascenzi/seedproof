@@ -1,27 +1,31 @@
 {
   "date": "2026-10-08",
   "order": [
+    "base44",
     "chatbase",
+    "lovable",
     "moltbook",
     "fly-pieter"
   ],
   "status": {
+    "base44": "confirmed",
     "chatbase": "confirmed",
+    "lovable": "confirmed",
     "moltbook": "confirmed",
     "fly-pieter": "confirmed",
     "enrichlead": "unconfirmed",
     "photo-ai": "unconfirmed",
-    "base44": "pending",
-    "cal-ai": "pending",
-    "medvi": "pending",
-    "polsia": "pending",
-    "cluely": "pending",
-    "project-vend": "pending",
-    "lovable": "pending"
+    "cal-ai": "unconfirmed",
+    "medvi": "unconfirmed",
+    "polsia": "unconfirmed",
+    "cluely": "unconfirmed",
+    "project-vend": "unconfirmed"
   },
   "zones": {
+    "base44": "podio",
     "chatbase": "podio",
-    "moltbook": "podio",
-    "fly-pieter": "podio"
+    "lovable": "podio",
+    "moltbook": "repechaje",
+    "fly-pieter": "repechaje"
   }
 }
