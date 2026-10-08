@@ -112,7 +112,9 @@ def discover(cases, dcfg, timeout, ask_fn, fetch_fn=vs.fetch):
     ids = {c["id"] for c in cases}
     known = sorted({c["name"] for c in cases})
     out = []
-    for cand in ask_fn(known).get("candidates", []):
+    proposed = ask_fn(known).get("candidates", [])
+    stats = {"propuestos": len(proposed), "ya_conocidos": 0, "invalidos": 0, "cita_no_verificada": 0}
+    for cand in proposed:
         if len(out) >= int(dcfg["max_new_per_run"]):
             break
         try:
@@ -120,19 +122,24 @@ def discover(cases, dcfg, timeout, ask_fn, fetch_fn=vs.fetch):
         except (KeyError, AttributeError):
             continue
         if not name or cand.get("ai_role") not in AI_ROLES:
+            stats["invalidos"] += 1
             continue
         if not va.safe_url(url) or not quote or len(quote.split()) > int(dcfg["max_quote_words"]):
+            stats["invalidos"] += 1
             continue
         if norm_name(name) in names or slugify(name) in ids or va.domain_of(url) in domains:
-            continue  # ya lo tenemos (por nombre, id o dominio)
+            stats["ya_conocidos"] += 1  # ya lo tenemos (por nombre, id o dominio)
+            continue
         status, page = fetch_fn(url, timeout)
         if status != "up" or va.norm_text(quote) not in va.norm_text(vs.normalize(page)):
+            stats["cita_no_verificada"] += 1
             continue
         case = build_case(cand, url)
         out.append(case)
         names.add(norm_name(name))
         ids.add(case["id"])
         domains.add(va.domain_of(url))
+    print(f"Descubrimiento: {stats} · aceptados: {len(out)}")
     return out
 
 
