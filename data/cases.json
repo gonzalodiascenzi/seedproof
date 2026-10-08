@@ -381,5 +381,31 @@
       "revenue_basis": "self_reported"
     },
     "flags": []
+  },
+  {
+    "id": "fliki",
+    "rev": 1,
+    "origin": "discovered",
+    "name": "Fliki",
+    "light": "🟡",
+    "facts": [
+      {
+        "text": "Según fliki.ai: «Fliki is an AI-powered platform that facilitates the conversion of text to video.»",
+        "source_url": "https://fliki.ai/masterclass/tutorials/text-to-video",
+        "label": "fliki.ai",
+        "anchors": []
+      }
+    ],
+    "live": false,
+    "category": "Plataforma de video texto-a-video",
+    "ai_role": "ai_product",
+    "evidence_level": 1,
+    "launched": null,
+    "ended": null,
+    "metrics": {
+      "revenue_usd_annual": null,
+      "revenue_basis": null
+    },
+    "flags": []
   }
 ]

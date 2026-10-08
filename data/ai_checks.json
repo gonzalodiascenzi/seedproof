@@ -185,5 +185,31 @@
       }
     ],
     "rejected_evidence": 3
+  },
+  "fliki": {
+    "status": "confirmed",
+    "rev": 1,
+    "checked_at": "2026-10-08",
+    "model_verdict": "confirmed",
+    "domains": [
+      "genai.works",
+      "siteefy.com",
+      "theinvisiblementor.com"
+    ],
+    "evidence": [
+      {
+        "url": "https://siteefy.com/tools/fliki",
+        "quote": "Fliki is an AI-powered platform that transforms text into professional-quality videos"
+      },
+      {
+        "url": "https://theinvisiblementor.com/ai-mondays-turning-text-into-video-with-fliki/",
+        "quote": "Fliki is a web based platform that converts text into videos and voiceovers using AI"
+      },
+      {
+        "url": "https://genai.works/applications/fliki",
+        "quote": "Fliki is an AI-powered video generation platform that allows users to create videos from text"
+      }
+    ],
+    "rejected_evidence": 1
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08 22:30 UTC",
+  "generated_at": "2026-10-08 22:52 UTC",
   "ranking_date": "2026-10-08",
   "repo_url": "https://github.com/gonzalodiascenzi/seedproof",
   "podium_size": 3,
@@ -191,6 +191,67 @@
       "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/12-lovable.md"
     },
     {
+      "id": "fliki",
+      "name": "Fliki",
+      "light": "yellow",
+      "category": "Plataforma de video texto-a-video",
+      "ai_role": "ai_product",
+      "evidence_level": 1,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": null,
+        "revenue_basis": null
+      },
+      "flags": [],
+      "status": "confirmed",
+      "rank": 4,
+      "zone": "repechaje",
+      "score": {
+        "total": 10.0,
+        "evidence": 10,
+        "traction": 0.0,
+        "age": 0,
+        "light": 0,
+        "flags": 0,
+        "age_months": null,
+        "missing": [
+          "antigüedad",
+          "ingresos"
+        ]
+      },
+      "check": {
+        "checked_at": "2026-10-08",
+        "domains": [
+          "genai.works",
+          "siteefy.com",
+          "theinvisiblementor.com"
+        ],
+        "evidence": [
+          {
+            "url": "https://siteefy.com/tools/fliki",
+            "quote": "Fliki is an AI-powered platform that transforms text into professional-quality videos"
+          },
+          {
+            "url": "https://theinvisiblementor.com/ai-mondays-turning-text-into-video-with-fliki/",
+            "quote": "Fliki is a web based platform that converts text into videos and voiceovers using AI"
+          },
+          {
+            "url": "https://genai.works/applications/fliki",
+            "quote": "Fliki is an AI-powered video generation platform that allows users to create videos from text"
+          }
+        ]
+      },
+      "facts": [
+        {
+          "text": "Según fliki.ai: «Fliki is an AI-powered platform that facilitates the conversion of text to video.»",
+          "source_url": "https://fliki.ai/masterclass/tutorials/text-to-video",
+          "label": "fliki.ai"
+        }
+      ],
+      "ficha_url": null
+    },
+    {
       "id": "moltbook",
       "name": "Moltbook",
       "light": "red",
@@ -208,7 +269,7 @@
         "claim_disputed"
       ],
       "status": "confirmed",
-      "rank": 4,
+      "rank": 5,
       "zone": "repechaje",
       "score": {
         "total": 0.0,
@@ -274,7 +335,7 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 5,
+      "rank": 6,
       "zone": "repechaje",
       "score": {
         "total": 0.0,
@@ -672,6 +733,15 @@
   "radar": [
     {
       "dimension": "categoría",
+      "group": "Plataforma de video texto-a-video",
+      "n": 1,
+      "green": 0,
+      "yellow": 1,
+      "red": 0,
+      "verdict": "sin muestra suficiente (mínimo 5)"
+    },
+    {
+      "dimension": "categoría",
       "group": "chatbots saas",
       "n": 1,
       "green": 1,
@@ -709,11 +779,11 @@
     {
       "dimension": "rol de la IA",
       "group": "ai_product",
-      "n": 4,
+      "n": 5,
       "green": 2,
-      "yellow": 1,
+      "yellow": 2,
       "red": 1,
-      "verdict": "sin muestra suficiente (mínimo 5)"
+      "verdict": "el mercado entrega bien (competido)"
     },
     {
       "dimension": "rol de la IA",
@@ -757,6 +827,22 @@
         "lovable": 3,
         "moltbook": 4,
         "fly-pieter": 5
+      }
+    },
+    {
+      "date": "2026-10-08-4",
+      "podium": [
+        "base44",
+        "chatbase",
+        "lovable"
+      ],
+      "ranks": {
+        "base44": 1,
+        "chatbase": 2,
+        "lovable": 3,
+        "fliki": 4,
+        "moltbook": 5,
+        "fly-pieter": 6
       }
     }
   ],

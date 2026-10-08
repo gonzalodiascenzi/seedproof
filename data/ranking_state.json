@@ -4,6 +4,7 @@
     "base44",
     "chatbase",
     "lovable",
+    "fliki",
     "moltbook",
     "fly-pieter"
   ],
@@ -11,6 +12,7 @@
     "base44": "confirmed",
     "chatbase": "confirmed",
     "lovable": "confirmed",
+    "fliki": "confirmed",
     "moltbook": "confirmed",
     "fly-pieter": "confirmed",
     "enrichlead": "unconfirmed",
@@ -25,6 +27,7 @@
     "base44": "podio",
     "chatbase": "podio",
     "lovable": "podio",
+    "fliki": "repechaje",
     "moltbook": "repechaje",
     "fly-pieter": "repechaje"
   }
