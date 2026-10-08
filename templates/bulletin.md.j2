@@ -1,0 +1,16 @@
+# SeedProof — emprendimientos con IA — {{ generated_at }}
+
+> 🟣 **Generado por IA a partir de hechos ya curados con fuente.** Cada línea cita su fuente entre corchetes (ver "Fuentes"). El semáforo lo asigna el proyecto, no el modelo: 🟢 verificado por fuente independiente y sostenido, 🟡 plausible pero autodeclarado o frágil, 🔴 cifra desmentida, colapso o sin verificación con evidencia en contra. Un validador descarta el boletín entero si el texto menciona una cifra, URL o identificador que no venga literalmente de un hecho.
+
+{% for item in items %}
+- {{ item.light }} **{{ item.name }}** — {{ item.text }}{{ item.citation_suffix }}
+
+{% endfor %}
+## Fuentes
+
+{% for src in sources %}
+{{ loop.index }}. {{ src.label }} — {{ src.url }}
+{% endfor %}
+
+---
+*Generado automáticamente por SeedProof: hechos curados con fuente + redacción acotada por IA, validada antes de commitear. {{ generated_at }}.*

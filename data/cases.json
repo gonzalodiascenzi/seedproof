@@ -1,0 +1,251 @@
+[
+  {
+    "id": "enrichlead",
+    "rev": 1,
+    "name": "Enrichlead",
+    "light": "🔴",
+    "facts": [
+      {
+        "text": "Según el cronograma publicado en Indie Hackers, el SaaS Enrichlead, de un solo fundador y construido con Cursor, cerró el 20 de marzo de 2025 tras ataques posteriores a un post viral.",
+        "source_url": "https://www.indiehackers.com/post/tech/vibe-coding-has-a-security-problem-vLxyPTrTlZVwDo76oqvr",
+        "label": "Indie Hackers",
+        "anchors": []
+      },
+      {
+        "text": "El fundador atribuyó las fallas a claves de API expuestas y a un paywall que se podía eludir; no se publicaron cifras de ingresos.",
+        "source_url": "https://www.indiehackers.com/post/tech/vibe-coding-has-a-security-problem-vLxyPTrTlZVwDo76oqvr",
+        "label": "Indie Hackers",
+        "anchors": []
+      }
+    ],
+    "live": false
+  },
+  {
+    "id": "moltbook",
+    "rev": 1,
+    "name": "Moltbook",
+    "light": "🔴",
+    "facts": [
+      {
+        "text": "Wiz informó el 2 de febrero de 2026 que detrás de los 1,5 millones de agentes declarados de Moltbook había unos 17.000 dueños humanos.",
+        "source_url": "https://wiz.io/blog/exposed-moltbook-database-reveals-millions-of-api-keys",
+        "label": "Wiz",
+        "anchors": []
+      },
+      {
+        "text": "La misma investigación encontró expuestos unos 1,5 millones de tokens de API, 35.000 correos y 4.060 conversaciones privadas, por una base de datos Supabase sin seguridad a nivel de fila.",
+        "source_url": "https://wiz.io/blog/exposed-moltbook-database-reveals-millions-of-api-keys",
+        "label": "Wiz",
+        "anchors": []
+      },
+      {
+        "text": "Meta adquirió Moltbook el 10 de marzo de 2026, con términos no revelados.",
+        "source_url": "https://thenextweb.com/news/meta-acquires-moltbook-ai-agent-social-network",
+        "label": "The Next Web",
+        "anchors": []
+      }
+    ],
+    "live": false
+  },
+  {
+    "id": "fly-pieter",
+    "rev": 1,
+    "name": "fly.pieter.com",
+    "light": "🔴",
+    "facts": [
+      {
+        "text": "Un artículo de dev.to dice que el juego de navegador de Pieter Levels se construyó en unas 3 horas y que al día 17 llegó a 87.000 dólares de MRR, equivalentes a 1 millón de dólares anualizado; la fuente de la cifra es el propio creador.",
+        "source_url": "https://dev.to/promptway/he-built-a-flight-simulator-in-three-hours-and-hit-1m-a-year-in-17-days-then-it-went-to-zero-1b1l",
+        "label": "dev.to",
+        "anchors": []
+      },
+      {
+        "text": "404 Media reportó 50.000 dólares al mes como dicho del creador.",
+        "source_url": "https://404media.co/this-game-created-by-ai-vibe-coding-makes-50-000-a-month-yours-probably-wont",
+        "label": "404 Media",
+        "anchors": []
+      }
+    ],
+    "live": false
+  },
+  {
+    "id": "photo-ai",
+    "rev": 1,
+    "name": "Photo AI",
+    "light": "🟡",
+    "facts": [
+      {
+        "text": "Una compilación en Indie Hackers atribuye a Photo AI entre 132.000 y 138.000 dólares de MRR a noviembre de 2025, con unos 13.000 dólares mensuales de costos, a partir de tuits y sitios de terceros.",
+        "source_url": "https://www.indiehackers.com/post/photo-ai-by-pieter-levels-complete-deep-dive-case-study-0-to-182k-mrr-in-18-months-3a9a2b1579",
+        "label": "Indie Hackers",
+        "anchors": []
+      },
+      {
+        "text": "La compilación tiene inconsistencias internas: su cuenta por planes da unos 161.000 dólares y su título habla de 18 meses mientras los datos abarcan unos 33.",
+        "source_url": "https://www.indiehackers.com/post/photo-ai-by-pieter-levels-complete-deep-dive-case-study-0-to-182k-mrr-in-18-months-3a9a2b1579",
+        "label": "Indie Hackers",
+        "anchors": []
+      }
+    ],
+    "nota": "Verificar si la fuente indica que el producto está escrito a mano en PHP y jQuery antes de agregarlo como hecho.",
+    "live": false
+  },
+  {
+    "id": "chatbase",
+    "rev": 1,
+    "name": "Chatbase",
+    "light": "🟢",
+    "facts": [
+      {
+        "text": "La página de TrustMRR de Chatbase muestra 863.632 dólares de MRR y 12.424 suscripciones; la clave de Stripe figura vencida, por lo que la cifra puede no ser actual.",
+        "source_url": "https://trustmrr.com/startup/chatbase",
+        "label": "TrustMRR",
+        "anchors": [
+          "863,632"
+        ]
+      },
+      {
+        "text": "Supabase indica que Chatbase tiene más de 10 millones de dólares de ARR, que lanzó en febrero de 2023 con un MVP de unas 2 semanas y que hoy tiene 18 personas.",
+        "source_url": "https://supabase.com/customers/chatbase",
+        "label": "Supabase (caso de cliente)",
+        "anchors": []
+      }
+    ],
+    "live": true
+  },
+  {
+    "id": "base44",
+    "rev": 1,
+    "name": "Base44",
+    "light": "🟢",
+    "facts": [
+      {
+        "text": "Wix compró Base44 por 80 millones de dólares en efectivo, de los cuales 25 millones son un bono de retención para 8 empleados; la empresa llevaba unos 6 meses.",
+        "source_url": "https://techcrunch.com/2025/06/18/six-month-old-solo-owned-vibe-coder-base44-sells-to-wix-for-80m-cash",
+        "label": "TechCrunch",
+        "anchors": []
+      },
+      {
+        "text": "El comunicado de Wix del segundo trimestre de 2026 indica que el margen bruto no-GAAP de Base44 estaba cerca de cero al entrar a 2026, con un objetivo de 60% para el segundo semestre.",
+        "source_url": "https://www.globenewswire.com/de/news-release/2026/08/04/3338018/0/en/Wix-Reports-Second-Quarter-2026-Results.html",
+        "label": "Wix (comunicado)",
+        "anchors": []
+      }
+    ],
+    "live": false
+  },
+  {
+    "id": "cal-ai",
+    "rev": 1,
+    "name": "Cal AI",
+    "light": "🟡",
+    "facts": [
+      {
+        "text": "MyFitnessPal anunció el 2 de marzo de 2026 la compra de Cal AI y declaró más de 30 millones de dólares de ingresos anuales, más de 15 millones de descargas y 7 empleados; el precio no se reveló y no hay auditoría.",
+        "source_url": "https://techcrunch.com/?p=3098039",
+        "label": "TechCrunch",
+        "anchors": []
+      }
+    ],
+    "live": false
+  },
+  {
+    "id": "medvi",
+    "rev": 1,
+    "name": "Medvi",
+    "light": "🟡",
+    "facts": [
+      {
+        "text": "El New York Times reportó 401 millones de dólares de ingresos de Medvi en 2025 y una proyección de 1.800 millones para 2026 que es del fundador, según un resumen de Implicator.",
+        "source_url": "https://www.implicator.ai/medvi-got-an-fda-warning-before-the-times-called-it-a-1-8-billion-ai-story/",
+        "label": "Implicator",
+        "anchors": []
+      },
+      {
+        "text": "Una fuente crítica, Techdirt, señala una carta de advertencia de la FDA del 20 de febrero de 2026, una demanda colectiva por spam en marzo de 2026 y anuncios con médicos aparentemente fabricados.",
+        "source_url": "https://www.techdirt.com/company/medvi/",
+        "label": "Techdirt",
+        "anchors": []
+      }
+    ],
+    "live": false
+  },
+  {
+    "id": "polsia",
+    "rev": 1,
+    "name": "Polsia",
+    "light": "🔴",
+    "facts": [
+      {
+        "text": "Polsia declaró unos 10 millones de dólares de run rate, 30 millones levantados con una valuación de 250 millones y 7.600 clientes a 49 dólares por mes.",
+        "source_url": "https://runtimewire.com/article/polsia-30m-raise-ben-cera-solo-ai-agents",
+        "label": "Runtime Wire",
+        "anchors": []
+      },
+      {
+        "text": "Críticos anónimos afirman que el run rate incluye paquetes de tareas únicos y comisiones por gasto publicitario multiplicados por 12; no hay verificación independiente de la cifra.",
+        "source_url": "https://eu.36kr.com/en/p/3825813697565316",
+        "label": "36Kr",
+        "anchors": []
+      }
+    ],
+    "live": false
+  },
+  {
+    "id": "cluely",
+    "rev": 1,
+    "name": "Cluely",
+    "light": "🔴",
+    "facts": [
+      {
+        "text": "En marzo de 2026 el CEO de Cluely reconoció que la cifra de 7 millones de dólares de ARR dada a TechCrunch en 2025 era falsa y publicó capturas de Stripe de junio de 2025 que suman unos 5,2 millones.",
+        "source_url": "https://techcrunch.com/2026/03/05/cluely-ceo-roy-lee-admits-to-publicly-lying-about-revenue-numbers-last-year/",
+        "label": "TechCrunch",
+        "anchors": []
+      }
+    ],
+    "live": false
+  },
+  {
+    "id": "project-vend",
+    "rev": 1,
+    "name": "Anthropic Project Vend",
+    "light": "🟡",
+    "facts": [
+      {
+        "text": "En la primera fase, de aproximadamente 1 mes, la tienda operada por un agente de IA perdió dinero por ventas bajo costo y descuentos excesivos.",
+        "source_url": "https://www.anthropic.com/research/project-vend-1",
+        "label": "Anthropic",
+        "anchors": []
+      },
+      {
+        "text": "Según The Decoder, en la segunda fase los resultados semanales fueron positivos desde octubre, después de agregar un agente supervisor, herramientas y un modelo mejor.",
+        "source_url": "https://the-decoder.com/anthropics-ai-store-makes-money-while-debating-eternal-transcendence/",
+        "label": "The Decoder",
+        "anchors": []
+      }
+    ],
+    "live": false
+  },
+  {
+    "id": "lovable",
+    "rev": 1,
+    "name": "Lovable",
+    "light": "🟡",
+    "facts": [
+      {
+        "text": "Lovable declaró unos 400 millones de dólares de ARR en marzo de 2026, frente a 100 millones en junio de 2025; son cifras de la propia empresa.",
+        "source_url": "https://techcrunch.com/2026/03/23/vibe-coding-startup-lovable-is-on-the-hunt-for-acquisitions/",
+        "label": "TechCrunch",
+        "anchors": []
+      },
+      {
+        "text": "Lovable dice tener casi 8 millones de usuarios y retención neta en dólares superior a 100%; Barclays reportó una caída de tráfico de 40% a septiembre.",
+        "source_url": "https://techcrunch.com/2025/11/10/lovable-says-its-nearing-8-million-users-as-the-year-old-ai-coding-startup-eyes-more-corporate-employees",
+        "label": "TechCrunch",
+        "anchors": []
+      }
+    ],
+    "live": false
+  }
+]

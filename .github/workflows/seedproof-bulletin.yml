@@ -1,0 +1,62 @@
+name: SeedProof — boletín semanal
+
+# Hechos curados con fuente (data/cases.json) + redacción acotada por IA +
+# validador. Necesita el secret ANTHROPIC_API_KEY; sin él, el script sale con
+# código 3 y no hace nada.
+
+on:
+  schedule:
+    # Lunes 09:15 UTC (06:15 ART).
+    - cron: "15 9 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: seedproof-bulletin
+  cancel-in-progress: false
+
+jobs:
+  bulletin:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Generar boletín
+        id: run
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          set -uo pipefail
+          set +e
+          python scripts/gen_bulletin.py
+          code=$?
+          if [ "$code" -eq 0 ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          elif [ "$code" -eq 3 ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "El boletín no se generó (exit $code) — ver el log de arriba."
+            exit 1
+          fi
+
+      - name: Commitear el boletín validado
+        if: steps.run.outputs.changed == 'true'
+        run: |
+          set -euo pipefail
+          git config user.name "seedproof-bot"
+          git config user.email "88945030+gonzalodiascenzi@users.noreply.github.com"
+          git add -A
+          git commit -m "Agregar boletín de emprendimientos con IA (hechos citados + redacción validada)"
+          git pull --rebase origin main
+          git push origin main

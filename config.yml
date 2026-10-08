@@ -1,0 +1,18 @@
+# Configuración de SeedProof.
+# Emprendimientos basados en deep research, con fuente por línea y
+# validación automática diaria. Hermano de GreenProof (ciberseguridad).
+
+cases_file: data/cases.json
+
+# Boletín semanal (redacción acotada por IA + validador).
+bulletin_dir: bulletins
+bulletin_state_file: data/bulletin_state.json
+bulletin_per_run: 3
+# Confirmá en https://docs.claude.com/en/docs/about-claude/models qué id está
+# vigente al momento de configurar el secret ANTHROPIC_API_KEY.
+bulletin_model: claude-haiku-4-5-20251001
+
+# Validación diaria de fuentes (sin IA).
+validation_dir: validation
+validation_state_file: data/validation_state.json
+fetch_timeout_seconds: 25
