@@ -1,61 +1,69 @@
 {
-  "generated_at": "2026-10-08 21:54 UTC",
+  "generated_at": "2026-10-08 21:58 UTC",
   "ranking_date": "2026-10-08",
   "repo_url": "https://github.com/gonzalodiascenzi/seedproof",
   "podium_size": 3,
   "repechaje_size": 7,
-  "ranked": [],
-  "unverified": [
+  "ranked": [
     {
-      "id": "enrichlead",
-      "name": "Enrichlead",
-      "light": "red",
-      "category": "saas de generación de leads",
-      "ai_role": "built_with_ai",
-      "evidence_level": 1,
-      "launched": null,
-      "ended": "2025-03",
+      "id": "chatbase",
+      "name": "Chatbase",
+      "light": "green",
+      "category": "chatbots saas",
+      "ai_role": "ai_product",
+      "evidence_level": 3,
+      "launched": "2023-02",
+      "ended": null,
       "metrics": {
-        "revenue_usd_annual": null,
-        "revenue_basis": null
+        "revenue_usd_annual": 10363584,
+        "revenue_basis": "payments_dashboard"
       },
       "flags": [
-        "security_incident"
+        "stale_source"
       ],
-      "status": "pending",
-      "rank": null,
-      "zone": null,
+      "status": "confirmed",
+      "rank": 1,
+      "zone": "podio",
       "score": {
-        "total": 0.0,
-        "evidence": 10,
-        "traction": 0.0,
-        "age": 0,
-        "light": -25,
-        "flags": -10,
-        "age_months": null,
-        "missing": [
-          "antigüedad",
-          "ingresos"
-        ]
+        "total": 81.0,
+        "evidence": 30,
+        "traction": 26.0,
+        "age": 20,
+        "light": 10,
+        "flags": -5,
+        "age_months": 44,
+        "missing": []
       },
       "check": {
-        "checked_at": null,
-        "domains": [],
-        "evidence": []
+        "checked_at": "2026-10-08",
+        "domains": [
+          "checkthat.ai",
+          "toolpilot.ai"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.toolpilot.ai/products/chatbase",
+            "quote": "Chatbase is an AI Chatbot Builder that speeds up the process of website chatbot creation"
+          },
+          {
+            "url": "https://checkthat.ai/brands/chatbase",
+            "quote": "Chatbase provides no-code AI chatbot software that enables businesses to automate customer support"
+          }
+        ]
       },
       "facts": [
         {
-          "text": "Según el cronograma publicado en Indie Hackers, el SaaS Enrichlead, de un solo fundador y construido con Cursor, cerró el 20 de marzo de 2025 tras ataques posteriores a un post viral.",
-          "source_url": "https://www.indiehackers.com/post/tech/vibe-coding-has-a-security-problem-vLxyPTrTlZVwDo76oqvr",
-          "label": "Indie Hackers"
+          "text": "La página de TrustMRR de Chatbase muestra 863.632 dólares de MRR y 12.424 suscripciones; la clave de Stripe figura vencida, por lo que la cifra puede no ser actual.",
+          "source_url": "https://trustmrr.com/startup/chatbase",
+          "label": "TrustMRR"
         },
         {
-          "text": "El fundador atribuyó las fallas a claves de API expuestas y a un paywall que se podía eludir; no se publicaron cifras de ingresos.",
-          "source_url": "https://www.indiehackers.com/post/tech/vibe-coding-has-a-security-problem-vLxyPTrTlZVwDo76oqvr",
-          "label": "Indie Hackers"
+          "text": "Supabase indica que Chatbase tiene más de 10 millones de dólares de ARR, que lanzó en febrero de 2023 con un MVP de unas 2 semanas y que hoy tiene 18 personas.",
+          "source_url": "https://supabase.com/customers/chatbase",
+          "label": "Supabase (caso de cliente)"
         }
       ],
-      "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/01-enrichlead.md"
+      "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/05-chatbase.md"
     },
     {
       "id": "moltbook",
@@ -74,9 +82,9 @@
         "security_incident",
         "claim_disputed"
       ],
-      "status": "pending",
-      "rank": null,
-      "zone": null,
+      "status": "confirmed",
+      "rank": 2,
+      "zone": "podio",
       "score": {
         "total": 0.0,
         "evidence": 20,
@@ -91,9 +99,21 @@
         ]
       },
       "check": {
-        "checked_at": null,
-        "domains": [],
-        "evidence": []
+        "checked_at": "2026-10-08",
+        "domains": [
+          "arxiv.org",
+          "nbcnews.com"
+        ],
+        "evidence": [
+          {
+            "url": "https://arxiv.org/html/2602.10127v1",
+            "quote": "Moltbook is a Reddit-like social platform designed specifically for AI agents"
+          },
+          {
+            "url": "https://www.nbcnews.com/tech/tech-news/ai-agents-social-media-platform-moltbook-rcna256738",
+            "quote": "Moltbook allows AI agents to interact with other AI agents in a public forum"
+          }
+        ]
       },
       "facts": [
         {
@@ -128,9 +148,9 @@
         "revenue_basis": "self_reported"
       },
       "flags": [],
-      "status": "pending",
-      "rank": null,
-      "zone": null,
+      "status": "confirmed",
+      "rank": 3,
+      "zone": "podio",
       "score": {
         "total": 0.0,
         "evidence": 10,
@@ -144,9 +164,21 @@
         ]
       },
       "check": {
-        "checked_at": null,
-        "domains": [],
-        "evidence": []
+        "checked_at": "2026-10-08",
+        "domains": [
+          "404media.co",
+          "aiapps.com"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.404media.co/this-game-created-by-ai-vibe-coding-makes-50-000-a-month-yours-probably-wont/",
+            "quote": "fly.pieter.com was initially made in just 30 minutes with AI tools"
+          },
+          {
+            "url": "https://www.aiapps.com/items/fly-pieter/",
+            "quote": "built by Pieter Levels in three hours using AI tools like Cursor and xAI's Grok"
+          }
+        ]
       },
       "facts": [
         {
@@ -161,6 +193,59 @@
         }
       ],
       "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/03-fly-pieter.md"
+    }
+  ],
+  "unverified": [
+    {
+      "id": "enrichlead",
+      "name": "Enrichlead",
+      "light": "red",
+      "category": "saas de generación de leads",
+      "ai_role": "built_with_ai",
+      "evidence_level": 1,
+      "launched": null,
+      "ended": "2025-03",
+      "metrics": {
+        "revenue_usd_annual": null,
+        "revenue_basis": null
+      },
+      "flags": [
+        "security_incident"
+      ],
+      "status": "unconfirmed",
+      "rank": null,
+      "zone": null,
+      "score": {
+        "total": 0.0,
+        "evidence": 10,
+        "traction": 0.0,
+        "age": 0,
+        "light": -25,
+        "flags": -10,
+        "age_months": null,
+        "missing": [
+          "antigüedad",
+          "ingresos"
+        ]
+      },
+      "check": {
+        "checked_at": "2026-10-08",
+        "domains": [],
+        "evidence": []
+      },
+      "facts": [
+        {
+          "text": "Según el cronograma publicado en Indie Hackers, el SaaS Enrichlead, de un solo fundador y construido con Cursor, cerró el 20 de marzo de 2025 tras ataques posteriores a un post viral.",
+          "source_url": "https://www.indiehackers.com/post/tech/vibe-coding-has-a-security-problem-vLxyPTrTlZVwDo76oqvr",
+          "label": "Indie Hackers"
+        },
+        {
+          "text": "El fundador atribuyó las fallas a claves de API expuestas y a un paywall que se podía eludir; no se publicaron cifras de ingresos.",
+          "source_url": "https://www.indiehackers.com/post/tech/vibe-coding-has-a-security-problem-vLxyPTrTlZVwDo76oqvr",
+          "label": "Indie Hackers"
+        }
+      ],
+      "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/01-enrichlead.md"
     },
     {
       "id": "photo-ai",
@@ -176,7 +261,7 @@
         "revenue_basis": "self_reported"
       },
       "flags": [],
-      "status": "pending",
+      "status": "unconfirmed",
       "rank": null,
       "zone": null,
       "score": {
@@ -190,9 +275,16 @@
         "missing": []
       },
       "check": {
-        "checked_at": null,
-        "domains": [],
-        "evidence": []
+        "checked_at": "2026-10-08",
+        "domains": [
+          "aituts.com"
+        ],
+        "evidence": [
+          {
+            "url": "https://aituts.com/case-study/photo-ai-pieter-levels/",
+            "quote": "fine-tuned Stable Diffusion on people's selfies, wrapped it in a plain PHP site"
+          }
+        ]
       },
       "facts": [
         {
@@ -207,54 +299,6 @@
         }
       ],
       "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/04-photo-ai.md"
-    },
-    {
-      "id": "chatbase",
-      "name": "Chatbase",
-      "light": "green",
-      "category": "chatbots saas",
-      "ai_role": "ai_product",
-      "evidence_level": 3,
-      "launched": "2023-02",
-      "ended": null,
-      "metrics": {
-        "revenue_usd_annual": 10363584,
-        "revenue_basis": "payments_dashboard"
-      },
-      "flags": [
-        "stale_source"
-      ],
-      "status": "pending",
-      "rank": null,
-      "zone": null,
-      "score": {
-        "total": 81.0,
-        "evidence": 30,
-        "traction": 26.0,
-        "age": 20,
-        "light": 10,
-        "flags": -5,
-        "age_months": 44,
-        "missing": []
-      },
-      "check": {
-        "checked_at": null,
-        "domains": [],
-        "evidence": []
-      },
-      "facts": [
-        {
-          "text": "La página de TrustMRR de Chatbase muestra 863.632 dólares de MRR y 12.424 suscripciones; la clave de Stripe figura vencida, por lo que la cifra puede no ser actual.",
-          "source_url": "https://trustmrr.com/startup/chatbase",
-          "label": "TrustMRR"
-        },
-        {
-          "text": "Supabase indica que Chatbase tiene más de 10 millones de dólares de ARR, que lanzó en febrero de 2023 con un MVP de unas 2 semanas y que hoy tiene 18 personas.",
-          "source_url": "https://supabase.com/customers/chatbase",
-          "label": "Supabase (caso de cliente)"
-        }
-      ],
-      "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/05-chatbase.md"
     },
     {
       "id": "base44",
@@ -589,19 +633,78 @@
     }
   ],
   "discarded": [],
-  "radar": [],
+  "radar": [
+    {
+      "dimension": "categoría",
+      "group": "chatbots saas",
+      "n": 1,
+      "green": 1,
+      "yellow": 0,
+      "red": 0,
+      "verdict": "sin muestra suficiente (mínimo 5)"
+    },
+    {
+      "dimension": "categoría",
+      "group": "juego de navegador",
+      "n": 1,
+      "green": 0,
+      "yellow": 0,
+      "red": 1,
+      "verdict": "sin muestra suficiente (mínimo 5)"
+    },
+    {
+      "dimension": "categoría",
+      "group": "red social de agentes",
+      "n": 1,
+      "green": 0,
+      "yellow": 0,
+      "red": 1,
+      "verdict": "sin muestra suficiente (mínimo 5)"
+    },
+    {
+      "dimension": "rol de la IA",
+      "group": "ai_product",
+      "n": 2,
+      "green": 1,
+      "yellow": 0,
+      "red": 1,
+      "verdict": "sin muestra suficiente (mínimo 5)"
+    },
+    {
+      "dimension": "rol de la IA",
+      "group": "built_with_ai",
+      "n": 1,
+      "green": 0,
+      "yellow": 0,
+      "red": 1,
+      "verdict": "sin muestra suficiente (mínimo 5)"
+    }
+  ],
   "history": [
     {
       "date": "2026-10-08",
       "podium": [],
       "ranks": {}
+    },
+    {
+      "date": "2026-10-08-2",
+      "podium": [
+        "chatbase",
+        "moltbook",
+        "fly-pieter"
+      ],
+      "ranks": {
+        "chatbase": 1,
+        "moltbook": 2,
+        "fly-pieter": 3
+      }
     }
   ],
   "validation": {
     "last_run_at": "2026-10-08",
     "total": 20,
-    "up": 18,
-    "down": 0,
+    "up": 17,
+    "down": 1,
     "blocked": 2
   }
 }

@@ -1,12 +1,16 @@
 {
   "date": "2026-10-08",
-  "order": [],
+  "order": [
+    "chatbase",
+    "moltbook",
+    "fly-pieter"
+  ],
   "status": {
-    "enrichlead": "pending",
-    "moltbook": "pending",
-    "fly-pieter": "pending",
-    "photo-ai": "pending",
-    "chatbase": "pending",
+    "chatbase": "confirmed",
+    "moltbook": "confirmed",
+    "fly-pieter": "confirmed",
+    "enrichlead": "unconfirmed",
+    "photo-ai": "unconfirmed",
     "base44": "pending",
     "cal-ai": "pending",
     "medvi": "pending",
@@ -15,5 +19,9 @@
     "project-vend": "pending",
     "lovable": "pending"
   },
-  "zones": {}
+  "zones": {
+    "chatbase": "podio",
+    "moltbook": "podio",
+    "fly-pieter": "podio"
+  }
 }

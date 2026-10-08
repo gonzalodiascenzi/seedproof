@@ -1,1 +1,90 @@
-{}
+{
+  "enrichlead": {
+    "status": "unconfirmed",
+    "rev": 1,
+    "checked_at": "2026-10-08",
+    "model_verdict": "confirmed",
+    "domains": [],
+    "evidence": [],
+    "rejected_evidence": 4
+  },
+  "moltbook": {
+    "status": "confirmed",
+    "rev": 1,
+    "checked_at": "2026-10-08",
+    "model_verdict": "confirmed",
+    "domains": [
+      "arxiv.org",
+      "nbcnews.com"
+    ],
+    "evidence": [
+      {
+        "url": "https://arxiv.org/html/2602.10127v1",
+        "quote": "Moltbook is a Reddit-like social platform designed specifically for AI agents"
+      },
+      {
+        "url": "https://www.nbcnews.com/tech/tech-news/ai-agents-social-media-platform-moltbook-rcna256738",
+        "quote": "Moltbook allows AI agents to interact with other AI agents in a public forum"
+      }
+    ],
+    "rejected_evidence": 3
+  },
+  "fly-pieter": {
+    "status": "confirmed",
+    "rev": 1,
+    "checked_at": "2026-10-08",
+    "model_verdict": "confirmed",
+    "domains": [
+      "404media.co",
+      "aiapps.com"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.404media.co/this-game-created-by-ai-vibe-coding-makes-50-000-a-month-yours-probably-wont/",
+        "quote": "fly.pieter.com was initially made in just 30 minutes with AI tools"
+      },
+      {
+        "url": "https://www.aiapps.com/items/fly-pieter/",
+        "quote": "built by Pieter Levels in three hours using AI tools like Cursor and xAI's Grok"
+      }
+    ],
+    "rejected_evidence": 2
+  },
+  "photo-ai": {
+    "status": "unconfirmed",
+    "rev": 1,
+    "checked_at": "2026-10-08",
+    "model_verdict": "confirmed",
+    "domains": [
+      "aituts.com"
+    ],
+    "evidence": [
+      {
+        "url": "https://aituts.com/case-study/photo-ai-pieter-levels/",
+        "quote": "fine-tuned Stable Diffusion on people's selfies, wrapped it in a plain PHP site"
+      }
+    ],
+    "rejected_evidence": 2
+  },
+  "chatbase": {
+    "status": "confirmed",
+    "rev": 1,
+    "checked_at": "2026-10-08",
+    "model_verdict": "confirmed",
+    "domains": [
+      "checkthat.ai",
+      "toolpilot.ai"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.toolpilot.ai/products/chatbase",
+        "quote": "Chatbase is an AI Chatbot Builder that speeds up the process of website chatbot creation"
+      },
+      {
+        "url": "https://checkthat.ai/brands/chatbase",
+        "quote": "Chatbase provides no-code AI chatbot software that enables businesses to automate customer support"
+      }
+    ],
+    "rejected_evidence": 2
+  }
+}
