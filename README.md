@@ -132,3 +132,17 @@ verificación tiene un tope de casos por corrida (`verify.max_cases_per_run`).
   hasta la primera corrida.
 - Los casos de hoy salen de una investigación inicial; ninguno está validado por
   `verify_ai.py` hasta que corra con una clave real.
+
+## Web (site/)
+
+`site/index.html` es una página estática que muestra el podio del día (oro,
+plata, bronce), la tabla con zonas, los podios anteriores, la trayectoria de
+cada caso y el radar. Lee `site/data.json`, que `scripts/build_site.py`
+regenera al final de cada ciclo con las mismas funciones de `rank.py`, así la
+web y el reporte en `ranking/` nunca difieren. La página muestra menos que el
+repo a propósito: cada ficha enlaza a su archivo en `casos/`.
+
+Deploy en Vercel: importar este repo, dejar el framework en "Other" (el
+`vercel.json` de la raíz apunta a `site/` como salida y no hay build). Cada
+commit del ciclo diario redeploya solo. Para probarla local:
+`cd site && python3 -m http.server 8000`.

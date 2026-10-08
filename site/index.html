@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SeedProof</title>
+<meta name="description" content="Tabla de posiciones diaria de emprendimientos basados en IA, con la evidencia de cada puesto a la vista.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --board: #0F2440;
+    --board-raised: #163055;
+    --board-line: #26436F;
+    --chalk: #F2EFE6;
+    --chalk-2: #B9C3CF;
+    --chalk-3: #7F8EA0;
+    --gold: #D4A72C;
+    --silver: #B8C0C8;
+    --bronze: #B9733A;
+    --green: #3FB950;
+    --yellow: #E3B341;
+    --red: #F0665E;
+    --zone-podio: rgba(212, 167, 44, 0.10);
+    --zone-repechaje: rgba(185, 195, 207, 0.06);
+    --display: "Barlow Condensed", "Arial Narrow", sans-serif;
+    --body: "Barlow", "Helvetica Neue", Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html { background: var(--board); }
+  body {
+    margin: 0;
+    background: var(--board);
+    color: var(--chalk);
+    font-family: var(--body);
+    font-size: 16px;
+    line-height: 1.45;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+  :focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 0 16px 80px; }
+
+  header { padding: 28px 0 8px; display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .brand { font-family: var(--display); font-weight: 700; font-size: 34px; letter-spacing: 0.01em; margin: 0; }
+  .brand small { font-family: var(--body); font-weight: 400; font-size: 14px; color: var(--chalk-2); margin-left: 10px; }
+  .meta { color: var(--chalk-2); font-size: 14px; margin: 0; }
+  .meta a { color: var(--chalk-2); }
+
+  h2 { font-family: var(--display); font-weight: 600; font-size: 24px; margin: 44px 0 12px; }
+  h2 small { font-family: var(--body); font-weight: 400; font-size: 14px; color: var(--chalk-3); margin-left: 8px; }
+  p.lead { color: var(--chalk-2); margin: 0 0 16px; max-width: 70ch; }
+
+  /* ---- podio ---- */
+  .podium { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; align-items: end; margin-top: 18px; }
+  .step { background: var(--board-raised); border-top: 4px solid var(--board-line); padding: 18px 16px 16px; min-height: 150px; display: flex; flex-direction: column; justify-content: flex-end; cursor: pointer; border-radius: 0; }
+  .step:hover, .step:focus-visible { background: #1b3a66; }
+  .step.gold { min-height: 230px; border-top-color: var(--gold); order: 2; }
+  .step.silver { min-height: 190px; border-top-color: var(--silver); order: 1; }
+  .step.bronze { border-top-color: var(--bronze); order: 3; }
+  .medal { font-family: var(--display); font-weight: 700; font-size: 52px; line-height: 1; }
+  .gold .medal { color: var(--gold); }
+  .silver .medal { color: var(--silver); }
+  .bronze .medal { color: var(--bronze); }
+  .step .name { font-family: var(--display); font-weight: 600; font-size: 26px; line-height: 1.1; margin-top: 8px; }
+  .step .sub { color: var(--chalk-2); font-size: 14px; margin-top: 6px; }
+  .step .score { font-family: var(--display); font-weight: 600; font-size: 22px; margin-top: 10px; }
+  .step .score span { font-family: var(--body); font-size: 13px; color: var(--chalk-3); font-weight: 400; margin-left: 6px; }
+  .empty { background: var(--board-raised); padding: 24px; color: var(--chalk-2); max-width: 70ch; }
+  .empty strong { color: var(--chalk); }
+
+  /* ---- tabla ---- */
+  table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+  th { text-align: left; font-weight: 500; color: var(--chalk-3); font-size: 13px; padding: 6px 10px; border-bottom: 1px solid var(--board-line); }
+  td { padding: 10px; border-bottom: 1px solid var(--board-line); vertical-align: middle; }
+  tr.row { cursor: pointer; }
+  tr.row:hover td { background: #1b3a66; }
+  tr.podio td { background: var(--zone-podio); }
+  tr.repechaje td { background: var(--zone-repechaje); }
+  tr.zone-end td { border-bottom: 2px solid var(--chalk-3); }
+  td.pos { font-family: var(--display); font-weight: 700; font-size: 24px; width: 48px; }
+  td.name { font-weight: 600; }
+  td.name small { display: block; font-weight: 400; color: var(--chalk-3); font-size: 13px; }
+  td.num { font-family: var(--display); font-weight: 600; font-size: 20px; width: 70px; }
+  td.move { width: 64px; color: var(--chalk-2); }
+  .up { color: var(--green); } .down { color: var(--red); }
+  .light { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: var(--chalk-2); white-space: nowrap; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+  .dot.green { background: var(--green); } .dot.yellow { background: var(--yellow); } .dot.red { background: var(--red); }
+  .zone-label { font-size: 12px; color: var(--chalk-3); padding: 14px 10px 4px; }
+
+  ul.plain { list-style: none; padding: 0; margin: 0; }
+  ul.plain li { padding: 8px 0; border-bottom: 1px solid var(--board-line); display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  ul.plain li span { color: var(--chalk-3); font-size: 14px; }
+
+  /* ---- historial ---- */
+  .hist { display: grid; grid-template-columns: 140px 1fr; gap: 0; }
+  .hist > div { padding: 10px 10px; border-bottom: 1px solid var(--board-line); }
+  .hist .d { font-family: var(--display); font-weight: 600; font-size: 18px; white-space: nowrap; }
+  .chips { display: flex; gap: 8px; flex-wrap: wrap; }
+  .chip { padding: 4px 10px; font-size: 14px; border-left: 4px solid var(--board-line); background: var(--board-raised); }
+  .chip.g { border-left-color: var(--gold); } .chip.s { border-left-color: var(--silver); } .chip.b { border-left-color: var(--bronze); }
+
+  /* ---- radar ---- */
+  .radar td:nth-child(n+3) { text-align: right; width: 56px; }
+  .radar td.verdict { text-align: left; width: auto; color: var(--chalk-2); font-size: 14px; }
+
+  /* ---- ficha (drawer) ---- */
+  .scrim { position: fixed; inset: 0; background: rgba(5, 14, 28, 0.6); display: none; }
+  .drawer { position: fixed; top: 0; right: 0; bottom: 0; width: min(560px, 100%); background: var(--board); border-left: 1px solid var(--board-line); overflow-y: auto; padding: 24px 24px 60px; transform: translateX(100%); transition: transform 180ms ease-out; }
+  body.open .scrim { display: block; }
+  body.open .drawer { transform: none; }
+  @media (prefers-reduced-motion: reduce) { .drawer { transition: none; } }
+  .drawer h3 { font-family: var(--display); font-weight: 700; font-size: 32px; margin: 0; line-height: 1.05; }
+  .drawer .kv { color: var(--chalk-2); font-size: 14px; margin: 6px 0 18px; }
+  .close { position: absolute; top: 16px; right: 16px; background: none; border: 1px solid var(--board-line); color: var(--chalk); font: inherit; padding: 6px 12px; cursor: pointer; }
+  .close:hover { background: var(--board-raised); }
+  .drawer h4 { font-family: var(--display); font-weight: 600; font-size: 19px; margin: 22px 0 8px; }
+  .bars { display: grid; grid-template-columns: 110px 1fr 44px; gap: 6px 10px; align-items: center; font-size: 14px; }
+  .bars .bar { height: 8px; background: var(--board-line); position: relative; }
+  .bars .bar i { position: absolute; left: 0; top: 0; bottom: 0; background: var(--chalk-2); }
+  .bars .bar i.neg { background: var(--red); }
+  .bars .v { text-align: right; font-family: var(--display); font-size: 18px; font-weight: 600; }
+  .fact { padding: 10px 0; border-bottom: 1px solid var(--board-line); font-size: 15px; }
+  .fact a { display: block; font-size: 13px; color: var(--chalk-3); margin-top: 4px; word-break: break-all; }
+  .quote { font-size: 14px; color: var(--chalk-2); padding: 8px 0; border-bottom: 1px solid var(--board-line); }
+  .quote a { color: var(--chalk-3); font-size: 13px; display: block; word-break: break-all; }
+  .spark { width: 100%; height: 120px; display: block; }
+  .spark .l { fill: none; stroke: var(--chalk); stroke-width: 2; }
+  .spark .g { stroke: var(--board-line); stroke-width: 1; }
+  .spark text { fill: var(--chalk-3); font-size: 11px; font-family: var(--body); }
+  .spark .pt { fill: var(--chalk); }
+  .spark .hit { fill: transparent; }
+  .tip { position: absolute; background: var(--chalk); color: var(--board); font-size: 13px; padding: 4px 8px; pointer-events: none; display: none; white-space: nowrap; }
+  .sparkwrap { position: relative; }
+  .note { color: var(--chalk-3); font-size: 13px; }
+  .flags span { display: inline-block; background: var(--board-raised); padding: 3px 8px; margin: 0 6px 6px 0; font-size: 13px; color: var(--chalk-2); }
+
+  footer { margin-top: 56px; color: var(--chalk-3); font-size: 13px; max-width: 70ch; }
+
+  @media (max-width: 600px) {
+    .brand small { display: block; margin: 4px 0 0; }
+    .podium { grid-template-columns: 1fr; }
+    .step.gold { order: 1; min-height: 0; } .step.silver { order: 2; min-height: 0; } .step.bronze { order: 3; min-height: 0; }
+    th:nth-child(4), td:nth-child(4) { display: none; }
+    .hist { grid-template-columns: 1fr; } .hist .d { border-bottom: 0; padding-bottom: 0; }
+  }
+</style>
+</head>
+<body data-palette="#F2EFE6,#B9C3CF">
+<div class="wrap">
+  <header>
+    <h1 class="brand">SeedProof <small>tabla de posiciones de emprendimientos con IA</small></h1>
+    <p class="meta" id="meta">cargando…</p>
+  </header>
+
+  <section id="podium-section">
+    <div id="podium"></div>
+  </section>
+
+  <section>
+    <h2>Tabla <small id="table-sub"></small></h2>
+    <p class="lead">Solo compiten los casos cuya relación con la IA fue confirmada por una segunda validación con citas en dos dominios distintos. Las bandas marcan la zona: podio, repechaje (puestos 4 a 10) y banca.</p>
+    <table id="table"></table>
+  </section>
+
+  <section id="pending-section">
+    <h2>Sin validar <small>todavía no compiten</small></h2>
+    <ul class="plain" id="pending"></ul>
+  </section>
+
+  <section id="discarded-section" hidden>
+    <h2>Descartados <small>la evidencia verificada los contradice</small></h2>
+    <ul class="plain" id="discarded"></ul>
+  </section>
+
+  <section>
+    <h2>Podios anteriores</h2>
+    <div class="hist" id="history"></div>
+  </section>
+
+  <section>
+    <h2>Radar de mercado <small>solo con casos validados</small></h2>
+    <p class="lead">Dónde el mercado entrega bien o mal, por categoría y por rol de la IA. Con menos de 5 casos en un grupo no opina.</p>
+    <table class="radar" id="radar"></table>
+  </section>
+
+  <footer id="footer"></footer>
+</div>
+
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" aria-hidden="true"></aside>
+
+<script>
+(function () {
+  const $ = (s) => document.querySelector(s);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  const LIGHT_LABEL = { green: "verificado", yellow: "plausible", red: "desmentido" };
+  const ROLE = { built_with_ai: "construido con IA", ai_product: "producto con IA", ai_assisted: "operado con IA" };
+  const BASIS = { filing: "presentación regulatoria", payments_dashboard: "dashboard de pagos", acquirer: "declaración del adquirente", press_reported: "prensa", self_reported: "autodeclarado" };
+  const FLAG = { margin_near_zero: "margen casi nulo", regulatory_issue: "problema regulatorio", security_incident: "incidente de seguridad", claim_retracted: "cifra retractada", claim_disputed: "cifra discutida", stale_source: "fuente vencida" };
+  const money = (n) => n == null ? "sin dato" : "USD " + Math.round(n).toLocaleString("es-AR") + " al año";
+
+  let D = null, byId = {};
+
+  function light(c) {
+    return `<span class="light"><i class="dot ${c.light}"></i>${LIGHT_LABEL[c.light]}</span>`;
+  }
+
+  function movement(c) {
+    const h = D.history;
+    if (h.length < 2 || !c.rank) return { txt: h.length ? "nuevo" : "", cls: "" };
+    const prev = h[h.length - 2].ranks[c.id];
+    if (!prev) return { txt: "nuevo", cls: "" };
+    const d = prev - c.rank;
+    if (d > 0) return { txt: "▲ " + d, cls: "up" };
+    if (d < 0) return { txt: "▼ " + (-d), cls: "down" };
+    return { txt: "=", cls: "" };
+  }
+
+  function renderPodium() {
+    const el = $("#podium");
+    const top = D.ranked.slice(0, 3);
+    if (!top.length) {
+      el.innerHTML = `<div class="empty"><strong>El podio está vacío.</strong> Ningún caso pasó todavía la segunda validación, así que ninguno compite. Hay ${D.unverified.length} esperando verificación. La tabla se llena sola a medida que el ciclo diario confirma casos.</div>`;
+      return;
+    }
+    const cls = ["gold", "silver", "bronze"], medal = ["1", "2", "3"];
+    el.className = "podium";
+    el.innerHTML = top.map((c, i) => `
+      <div class="step ${cls[i]}" tabindex="0" role="button" data-id="${esc(c.id)}">
+        <div class="medal">${medal[i]}</div>
+        <div class="name">${esc(c.name)}</div>
+        <div class="sub">${esc(c.category || "")}</div>
+        <div class="score">${c.score.total}<span>de 100</span></div>
+        <div class="sub">${light(c)}</div>
+      </div>`).join("");
+  }
+
+  function renderTable() {
+    const t = $("#table");
+    $("#table-sub").textContent = D.ranking_date ? `del ${D.ranking_date}` : "sin corridas todavía";
+    if (!D.ranked.length) { t.innerHTML = ""; return; }
+    const P = D.podium_size, R = D.repechaje_size;
+    let html = `<thead><tr><th>#</th><th>Emprendimiento</th><th>Puntaje</th><th>Mov.</th><th>Evidencia</th></tr></thead><tbody>`;
+    D.ranked.forEach((c, i) => {
+      const zone = c.rank <= P ? "podio" : c.rank <= P + R ? "repechaje" : "banca";
+      const end = (c.rank === P || c.rank === P + R) ? "zone-end" : "";
+      const m = movement(c);
+      if (c.rank === P + 1) html += `<tr><td colspan="5" class="zone-label">repechaje</td></tr>`;
+      if (c.rank === P + R + 1) html += `<tr><td colspan="5" class="zone-label">banca</td></tr>`;
+      html += `<tr class="row ${zone} ${end}" data-id="${esc(c.id)}" tabindex="0">
+        <td class="pos">${c.rank}</td>
+        <td class="name">${esc(c.name)}<small>${esc(c.category || "")}</small></td>
+        <td class="num">${c.score.total}</td>
+        <td class="move ${m.cls}">${m.txt}</td>
+        <td>${light(c)}</td></tr>`;
+    });
+    t.innerHTML = html + "</tbody>";
+  }
+
+  function renderLists() {
+    const pend = $("#pending");
+    pend.innerHTML = D.unverified.map((c) => `<li><a href="#" data-id="${esc(c.id)}">${esc(c.name)}</a><span>${c.status === "pending" ? "pendiente de verificación" : "verificado sin evidencia suficiente"}</span></li>`).join("") || `<li><span>Ninguno.</span></li>`;
+    $("#pending-section").hidden = !D.unverified.length;
+    $("#discarded").innerHTML = D.discarded.map((c) => `<li><a href="#" data-id="${esc(c.id)}">${esc(c.name)}</a><span>contradicho por citas verificadas</span></li>`).join("");
+    $("#discarded-section").hidden = !D.discarded.length;
+  }
+
+  function renderHistory() {
+    const el = $("#history");
+    const days = D.history.slice().reverse();
+    if (!days.length) { el.innerHTML = `<div class="note" style="grid-column:1/-1">Todavía no hay corridas del ranking.</div>`; return; }
+    el.innerHTML = days.map((d) => {
+      const chips = d.podium.length ? d.podium.map((id, i) => `<span class="chip ${"gsb"[i]}">${esc(byId[id]?.name || id)}</span>`).join("") : `<span class="note">podio vacío</span>`;
+      return `<div class="d">${esc(d.date)}</div><div class="chips">${chips}</div>`;
+    }).join("");
+  }
+
+  function renderRadar() {
+    const t = $("#radar");
+    if (!D.radar.length) { t.innerHTML = `<tr><td class="note">Sin casos validados todavía.</td></tr>`; return; }
+    t.innerHTML = `<thead><tr><th>Dimensión</th><th>Grupo</th><th>Casos</th><th>Verif.</th><th>Plaus.</th><th>Desm.</th><th>Lectura</th></tr></thead><tbody>` +
+      D.radar.map((g) => `<tr><td>${esc(g.dimension)}</td><td>${esc(g.dimension === "rol de la IA" ? (ROLE[g.group] || g.group) : g.group)}</td><td>${g.n}</td><td>${g.green}</td><td>${g.yellow}</td><td>${g.red}</td><td class="verdict">${esc(g.verdict)}</td></tr>`).join("") + "</tbody>";
+  }
+
+  function sparkline(c) {
+    const pts = D.history.map((d) => ({ date: d.date, rank: d.ranks[c.id] })).filter((p) => p.rank);
+    if (pts.length < 2) return `<p class="note">La trayectoria aparece cuando el caso lleva al menos dos días en el ranking.</p>`;
+    const W = 500, H = 120, pad = { l: 28, r: 12, t: 10, b: 22 };
+    const maxR = Math.max(10, ...pts.map((p) => p.rank));
+    const x = (i) => pad.l + (i / (pts.length - 1)) * (W - pad.l - pad.r);
+    const y = (r) => pad.t + ((r - 1) / (maxR - 1)) * (H - pad.t - pad.b);
+    const path = pts.map((p, i) => (i ? "L" : "M") + x(i).toFixed(1) + " " + y(p.rank).toFixed(1)).join(" ");
+    const grid = [1, 3, 10].filter((r) => r <= maxR).map((r) => `<line class="g" x1="${pad.l}" x2="${W - pad.r}" y1="${y(r)}" y2="${y(r)}"/><text x="2" y="${y(r) + 4}">${r}</text>`).join("");
+    const dots = pts.map((p, i) => `<circle class="pt" cx="${x(i)}" cy="${y(p.rank)}" r="3"/><circle class="hit" cx="${x(i)}" cy="${y(p.rank)}" r="12" data-tip="${esc(p.date)}: puesto ${p.rank}"/>`).join("");
+    return `<div class="sparkwrap"><svg class="spark" viewBox="0 0 ${W} ${H}" role="img" aria-label="Puesto por día, 1 arriba">${grid}<path class="l" d="${path}"/>${dots}<text x="${pad.l}" y="${H - 6}">${esc(pts[0].date)}</text><text x="${W - pad.r}" y="${H - 6}" text-anchor="end">${esc(pts[pts.length - 1].date)}</text></svg><div class="tip" id="tip"></div></div>`;
+  }
+
+  function openCase(id) {
+    const c = byId[id]; if (!c) return;
+    const s = c.score;
+    const bar = (label, v, max) => `<div>${label}</div><div class="bar"><i class="${v < 0 ? "neg" : ""}" style="width:${Math.min(100, Math.abs(v) / max * 100)}%"></i></div><div class="v">${v}</div>`;
+    const m = c.metrics || {};
+    const stateTxt = c.status === "confirmed" ? `confirmado por citas en ${c.check.domains.length} dominio(s)` : c.status === "contradicted" ? "contradicho por citas verificadas" : c.status === "pending" ? "pendiente de verificación" : "verificado sin evidencia suficiente";
+    $("#drawer").innerHTML = `
+      <button class="close" id="close">Cerrar</button>
+      <h3>${esc(c.name)}</h3>
+      <div class="kv">${c.rank ? "puesto " + c.rank + " de " + D.ranked.length + " · " : ""}${esc(c.category || "")} · ${ROLE[c.ai_role] || esc(c.ai_role || "")}</div>
+      <div>${light(c)} &nbsp; <span class="note">${stateTxt}${c.check.checked_at ? ", " + esc(c.check.checked_at) : ""}</span></div>
+
+      <h4>Puntaje ${s.total} de 100</h4>
+      <div class="bars">
+        ${bar("evidencia", s.evidence, 40)}
+        ${bar("tracción", s.traction, 30)}
+        ${bar("antigüedad", s.age, 20)}
+        ${bar("semáforo", s.light, 25)}
+        ${bar("alertas", s.flags, 40)}
+      </div>
+      <p class="note">${m.revenue_usd_annual ? money(m.revenue_usd_annual) + ", base: " + (BASIS[m.revenue_basis] || m.revenue_basis) : "ingresos sin dato"}${s.age_months != null ? " · " + s.age_months + " meses" : " · antigüedad sin dato"}${s.missing.length ? " · faltan: " + s.missing.join(", ") : ""}</p>
+      ${c.flags.length ? `<div class="flags">${c.flags.map((f) => `<span>${esc(FLAG[f] || f)}</span>`).join("")}</div>` : ""}
+
+      <h4>Trayectoria</h4>
+      ${sparkline(c)}
+
+      <h4>Hechos con fuente</h4>
+      ${c.facts.map((f) => `<div class="fact">${esc(f.text)}<a href="${esc(f.source_url)}" target="_blank" rel="noopener">${esc(f.label)} — ${esc(f.source_url)}</a></div>`).join("")}
+
+      ${c.check.evidence.length ? `<h4>Citas verificadas por la segunda validación</h4>` + c.check.evidence.map((e) => `<div class="quote">“${esc(e.quote)}”<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.url)}</a></div>`).join("") : ""}
+
+      ${c.ficha_url ? `<p><a href="${esc(c.ficha_url)}" target="_blank" rel="noopener">Ficha completa en GitHub</a> <span class="note">(repo privado: pide sesión)</span></p>` : ""}
+    `;
+    document.body.classList.add("open");
+    $("#drawer").setAttribute("aria-hidden", "false");
+    $("#close").focus();
+    $("#close").addEventListener("click", closeCase);
+    const tip = $("#tip");
+    $("#drawer").querySelectorAll(".hit").forEach((h) => {
+      h.addEventListener("mouseenter", (ev) => { tip.textContent = h.dataset.tip; tip.style.display = "block"; });
+      h.addEventListener("mousemove", (ev) => { const r = h.closest(".sparkwrap").getBoundingClientRect(); tip.style.left = (ev.clientX - r.left + 12) + "px"; tip.style.top = (ev.clientY - r.top - 28) + "px"; });
+      h.addEventListener("mouseleave", () => { tip.style.display = "none"; });
+    });
+  }
+  function closeCase() { document.body.classList.remove("open"); $("#drawer").setAttribute("aria-hidden", "true"); }
+
+  document.addEventListener("click", (ev) => {
+    const t = ev.target.closest("[data-id]");
+    if (t) { ev.preventDefault(); openCase(t.dataset.id); }
+  });
+  document.addEventListener("keydown", (ev) => {
+    if (ev.key === "Escape") closeCase();
+    if (ev.key === "Enter" && ev.target.dataset && ev.target.dataset.id) openCase(ev.target.dataset.id);
+  });
+  $("#scrim").addEventListener("click", closeCase);
+
+  fetch("./data.json", { cache: "no-store" }).then((r) => r.json()).then((d) => {
+    D = d;
+    [...d.ranked, ...d.unverified, ...d.discarded].forEach((c) => { byId[c.id] = c; });
+    const total = d.ranked.length + d.unverified.length + d.discarded.length;
+    $("#meta").innerHTML = `${total} casos en el pool, ${d.ranked.length} compitiendo. Datos del ${esc(d.generated_at)}. <a href="${esc(d.repo_url)}" target="_blank" rel="noopener">Repo</a>`;
+    renderPodium(); renderTable(); renderLists(); renderHistory(); renderRadar();
+    $("#footer").innerHTML = `El puntaje es una rúbrica con pesos iniciales sin validar contra datos (ver <code>config.yml</code>). Fuentes citadas: ${d.validation.total}, responden ${d.validation.up}, caídas ${d.validation.down}, bloquean bots ${d.validation.blocked}${d.validation.last_run_at ? " (chequeo del " + esc(d.validation.last_run_at) + ")" : ""}. Nada de esto es asesoría financiera.`;
+  }).catch((e) => { $("#meta").textContent = "No se pudo cargar data.json: " + e.message; });
+})();
+</script>
+</body>
+</html>

@@ -58,6 +58,10 @@ jobs:
           echo "changed=${changed}" >> "$GITHUB_OUTPUT"
           echo "failed=${failed}" >> "$GITHUB_OUTPUT"
 
+      - name: Regenerar datos de la web (site/data.json)
+        if: steps.run.outputs.changed == 'true'
+        run: python scripts/build_site.py
+
       - name: Commitear los cambios del día
         if: steps.run.outputs.changed == 'true'
         run: |

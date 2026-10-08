@@ -50,6 +50,10 @@ jobs:
             exit 1
           fi
 
+      - name: Regenerar datos de la web (site/data.json)
+        if: steps.run.outputs.changed == 'true'
+        run: python scripts/build_site.py
+
       - name: Commitear el boletín validado
         if: steps.run.outputs.changed == 'true'
         run: |

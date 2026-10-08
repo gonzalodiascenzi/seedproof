@@ -1,0 +1,601 @@
+{
+  "generated_at": "2026-10-08 21:13 UTC",
+  "ranking_date": null,
+  "repo_url": "https://github.com/gonzalodiascenzi/seedproof",
+  "podium_size": 3,
+  "repechaje_size": 7,
+  "ranked": [],
+  "unverified": [
+    {
+      "id": "enrichlead",
+      "name": "Enrichlead",
+      "light": "red",
+      "category": "saas de generación de leads",
+      "ai_role": "built_with_ai",
+      "evidence_level": 1,
+      "launched": null,
+      "ended": "2025-03",
+      "metrics": {
+        "revenue_usd_annual": null,
+        "revenue_basis": null
+      },
+      "flags": [
+        "security_incident"
+      ],
+      "status": "pending",
+      "rank": null,
+      "zone": null,
+      "score": {
+        "total": 0.0,
+        "evidence": 10,
+        "traction": 0.0,
+        "age": 0,
+        "light": -25,
+        "flags": -10,
+        "age_months": null,
+        "missing": [
+          "antigüedad",
+          "ingresos"
+        ]
+      },
+      "check": {
+        "checked_at": null,
+        "domains": [],
+        "evidence": []
+      },
+      "facts": [
+        {
+          "text": "Según el cronograma publicado en Indie Hackers, el SaaS Enrichlead, de un solo fundador y construido con Cursor, cerró el 20 de marzo de 2025 tras ataques posteriores a un post viral.",
+          "source_url": "https://www.indiehackers.com/post/tech/vibe-coding-has-a-security-problem-vLxyPTrTlZVwDo76oqvr",
+          "label": "Indie Hackers"
+        },
+        {
+          "text": "El fundador atribuyó las fallas a claves de API expuestas y a un paywall que se podía eludir; no se publicaron cifras de ingresos.",
+          "source_url": "https://www.indiehackers.com/post/tech/vibe-coding-has-a-security-problem-vLxyPTrTlZVwDo76oqvr",
+          "label": "Indie Hackers"
+        }
+      ],
+      "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/01-enrichlead.md"
+    },
+    {
+      "id": "moltbook",
+      "name": "Moltbook",
+      "light": "red",
+      "category": "red social de agentes",
+      "ai_role": "ai_product",
+      "evidence_level": 2,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": null,
+        "revenue_basis": null
+      },
+      "flags": [
+        "security_incident",
+        "claim_disputed"
+      ],
+      "status": "pending",
+      "rank": null,
+      "zone": null,
+      "score": {
+        "total": 0.0,
+        "evidence": 20,
+        "traction": 0.0,
+        "age": 0,
+        "light": -25,
+        "flags": -25,
+        "age_months": null,
+        "missing": [
+          "antigüedad",
+          "ingresos"
+        ]
+      },
+      "check": {
+        "checked_at": null,
+        "domains": [],
+        "evidence": []
+      },
+      "facts": [
+        {
+          "text": "Wiz informó el 2 de febrero de 2026 que detrás de los 1,5 millones de agentes declarados de Moltbook había unos 17.000 dueños humanos.",
+          "source_url": "https://wiz.io/blog/exposed-moltbook-database-reveals-millions-of-api-keys",
+          "label": "Wiz"
+        },
+        {
+          "text": "La misma investigación encontró expuestos unos 1,5 millones de tokens de API, 35.000 correos y 4.060 conversaciones privadas, por una base de datos Supabase sin seguridad a nivel de fila.",
+          "source_url": "https://wiz.io/blog/exposed-moltbook-database-reveals-millions-of-api-keys",
+          "label": "Wiz"
+        },
+        {
+          "text": "Meta adquirió Moltbook el 10 de marzo de 2026, con términos no revelados.",
+          "source_url": "https://thenextweb.com/news/meta-acquires-moltbook-ai-agent-social-network",
+          "label": "The Next Web"
+        }
+      ],
+      "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/02-moltbook.md"
+    },
+    {
+      "id": "fly-pieter",
+      "name": "fly.pieter.com",
+      "light": "red",
+      "category": "juego de navegador",
+      "ai_role": "built_with_ai",
+      "evidence_level": 1,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": 1044000,
+        "revenue_basis": "self_reported"
+      },
+      "flags": [],
+      "status": "pending",
+      "rank": null,
+      "zone": null,
+      "score": {
+        "total": 0.0,
+        "evidence": 10,
+        "traction": 5.0,
+        "age": 0,
+        "light": -25,
+        "flags": 0,
+        "age_months": null,
+        "missing": [
+          "antigüedad"
+        ]
+      },
+      "check": {
+        "checked_at": null,
+        "domains": [],
+        "evidence": []
+      },
+      "facts": [
+        {
+          "text": "Un artículo de dev.to dice que el juego de navegador de Pieter Levels se construyó en unas 3 horas y que al día 17 llegó a 87.000 dólares de MRR, equivalentes a 1 millón de dólares anualizado; la fuente de la cifra es el propio creador.",
+          "source_url": "https://dev.to/promptway/he-built-a-flight-simulator-in-three-hours-and-hit-1m-a-year-in-17-days-then-it-went-to-zero-1b1l",
+          "label": "dev.to"
+        },
+        {
+          "text": "404 Media reportó 50.000 dólares al mes como dicho del creador.",
+          "source_url": "https://404media.co/this-game-created-by-ai-vibe-coding-makes-50-000-a-month-yours-probably-wont",
+          "label": "404 Media"
+        }
+      ],
+      "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/03-fly-pieter.md"
+    },
+    {
+      "id": "photo-ai",
+      "name": "Photo AI",
+      "light": "yellow",
+      "category": "producto de imágenes con ia",
+      "ai_role": "ai_product",
+      "evidence_level": 1,
+      "launched": "2023-02",
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": 1584000,
+        "revenue_basis": "self_reported"
+      },
+      "flags": [],
+      "status": "pending",
+      "rank": null,
+      "zone": null,
+      "score": {
+        "total": 35.0,
+        "evidence": 10,
+        "traction": 5.0,
+        "age": 20,
+        "light": 0,
+        "flags": 0,
+        "age_months": 44,
+        "missing": []
+      },
+      "check": {
+        "checked_at": null,
+        "domains": [],
+        "evidence": []
+      },
+      "facts": [
+        {
+          "text": "Una compilación en Indie Hackers atribuye a Photo AI entre 132.000 y 138.000 dólares de MRR a noviembre de 2025, con unos 13.000 dólares mensuales de costos, a partir de tuits y sitios de terceros.",
+          "source_url": "https://www.indiehackers.com/post/photo-ai-by-pieter-levels-complete-deep-dive-case-study-0-to-182k-mrr-in-18-months-3a9a2b1579",
+          "label": "Indie Hackers"
+        },
+        {
+          "text": "La compilación tiene inconsistencias internas: su cuenta por planes da unos 161.000 dólares y su título habla de 18 meses mientras los datos abarcan unos 33.",
+          "source_url": "https://www.indiehackers.com/post/photo-ai-by-pieter-levels-complete-deep-dive-case-study-0-to-182k-mrr-in-18-months-3a9a2b1579",
+          "label": "Indie Hackers"
+        }
+      ],
+      "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/04-photo-ai.md"
+    },
+    {
+      "id": "chatbase",
+      "name": "Chatbase",
+      "light": "green",
+      "category": "chatbots saas",
+      "ai_role": "ai_product",
+      "evidence_level": 3,
+      "launched": "2023-02",
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": 10363584,
+        "revenue_basis": "payments_dashboard"
+      },
+      "flags": [
+        "stale_source"
+      ],
+      "status": "pending",
+      "rank": null,
+      "zone": null,
+      "score": {
+        "total": 81.0,
+        "evidence": 30,
+        "traction": 26.0,
+        "age": 20,
+        "light": 10,
+        "flags": -5,
+        "age_months": 44,
+        "missing": []
+      },
+      "check": {
+        "checked_at": null,
+        "domains": [],
+        "evidence": []
+      },
+      "facts": [
+        {
+          "text": "La página de TrustMRR de Chatbase muestra 863.632 dólares de MRR y 12.424 suscripciones; la clave de Stripe figura vencida, por lo que la cifra puede no ser actual.",
+          "source_url": "https://trustmrr.com/startup/chatbase",
+          "label": "TrustMRR"
+        },
+        {
+          "text": "Supabase indica que Chatbase tiene más de 10 millones de dólares de ARR, que lanzó en febrero de 2023 con un MVP de unas 2 semanas y que hoy tiene 18 personas.",
+          "source_url": "https://supabase.com/customers/chatbase",
+          "label": "Supabase (caso de cliente)"
+        }
+      ],
+      "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/05-chatbase.md"
+    },
+    {
+      "id": "base44",
+      "name": "Base44",
+      "light": "green",
+      "category": "plataforma de vibe coding",
+      "ai_role": "ai_product",
+      "evidence_level": 4,
+      "launched": "2024-12",
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": 150000000,
+        "revenue_basis": "filing"
+      },
+      "flags": [
+        "margin_near_zero"
+      ],
+      "status": "pending",
+      "rank": null,
+      "zone": null,
+      "score": {
+        "total": 84.0,
+        "evidence": 40,
+        "traction": 30.0,
+        "age": 14,
+        "light": 10,
+        "flags": -10,
+        "age_months": 22,
+        "missing": []
+      },
+      "check": {
+        "checked_at": null,
+        "domains": [],
+        "evidence": []
+      },
+      "facts": [
+        {
+          "text": "Wix compró Base44 por 80 millones de dólares en efectivo, de los cuales 25 millones son un bono de retención para 8 empleados; la empresa llevaba unos 6 meses.",
+          "source_url": "https://techcrunch.com/2025/06/18/six-month-old-solo-owned-vibe-coder-base44-sells-to-wix-for-80m-cash",
+          "label": "TechCrunch"
+        },
+        {
+          "text": "El comunicado de Wix del segundo trimestre de 2026 indica que el margen bruto no-GAAP de Base44 estaba cerca de cero al entrar a 2026, con un objetivo de 60% para el segundo semestre.",
+          "source_url": "https://www.globenewswire.com/de/news-release/2026/08/04/3338018/0/en/Wix-Reports-Second-Quarter-2026-Results.html",
+          "label": "Wix (comunicado)"
+        }
+      ],
+      "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/06-base44.md"
+    },
+    {
+      "id": "cal-ai",
+      "name": "Cal AI",
+      "light": "yellow",
+      "category": "app móvil de consumo",
+      "ai_role": "ai_product",
+      "evidence_level": 2,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": 30000000,
+        "revenue_basis": "acquirer"
+      },
+      "flags": [],
+      "status": "pending",
+      "rank": null,
+      "zone": null,
+      "score": {
+        "total": 40.8,
+        "evidence": 20,
+        "traction": 20.8,
+        "age": 0,
+        "light": 0,
+        "flags": 0,
+        "age_months": null,
+        "missing": [
+          "antigüedad"
+        ]
+      },
+      "check": {
+        "checked_at": null,
+        "domains": [],
+        "evidence": []
+      },
+      "facts": [
+        {
+          "text": "MyFitnessPal anunció el 2 de marzo de 2026 la compra de Cal AI y declaró más de 30 millones de dólares de ingresos anuales, más de 15 millones de descargas y 7 empleados; el precio no se reveló y no hay auditoría.",
+          "source_url": "https://techcrunch.com/?p=3098039",
+          "label": "TechCrunch"
+        }
+      ],
+      "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/07-cal-ai.md"
+    },
+    {
+      "id": "medvi",
+      "name": "Medvi",
+      "light": "yellow",
+      "category": "telesalud con ia",
+      "ai_role": "ai_assisted",
+      "evidence_level": 2,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": 401000000,
+        "revenue_basis": "press_reported"
+      },
+      "flags": [
+        "regulatory_issue"
+      ],
+      "status": "pending",
+      "rank": null,
+      "zone": null,
+      "score": {
+        "total": 25.0,
+        "evidence": 20,
+        "traction": 15.0,
+        "age": 0,
+        "light": 0,
+        "flags": -10,
+        "age_months": null,
+        "missing": [
+          "antigüedad"
+        ]
+      },
+      "check": {
+        "checked_at": null,
+        "domains": [],
+        "evidence": []
+      },
+      "facts": [
+        {
+          "text": "El New York Times reportó 401 millones de dólares de ingresos de Medvi en 2025 y una proyección de 1.800 millones para 2026 que es del fundador, según un resumen de Implicator.",
+          "source_url": "https://www.implicator.ai/medvi-got-an-fda-warning-before-the-times-called-it-a-1-8-billion-ai-story/",
+          "label": "Implicator"
+        },
+        {
+          "text": "Una fuente crítica, Techdirt, señala una carta de advertencia de la FDA del 20 de febrero de 2026, una demanda colectiva por spam en marzo de 2026 y anuncios con médicos aparentemente fabricados.",
+          "source_url": "https://www.techdirt.com/company/medvi/",
+          "label": "Techdirt"
+        }
+      ],
+      "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/08-medvi.md"
+    },
+    {
+      "id": "polsia",
+      "name": "Polsia",
+      "light": "red",
+      "category": "plataforma de agentes",
+      "ai_role": "ai_product",
+      "evidence_level": 1,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": 10000000,
+        "revenue_basis": "self_reported"
+      },
+      "flags": [],
+      "status": "pending",
+      "rank": null,
+      "zone": null,
+      "score": {
+        "total": 0.0,
+        "evidence": 10,
+        "traction": 6.5,
+        "age": 0,
+        "light": -25,
+        "flags": 0,
+        "age_months": null,
+        "missing": [
+          "antigüedad"
+        ]
+      },
+      "check": {
+        "checked_at": null,
+        "domains": [],
+        "evidence": []
+      },
+      "facts": [
+        {
+          "text": "Polsia declaró unos 10 millones de dólares de run rate, 30 millones levantados con una valuación de 250 millones y 7.600 clientes a 49 dólares por mes.",
+          "source_url": "https://runtimewire.com/article/polsia-30m-raise-ben-cera-solo-ai-agents",
+          "label": "Runtime Wire"
+        },
+        {
+          "text": "Críticos anónimos afirman que el run rate incluye paquetes de tareas únicos y comisiones por gasto publicitario multiplicados por 12; no hay verificación independiente de la cifra.",
+          "source_url": "https://eu.36kr.com/en/p/3825813697565316",
+          "label": "36Kr"
+        }
+      ],
+      "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/09-polsia.md"
+    },
+    {
+      "id": "cluely",
+      "name": "Cluely",
+      "light": "red",
+      "category": "asistente de reuniones y entrevistas",
+      "ai_role": "ai_product",
+      "evidence_level": 2,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": 5200000,
+        "revenue_basis": "self_reported"
+      },
+      "flags": [
+        "claim_retracted"
+      ],
+      "status": "pending",
+      "rank": null,
+      "zone": null,
+      "score": {
+        "total": 0.0,
+        "evidence": 20,
+        "traction": 5.0,
+        "age": 0,
+        "light": -25,
+        "flags": -20,
+        "age_months": null,
+        "missing": [
+          "antigüedad"
+        ]
+      },
+      "check": {
+        "checked_at": null,
+        "domains": [],
+        "evidence": []
+      },
+      "facts": [
+        {
+          "text": "En marzo de 2026 el CEO de Cluely reconoció que la cifra de 7 millones de dólares de ARR dada a TechCrunch en 2025 era falsa y publicó capturas de Stripe de junio de 2025 que suman unos 5,2 millones.",
+          "source_url": "https://techcrunch.com/2026/03/05/cluely-ceo-roy-lee-admits-to-publicly-lying-about-revenue-numbers-last-year/",
+          "label": "TechCrunch"
+        }
+      ],
+      "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/10-cluely.md"
+    },
+    {
+      "id": "project-vend",
+      "name": "Anthropic Project Vend",
+      "light": "yellow",
+      "category": "experimento de agentes",
+      "ai_role": "ai_product",
+      "evidence_level": 3,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": null,
+        "revenue_basis": null
+      },
+      "flags": [],
+      "status": "pending",
+      "rank": null,
+      "zone": null,
+      "score": {
+        "total": 30.0,
+        "evidence": 30,
+        "traction": 0.0,
+        "age": 0,
+        "light": 0,
+        "flags": 0,
+        "age_months": null,
+        "missing": [
+          "antigüedad",
+          "ingresos"
+        ]
+      },
+      "check": {
+        "checked_at": null,
+        "domains": [],
+        "evidence": []
+      },
+      "facts": [
+        {
+          "text": "En la primera fase, de aproximadamente 1 mes, la tienda operada por un agente de IA perdió dinero por ventas bajo costo y descuentos excesivos.",
+          "source_url": "https://www.anthropic.com/research/project-vend-1",
+          "label": "Anthropic"
+        },
+        {
+          "text": "Según The Decoder, en la segunda fase los resultados semanales fueron positivos desde octubre, después de agregar un agente supervisor, herramientas y un modelo mejor.",
+          "source_url": "https://the-decoder.com/anthropics-ai-store-makes-money-while-debating-eternal-transcendence/",
+          "label": "The Decoder"
+        }
+      ],
+      "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/11-project-vend.md"
+    },
+    {
+      "id": "lovable",
+      "name": "Lovable",
+      "light": "yellow",
+      "category": "plataforma de vibe coding",
+      "ai_role": "ai_product",
+      "evidence_level": 2,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": 400000000,
+        "revenue_basis": "self_reported"
+      },
+      "flags": [],
+      "status": "pending",
+      "rank": null,
+      "zone": null,
+      "score": {
+        "total": 27.5,
+        "evidence": 20,
+        "traction": 7.5,
+        "age": 0,
+        "light": 0,
+        "flags": 0,
+        "age_months": null,
+        "missing": [
+          "antigüedad"
+        ]
+      },
+      "check": {
+        "checked_at": null,
+        "domains": [],
+        "evidence": []
+      },
+      "facts": [
+        {
+          "text": "Lovable declaró unos 400 millones de dólares de ARR en marzo de 2026, frente a 100 millones en junio de 2025; son cifras de la propia empresa.",
+          "source_url": "https://techcrunch.com/2026/03/23/vibe-coding-startup-lovable-is-on-the-hunt-for-acquisitions/",
+          "label": "TechCrunch"
+        },
+        {
+          "text": "Lovable dice tener casi 8 millones de usuarios y retención neta en dólares superior a 100%; Barclays reportó una caída de tráfico de 40% a septiembre.",
+          "source_url": "https://techcrunch.com/2025/11/10/lovable-says-its-nearing-8-million-users-as-the-year-old-ai-coding-startup-eyes-more-corporate-employees",
+          "label": "TechCrunch"
+        }
+      ],
+      "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/12-lovable.md"
+    }
+  ],
+  "discarded": [],
+  "radar": [],
+  "history": [],
+  "validation": {
+    "last_run_at": null,
+    "total": 0,
+    "up": 0,
+    "down": 0,
+    "blocked": 0
+  }
+}
