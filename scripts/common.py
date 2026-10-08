@@ -55,14 +55,19 @@ def call_anthropic(system_prompt, user_payload, model, api_key, tools=None, max_
     }
     if tools:
         body["tools"] = tools
+    headers = {
+        "x-api-key": api_key,
+        "anthropic-version": ANTHROPIC_VERSION,
+        "content-type": "application/json",
+    }
+    # keys sin workspace propio piden este header (variable opcional)
+    workspace = os.environ.get("ANTHROPIC_WORKSPACE_ID", "").strip()
+    if workspace:
+        headers["anthropic-workspace-id"] = workspace
     req = urllib.request.Request(
         ANTHROPIC_URL,
         data=json.dumps(body).encode("utf-8"),
-        headers={
-            "x-api-key": api_key,
-            "anthropic-version": ANTHROPIC_VERSION,
-            "content-type": "application/json",
-        },
+        headers=headers,
         method="POST",
     )
     try:
