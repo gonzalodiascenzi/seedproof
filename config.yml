@@ -56,7 +56,7 @@ ranking:
 # --- Verificación de "realmente es de IA" (segunda validación) ------------
 verify:
   model: claude-haiku-4-5-20251001
-  max_cases_per_run: 5        # tope de gasto por corrida
+  max_cases_per_run: 12        # tope de gasto por corrida
   recheck_days: 30
   min_independent_domains: 2  # dominios distintos donde la cita literal DEBE aparecer
   max_quote_words: 15
