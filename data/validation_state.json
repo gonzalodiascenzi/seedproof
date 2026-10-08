@@ -1,4 +1,70 @@
 {
-  "last_run_at": null,
-  "sources": {}
+  "last_run_at": "2026-10-08",
+  "sources": {
+    "https://404media.co/this-game-created-by-ai-vibe-coding-makes-50-000-a-month-yours-probably-wont": {
+      "status": "up"
+    },
+    "https://dev.to/promptway/he-built-a-flight-simulator-in-three-hours-and-hit-1m-a-year-in-17-days-then-it-went-to-zero-1b1l": {
+      "status": "up"
+    },
+    "https://eu.36kr.com/en/p/3825813697565316": {
+      "status": "up"
+    },
+    "https://runtimewire.com/article/polsia-30m-raise-ben-cera-solo-ai-agents": {
+      "status": "up"
+    },
+    "https://supabase.com/customers/chatbase": {
+      "status": "up",
+      "hash": "f1ddd19c07e006ba1c9102c142f7760893c411f48a17420f71b65a305032df4d"
+    },
+    "https://techcrunch.com/2025/06/18/six-month-old-solo-owned-vibe-coder-base44-sells-to-wix-for-80m-cash": {
+      "status": "up"
+    },
+    "https://techcrunch.com/2025/11/10/lovable-says-its-nearing-8-million-users-as-the-year-old-ai-coding-startup-eyes-more-corporate-employees": {
+      "status": "up"
+    },
+    "https://techcrunch.com/2026/03/05/cluely-ceo-roy-lee-admits-to-publicly-lying-about-revenue-numbers-last-year/": {
+      "status": "up"
+    },
+    "https://techcrunch.com/2026/03/23/vibe-coding-startup-lovable-is-on-the-hunt-for-acquisitions/": {
+      "status": "up"
+    },
+    "https://techcrunch.com/?p=3098039": {
+      "status": "up"
+    },
+    "https://the-decoder.com/anthropics-ai-store-makes-money-while-debating-eternal-transcendence/": {
+      "status": "up"
+    },
+    "https://thenextweb.com/news/meta-acquires-moltbook-ai-agent-social-network": {
+      "status": "up"
+    },
+    "https://trustmrr.com/startup/chatbase": {
+      "status": "up",
+      "anchors": {
+        "863,632": true
+      },
+      "hash": "98a42bb3775271eec33be89d9cc8dc4009355dcc488159470fe74dbf3cb7f7e4"
+    },
+    "https://wiz.io/blog/exposed-moltbook-database-reveals-millions-of-api-keys": {
+      "status": "up"
+    },
+    "https://www.anthropic.com/research/project-vend-1": {
+      "status": "up"
+    },
+    "https://www.globenewswire.com/de/news-release/2026/08/04/3338018/0/en/Wix-Reports-Second-Quarter-2026-Results.html": {
+      "status": "blocked"
+    },
+    "https://www.implicator.ai/medvi-got-an-fda-warning-before-the-times-called-it-a-1-8-billion-ai-story/": {
+      "status": "up"
+    },
+    "https://www.indiehackers.com/post/photo-ai-by-pieter-levels-complete-deep-dive-case-study-0-to-182k-mrr-in-18-months-3a9a2b1579": {
+      "status": "blocked"
+    },
+    "https://www.indiehackers.com/post/tech/vibe-coding-has-a-security-problem-vLxyPTrTlZVwDo76oqvr": {
+      "status": "blocked"
+    },
+    "https://www.techdirt.com/company/medvi/": {
+      "status": "up"
+    }
+  }
 }

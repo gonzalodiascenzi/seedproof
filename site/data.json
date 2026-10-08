@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-08 21:13 UTC",
-  "ranking_date": null,
+  "generated_at": "2026-10-08 21:31 UTC",
+  "ranking_date": "2026-10-08",
   "repo_url": "https://github.com/gonzalodiascenzi/seedproof",
   "podium_size": 3,
   "repechaje_size": 7,
@@ -590,12 +590,18 @@
   ],
   "discarded": [],
   "radar": [],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-10-08",
+      "podium": [],
+      "ranks": {}
+    }
+  ],
   "validation": {
-    "last_run_at": null,
-    "total": 0,
-    "up": 0,
+    "last_run_at": "2026-10-08",
+    "total": 20,
+    "up": 17,
     "down": 0,
-    "blocked": 0
+    "blocked": 3
   }
 }
