@@ -11,10 +11,10 @@ Casos en el pool: {{ n_total }} · en ranking: {{ podium | length + repechaje | 
 ## 🏆 Podio del día
 
 {% if podium %}
-| # | Emprendimiento | Semáforo | Puntaje | Mov. | Evidencia · Tracción · Antigüedad · Semáforo · Alertas |
+| # | Emprendimiento | Semáforo | Puntaje | Mov. | Evidencia · Tracción · Antigüedad · Semáforo · Alertas · Automatización |
 |---|---|---|---|---|---|
 {% for r in podium %}
-| {{ r.rank }} | {{ r.case.name }} | {{ light_icon[lights[r.case.light]] }} | {{ r.score.total }} | {{ r.move }} | {{ r.score.evidence }} · {{ r.score.traction }} · {{ r.score.age }} · {{ r.score.light }} · {{ r.score.flags }} |
+| {{ r.rank }} | {{ r.case.name }} | {{ light_icon[lights[r.case.light]] }} | {{ r.score.total }} | {{ r.move }} | {{ r.score.evidence }} · {{ r.score.traction }} · {{ r.score.age }} · {{ r.score.light }} · {{ r.score.flags }} · {{ r.score.automation }} |
 {% endfor %}
 {% else %}
 Todavía no hay casos validados: el podio queda vacío hasta que `verify_ai.py` confirme alguno.
@@ -54,7 +54,7 @@ Todavía no pueden competir: la segunda validación no los confirmó (pendiente 
 
 {% if unverified %}
 {% for r in unverified %}
-- {{ r.case.name }} — {{ "pendiente de validación" if r.status == "pending" else "validado sin evidencia suficiente" }}
+- {{ r.case.name }} — {{ {"pending": "pendiente de validación", "fuera_de_foco": "fuera de foco: no es automatizable de punta a punta", "sin_evaluar": "sin evaluar: faltan datos de automatización"}.get(r.status, "validado sin evidencia suficiente") }}
 {% endfor %}
 {% else %}
 Ninguno.

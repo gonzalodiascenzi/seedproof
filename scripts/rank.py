@@ -69,6 +69,26 @@ def check_status(case, checks):
     return ck.get("status", "pending")
 
 
+def automation_state(case, cfg):
+    """(puntos, estado, faltantes). estado: ok | fuera_de_foco | sin_evaluar.
+    Un campo en null es dato faltante: suma 0 y nunca se asume. Un `false`
+    en cualquier campo saca al caso de foco; con algún null (y ningún false)
+    queda sin evaluar; con los 4 en true está ok."""
+    acfg = cfg.get("automation") or {}
+    fields = acfg.get("fields") or {}
+    per = acfg.get("points_per_field", 0)
+    data = case.get("automation") or {}
+    pts = sum(per for k in fields if data.get(k) is True)
+    missing = [label for k, label in fields.items() if data.get(k) is None]
+    if any(data.get(k) is False for k in fields):
+        state = "fuera_de_foco"
+    elif missing:
+        state = "sin_evaluar"
+    else:
+        state = "ok"
+    return pts, state, missing
+
+
 def score_case(case, cfg, today):
     ev = int(case.get("evidence_level") or 0)
     v = min(4, max(0, ev)) * cfg["evidence_points_per_level"]
@@ -88,7 +108,12 @@ def score_case(case, cfg, today):
 
     f = sum(cfg["flag_penalties"].get(flag, 0) for flag in case.get("flags", []))
 
-    total = max(0.0, min(100.0, v + t + s + l + f))
+    a, _astate, amissing = automation_state(case, cfg)
+
+    total = max(0.0, min(100.0, v + t + s + l + f + a))
+    missing = [k for k, ok in (("antigüedad", age is not None), ("ingresos", bool(rev and basis))) if not ok]
+    if amissing:
+        missing.append("automatización: " + ", ".join(amissing))
     return {
         "total": round(total, 1),
         "evidence": v,
@@ -96,8 +121,9 @@ def score_case(case, cfg, today):
         "age": s,
         "light": l,
         "flags": f,
+        "automation": a,
         "age_months": age,
-        "missing": [k for k, ok in (("antigüedad", age is not None), ("ingresos", bool(rev and basis))) if not ok],
+        "missing": missing,
     }
 
 
@@ -105,6 +131,10 @@ def build_ranking(cases, checks, cfg, today):
     ranked, unverified, discarded = [], [], []
     for c in cases:
         st = check_status(c, checks)
+        if st == "confirmed" and (cfg.get("automation") or {}).get("gate"):
+            _pts, astate, _miss = automation_state(c, cfg)
+            if astate != "ok":
+                st = astate  # fuera_de_foco | sin_evaluar: no compite
         row = {"case": c, "status": st, "score": score_case(c, cfg, today)}
         if st == "confirmed":
             ranked.append(row)

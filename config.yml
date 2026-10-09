@@ -44,6 +44,19 @@ ranking:
   # puntos por antigüedad en meses: [límite_superior_excluyente, puntos]; sin dato = 0
   age_bands: [[6, 4], [12, 8], [24, 14]]
   age_top: 20
+  # automatización de punta a punta (campo `automation` de cada caso).
+  # Cada campo vale true / false / null (null = sin dato: suma 0 y se informa
+  # como dato faltante, nunca se asume). Hipótesis inicial, sin validar.
+  automation:
+    points_per_field: 10        # 4 campos -> hasta 40 puntos
+    fields:
+      payment_auto: cobro automático
+      delivery_auto: entrega automática
+      whatsapp_sellable: vendible por WhatsApp
+      operable_from_ar: operable desde Argentina
+    # false = compiten todos; true = solo compiten los casos con los 4 campos
+    # en true; un `false` va a "fuera de foco" y un null a "sin evaluar".
+    gate: false
   light_points: {green: 10, yellow: 0, red: -25}
   flag_penalties:
     margin_near_zero: -10
