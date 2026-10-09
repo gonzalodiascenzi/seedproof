@@ -133,7 +133,21 @@
       "revenue_usd_annual": 1584000,
       "revenue_basis": "self_reported"
     },
-    "flags": []
+    "flags": [],
+    "automation": {
+      "payment_auto": true,
+      "delivery_auto": true,
+      "whatsapp_sellable": null,
+      "operable_from_ar": null
+    },
+    "automation_sources": {
+      "payment_auto": "https://photoai.com/pricing",
+      "delivery_auto": "https://photoai.com/pricing"
+    },
+    "automation_notes": {
+      "payment_auto": "cuatro planes con botón de suscripción y preguntas sobre tarjeta al registrarse; la página no describe el checkout",
+      "delivery_auto": "la velocidad de procesamiento varía según el plan (cola automática) y no menciona revisión manual; no da tiempos"
+    }
   },
   {
     "id": "chatbase",
@@ -168,7 +182,19 @@
     },
     "flags": [
       "stale_source"
-    ]
+    ],
+    "automation": {
+      "payment_auto": true,
+      "delivery_auto": null,
+      "whatsapp_sellable": null,
+      "operable_from_ar": null
+    },
+    "automation_sources": {
+      "payment_auto": "https://www.chatbase.co/pricing"
+    },
+    "automation_notes": {
+      "payment_auto": "planes Hobby, Standard y Pro con botón de prueba de 7 días que lleva al panel; solo Enterprise pasa por formulario de ventas. la página no nombra el procesador de pagos propio"
+    }
   },
   {
     "id": "base44",
@@ -406,7 +432,19 @@
       "revenue_usd_annual": null,
       "revenue_basis": null
     },
-    "flags": []
+    "flags": [],
+    "automation": {
+      "payment_auto": true,
+      "delivery_auto": null,
+      "whatsapp_sellable": null,
+      "operable_from_ar": null
+    },
+    "automation_sources": {
+      "payment_auto": "https://fliki.ai/pricing"
+    },
+    "automation_notes": {
+      "payment_auto": "los botones de plan llevan a la app con plan y ciclo preseleccionados; plan gratis sin tarjeta; solo Enterprise va por formulario. la página no nombra el procesador"
+    }
   },
   {
     "id": "supermaven",
