@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-08 22:52 UTC",
-  "ranking_date": "2026-10-08",
+  "generated_at": "2026-10-09 15:31 UTC",
+  "ranking_date": "2026-10-09",
   "repo_url": "https://github.com/gonzalodiascenzi/seedproof",
   "podium_size": 3,
   "repechaje_size": 7,
@@ -252,6 +252,62 @@
       "ficha_url": null
     },
     {
+      "id": "supermaven",
+      "name": "Supermaven",
+      "light": "yellow",
+      "category": "Asistente IA para completado de código",
+      "ai_role": "ai_product",
+      "evidence_level": 1,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": null,
+        "revenue_basis": null
+      },
+      "flags": [],
+      "status": "confirmed",
+      "rank": 5,
+      "zone": "repechaje",
+      "score": {
+        "total": 10.0,
+        "evidence": 10,
+        "traction": 0.0,
+        "age": 0,
+        "light": 0,
+        "flags": 0,
+        "age_months": null,
+        "missing": [
+          "antigüedad",
+          "ingresos"
+        ]
+      },
+      "check": {
+        "checked_at": "2026-10-09",
+        "domains": [
+          "brouseai.com",
+          "everydev.ai"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.everydev.ai/tools/supermaven",
+            "quote": "Supermaven is an AI coding copilot that helps developers write code 2x faster"
+          },
+          {
+            "url": "https://www.brouseai.com/ai/supermaven",
+            "quote": "Supermaven allows developers to write code up to 2x faster than traditional methods"
+          }
+        ]
+      },
+      "facts": [
+        {
+          "text": "Según everydev.ai: «Supermaven is an AI coding copilot that helps developers write code 2x faster»",
+          "source_url": "https://www.everydev.ai/tools/supermaven",
+          "label": "everydev.ai"
+        }
+      ],
+      "ficha_url": null
+    },
+    {
       "id": "moltbook",
       "name": "Moltbook",
       "light": "red",
@@ -269,7 +325,7 @@
         "claim_disputed"
       ],
       "status": "confirmed",
-      "rank": 5,
+      "rank": 6,
       "zone": "repechaje",
       "score": {
         "total": 0.0,
@@ -335,7 +391,7 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 6,
+      "rank": 7,
       "zone": "repechaje",
       "score": {
         "total": 0.0,
@@ -733,6 +789,15 @@
   "radar": [
     {
       "dimension": "categoría",
+      "group": "Asistente IA para completado de código",
+      "n": 1,
+      "green": 0,
+      "yellow": 1,
+      "red": 0,
+      "verdict": "sin muestra suficiente (mínimo 5)"
+    },
+    {
+      "dimension": "categoría",
       "group": "Plataforma de video texto-a-video",
       "n": 1,
       "green": 0,
@@ -779,11 +844,11 @@
     {
       "dimension": "rol de la IA",
       "group": "ai_product",
-      "n": 5,
+      "n": 6,
       "green": 2,
-      "yellow": 2,
+      "yellow": 3,
       "red": 1,
-      "verdict": "el mercado entrega bien (competido)"
+      "verdict": "mixto"
     },
     {
       "dimension": "rol de la IA",
@@ -844,13 +909,30 @@
         "moltbook": 5,
         "fly-pieter": 6
       }
+    },
+    {
+      "date": "2026-10-09",
+      "podium": [
+        "base44",
+        "chatbase",
+        "lovable"
+      ],
+      "ranks": {
+        "base44": 1,
+        "chatbase": 2,
+        "lovable": 3,
+        "fliki": 4,
+        "supermaven": 5,
+        "moltbook": 6,
+        "fly-pieter": 7
+      }
     }
   ],
   "validation": {
-    "last_run_at": "2026-10-08",
-    "total": 20,
+    "last_run_at": "2026-10-09",
+    "total": 21,
     "up": 18,
     "down": 0,
-    "blocked": 2
+    "blocked": 3
   }
 }

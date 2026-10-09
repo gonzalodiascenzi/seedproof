@@ -407,5 +407,31 @@
       "revenue_basis": null
     },
     "flags": []
+  },
+  {
+    "id": "supermaven",
+    "rev": 1,
+    "origin": "discovered",
+    "name": "Supermaven",
+    "light": "🟡",
+    "facts": [
+      {
+        "text": "Según everydev.ai: «Supermaven is an AI coding copilot that helps developers write code 2x faster»",
+        "source_url": "https://www.everydev.ai/tools/supermaven",
+        "label": "everydev.ai",
+        "anchors": []
+      }
+    ],
+    "live": false,
+    "category": "Asistente IA para completado de código",
+    "ai_role": "ai_product",
+    "evidence_level": 1,
+    "launched": null,
+    "ended": null,
+    "metrics": {
+      "revenue_usd_annual": null,
+      "revenue_basis": null
+    },
+    "flags": []
   }
 ]

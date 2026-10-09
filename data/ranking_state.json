@@ -1,10 +1,11 @@
 {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "order": [
     "base44",
     "chatbase",
     "lovable",
     "fliki",
+    "supermaven",
     "moltbook",
     "fly-pieter"
   ],
@@ -13,6 +14,7 @@
     "chatbase": "confirmed",
     "lovable": "confirmed",
     "fliki": "confirmed",
+    "supermaven": "confirmed",
     "moltbook": "confirmed",
     "fly-pieter": "confirmed",
     "enrichlead": "unconfirmed",
@@ -28,6 +30,7 @@
     "chatbase": "podio",
     "lovable": "podio",
     "fliki": "repechaje",
+    "supermaven": "repechaje",
     "moltbook": "repechaje",
     "fly-pieter": "repechaje"
   }

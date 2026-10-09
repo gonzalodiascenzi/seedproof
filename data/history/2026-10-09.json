@@ -1,0 +1,211 @@
+[
+  {
+    "id": "base44",
+    "status": "confirmed",
+    "light": "green",
+    "category": "plataforma de vibe coding",
+    "ai_role": "ai_product",
+    "evidence_level": 4,
+    "revenue_usd_annual": 150000000,
+    "revenue_basis": "filing",
+    "age_months": 22,
+    "flags": [
+      "margin_near_zero"
+    ],
+    "score": 84.0,
+    "rank": 1
+  },
+  {
+    "id": "chatbase",
+    "status": "confirmed",
+    "light": "green",
+    "category": "chatbots saas",
+    "ai_role": "ai_product",
+    "evidence_level": 3,
+    "revenue_usd_annual": 10363584,
+    "revenue_basis": "payments_dashboard",
+    "age_months": 44,
+    "flags": [
+      "stale_source"
+    ],
+    "score": 81.0,
+    "rank": 2
+  },
+  {
+    "id": "lovable",
+    "status": "confirmed",
+    "light": "yellow",
+    "category": "plataforma de vibe coding",
+    "ai_role": "ai_product",
+    "evidence_level": 2,
+    "revenue_usd_annual": 400000000,
+    "revenue_basis": "self_reported",
+    "age_months": null,
+    "flags": [],
+    "score": 27.5,
+    "rank": 3
+  },
+  {
+    "id": "fliki",
+    "status": "confirmed",
+    "light": "yellow",
+    "category": "Plataforma de video texto-a-video",
+    "ai_role": "ai_product",
+    "evidence_level": 1,
+    "revenue_usd_annual": null,
+    "revenue_basis": null,
+    "age_months": null,
+    "flags": [],
+    "score": 10.0,
+    "rank": 4
+  },
+  {
+    "id": "supermaven",
+    "status": "confirmed",
+    "light": "yellow",
+    "category": "Asistente IA para completado de código",
+    "ai_role": "ai_product",
+    "evidence_level": 1,
+    "revenue_usd_annual": null,
+    "revenue_basis": null,
+    "age_months": null,
+    "flags": [],
+    "score": 10.0,
+    "rank": 5
+  },
+  {
+    "id": "moltbook",
+    "status": "confirmed",
+    "light": "red",
+    "category": "red social de agentes",
+    "ai_role": "ai_product",
+    "evidence_level": 2,
+    "revenue_usd_annual": null,
+    "revenue_basis": null,
+    "age_months": null,
+    "flags": [
+      "security_incident",
+      "claim_disputed"
+    ],
+    "score": 0.0,
+    "rank": 6
+  },
+  {
+    "id": "fly-pieter",
+    "status": "confirmed",
+    "light": "red",
+    "category": "juego de navegador",
+    "ai_role": "built_with_ai",
+    "evidence_level": 1,
+    "revenue_usd_annual": 1044000,
+    "revenue_basis": "self_reported",
+    "age_months": null,
+    "flags": [],
+    "score": 0.0,
+    "rank": 7
+  },
+  {
+    "id": "enrichlead",
+    "status": "unconfirmed",
+    "light": "red",
+    "category": "saas de generación de leads",
+    "ai_role": "built_with_ai",
+    "evidence_level": 1,
+    "revenue_usd_annual": null,
+    "revenue_basis": null,
+    "age_months": null,
+    "flags": [
+      "security_incident"
+    ],
+    "score": 0.0,
+    "rank": null
+  },
+  {
+    "id": "photo-ai",
+    "status": "unconfirmed",
+    "light": "yellow",
+    "category": "producto de imágenes con ia",
+    "ai_role": "ai_product",
+    "evidence_level": 1,
+    "revenue_usd_annual": 1584000,
+    "revenue_basis": "self_reported",
+    "age_months": 44,
+    "flags": [],
+    "score": 35.0,
+    "rank": null
+  },
+  {
+    "id": "cal-ai",
+    "status": "unconfirmed",
+    "light": "yellow",
+    "category": "app móvil de consumo",
+    "ai_role": "ai_product",
+    "evidence_level": 2,
+    "revenue_usd_annual": 30000000,
+    "revenue_basis": "acquirer",
+    "age_months": null,
+    "flags": [],
+    "score": 40.8,
+    "rank": null
+  },
+  {
+    "id": "medvi",
+    "status": "unconfirmed",
+    "light": "yellow",
+    "category": "telesalud con ia",
+    "ai_role": "ai_assisted",
+    "evidence_level": 2,
+    "revenue_usd_annual": 401000000,
+    "revenue_basis": "press_reported",
+    "age_months": null,
+    "flags": [
+      "regulatory_issue"
+    ],
+    "score": 25.0,
+    "rank": null
+  },
+  {
+    "id": "polsia",
+    "status": "unconfirmed",
+    "light": "red",
+    "category": "plataforma de agentes",
+    "ai_role": "ai_product",
+    "evidence_level": 1,
+    "revenue_usd_annual": 10000000,
+    "revenue_basis": "self_reported",
+    "age_months": null,
+    "flags": [],
+    "score": 0.0,
+    "rank": null
+  },
+  {
+    "id": "cluely",
+    "status": "unconfirmed",
+    "light": "red",
+    "category": "asistente de reuniones y entrevistas",
+    "ai_role": "ai_product",
+    "evidence_level": 2,
+    "revenue_usd_annual": 5200000,
+    "revenue_basis": "self_reported",
+    "age_months": null,
+    "flags": [
+      "claim_retracted"
+    ],
+    "score": 0.0,
+    "rank": null
+  },
+  {
+    "id": "project-vend",
+    "status": "unconfirmed",
+    "light": "yellow",
+    "category": "experimento de agentes",
+    "ai_role": "ai_product",
+    "evidence_level": 3,
+    "revenue_usd_annual": null,
+    "revenue_basis": null,
+    "age_months": null,
+    "flags": [],
+    "score": 30.0,
+    "rank": null
+  }
+]

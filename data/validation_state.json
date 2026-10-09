@@ -1,5 +1,5 @@
 {
-  "last_run_at": "2026-10-08",
+  "last_run_at": "2026-10-09",
   "sources": {
     "https://404media.co/this-game-created-by-ai-vibe-coding-makes-50-000-a-month-yours-probably-wont": {
       "status": "up"
@@ -8,6 +8,9 @@
       "status": "up"
     },
     "https://eu.36kr.com/en/p/3825813697565316": {
+      "status": "up"
+    },
+    "https://fliki.ai/masterclass/tutorials/text-to-video": {
       "status": "up"
     },
     "https://runtimewire.com/article/polsia-30m-raise-ben-cera-solo-ai-agents": {
@@ -43,7 +46,7 @@
       "anchors": {
         "863,632": true
       },
-      "hash": "98a42bb3775271eec33be89d9cc8dc4009355dcc488159470fe74dbf3cb7f7e4"
+      "hash": "bfaa31e7d7f8cdf73fb157608a20ba7d741cf62ef5682bdc83db620f4190ce25"
     },
     "https://wiz.io/blog/exposed-moltbook-database-reveals-millions-of-api-keys": {
       "status": "up"
@@ -52,7 +55,7 @@
       "status": "up"
     },
     "https://www.globenewswire.com/de/news-release/2026/08/04/3338018/0/en/Wix-Reports-Second-Quarter-2026-Results.html": {
-      "status": "up"
+      "status": "blocked"
     },
     "https://www.implicator.ai/medvi-got-an-fda-warning-before-the-times-called-it-a-1-8-billion-ai-story/": {
       "status": "up"

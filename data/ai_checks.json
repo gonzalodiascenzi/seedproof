@@ -211,5 +211,26 @@
       }
     ],
     "rejected_evidence": 1
+  },
+  "supermaven": {
+    "status": "confirmed",
+    "rev": 1,
+    "checked_at": "2026-10-09",
+    "model_verdict": "confirmed",
+    "domains": [
+      "brouseai.com",
+      "everydev.ai"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.everydev.ai/tools/supermaven",
+        "quote": "Supermaven is an AI coding copilot that helps developers write code 2x faster"
+      },
+      {
+        "url": "https://www.brouseai.com/ai/supermaven",
+        "quote": "Supermaven allows developers to write code up to 2x faster than traditional methods"
+      }
+    ],
+    "rejected_evidence": 1
   }
 }
