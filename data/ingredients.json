@@ -1,0 +1,119 @@
+{
+  "ingredients": [
+    {
+      "id": "chatbase",
+      "name": "Chatbase",
+      "category": "chatbots saas",
+      "ai_role": "ai_product",
+      "light": "green",
+      "evidence_level": 3,
+      "validation": "confirmed",
+      "revenue_usd_annual": 10363584,
+      "revenue_basis": "payments_dashboard",
+      "score": 100.0,
+      "missing": [],
+      "automation": {
+        "payment_auto": true,
+        "delivery_auto": true,
+        "whatsapp_sellable": true,
+        "operable_from_ar": true
+      },
+      "automation_sources": {
+        "payment_auto": "https://www.chatbase.co/pricing",
+        "delivery_auto": "https://www.chatbase.co/",
+        "whatsapp_sellable": "https://www.mercadopago.com.ar/developers/es/docs/subscription-plans/overview",
+        "operable_from_ar": [
+          "https://www.mercadopago.com.ar/developers/es/docs/subscription-plans/overview",
+          "https://stripe.com/global"
+        ]
+      },
+      "automation_notes": {
+        "payment_auto": "planes Hobby, Standard y Pro con botón de prueba de 7 días que lleva al panel; solo Enterprise pasa por formulario de ventas. la página no nombra el procesador de pagos propio",
+        "delivery_auto": "la página describe armar y publicar el agente desde el panel, sin código y con un clic; no menciona llamada de onboarding, pero tampoco la descarta",
+        "whatsapp_sellable": "juicio del curador: los planes de suscripción de mercado pago se comparten por enlace, así que sirven para vender por chat; no hay fuente que hable de whatsapp",
+        "operable_from_ar": "juicio del curador: mercado pago cobra suscripciones automáticas en argentina (en pesos); stripe no figura para argentina; el cobro en dólares no está verificado"
+      },
+      "fact_sources": [
+        "https://supabase.com/customers/chatbase",
+        "https://trustmrr.com/startup/chatbase"
+      ]
+    },
+    {
+      "id": "photo-ai",
+      "name": "Photo AI",
+      "category": "producto de imágenes con ia",
+      "ai_role": "ai_product",
+      "light": "yellow",
+      "evidence_level": 1,
+      "validation": "unconfirmed",
+      "revenue_usd_annual": 1584000,
+      "revenue_basis": "self_reported",
+      "score": 75.0,
+      "missing": [],
+      "automation": {
+        "payment_auto": true,
+        "delivery_auto": true,
+        "whatsapp_sellable": true,
+        "operable_from_ar": true
+      },
+      "automation_sources": {
+        "payment_auto": "https://photoai.com/pricing",
+        "delivery_auto": "https://photoai.com/pricing",
+        "whatsapp_sellable": "https://www.mercadopago.com.ar/developers/es/docs/subscription-plans/overview",
+        "operable_from_ar": [
+          "https://www.mercadopago.com.ar/developers/es/docs/subscription-plans/overview",
+          "https://stripe.com/global"
+        ]
+      },
+      "automation_notes": {
+        "payment_auto": "cuatro planes con botón de suscripción y preguntas sobre tarjeta al registrarse; la página no describe el checkout",
+        "delivery_auto": "la velocidad de procesamiento varía según el plan (cola automática) y no menciona revisión manual; no da tiempos",
+        "whatsapp_sellable": "juicio del curador: los planes de suscripción de mercado pago se comparten por enlace, así que sirven para vender por chat; no hay fuente que hable de whatsapp",
+        "operable_from_ar": "juicio del curador: mercado pago cobra suscripciones automáticas en argentina (en pesos); stripe no figura para argentina; el cobro en dólares no está verificado"
+      },
+      "fact_sources": [
+        "https://www.indiehackers.com/post/photo-ai-by-pieter-levels-complete-deep-dive-case-study-0-to-182k-mrr-in-18-months-3a9a2b1579"
+      ]
+    },
+    {
+      "id": "fliki",
+      "name": "Fliki",
+      "category": "Plataforma de video texto-a-video",
+      "ai_role": "ai_product",
+      "light": "yellow",
+      "evidence_level": 1,
+      "validation": "confirmed",
+      "revenue_usd_annual": null,
+      "revenue_basis": null,
+      "score": 50.0,
+      "missing": [
+        "antigüedad",
+        "ingresos"
+      ],
+      "automation": {
+        "payment_auto": true,
+        "delivery_auto": true,
+        "whatsapp_sellable": true,
+        "operable_from_ar": true
+      },
+      "automation_sources": {
+        "payment_auto": "https://fliki.ai/pricing",
+        "delivery_auto": "https://fliki.ai/",
+        "whatsapp_sellable": "https://www.mercadopago.com.ar/developers/es/docs/subscription-plans/overview",
+        "operable_from_ar": [
+          "https://www.mercadopago.com.ar/developers/es/docs/subscription-plans/overview",
+          "https://stripe.com/global"
+        ]
+      },
+      "automation_notes": {
+        "payment_auto": "los botones de plan llevan a la app con plan y ciclo preseleccionados; plan gratis sin tarjeta; solo Enterprise va por formulario. la página no nombra el procesador",
+        "delivery_auto": "la página describe pegar un guion y recibir un video listo para publicar dentro de la app; no describe cómo se descarga el archivo",
+        "whatsapp_sellable": "juicio del curador: los planes de suscripción de mercado pago se comparten por enlace, así que sirven para vender por chat; no hay fuente que hable de whatsapp",
+        "operable_from_ar": "juicio del curador: mercado pago cobra suscripciones automáticas en argentina (en pesos); stripe no figura para argentina; el cobro en dólares no está verificado"
+      },
+      "fact_sources": [
+        "https://fliki.ai/masterclass/tutorials/text-to-video"
+      ]
+    }
+  ]
+}

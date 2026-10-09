@@ -6,6 +6,8 @@ name: SeedProof — ciclo diario (validar fuentes, verificar IA, rankear)
 #   3. verify_ai.py         — segunda validación de "realmente es de IA"
 #                             (necesita ANTHROPIC_API_KEY, tope de casos por corrida)
 #   4. rank.py              — ranking: podio, repechaje y radar (sin IA)
+#   5. export_ingredients.py — data/ingredients.json para tableproof (casos con los
+#                             4 campos de automatización en true)
 # Cada paso termina con 0 (hubo cambios), 3 (nada para hacer) o 1 (falló).
 # Solo se commitea si algún paso tuvo cambios: nunca hay commit de relleno.
 
@@ -47,7 +49,7 @@ jobs:
           set +e
           changed=false
           failed=false
-          for step in validate_sources discover verify_ai rank; do
+          for step in validate_sources discover verify_ai rank export_ingredients; do
             python "scripts/${step}.py"
             code=$?
             if [ "$code" -eq 0 ]; then
