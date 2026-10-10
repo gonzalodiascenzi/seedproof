@@ -1,19 +1,19 @@
 {
-  "date": "2026-10-09",
+  "date": "2026-10-10",
   "order": [
-    "base44",
     "chatbase",
-    "lovable",
+    "base44",
     "fliki",
+    "lovable",
     "supermaven",
     "moltbook",
     "fly-pieter"
   ],
   "status": {
-    "base44": "confirmed",
     "chatbase": "confirmed",
-    "lovable": "confirmed",
+    "base44": "confirmed",
     "fliki": "confirmed",
+    "lovable": "confirmed",
     "supermaven": "confirmed",
     "moltbook": "confirmed",
     "fly-pieter": "confirmed",
@@ -23,13 +23,14 @@
     "medvi": "unconfirmed",
     "polsia": "unconfirmed",
     "cluely": "unconfirmed",
-    "project-vend": "unconfirmed"
+    "project-vend": "unconfirmed",
+    "glean": "unconfirmed"
   },
   "zones": {
-    "base44": "podio",
     "chatbase": "podio",
-    "lovable": "podio",
-    "fliki": "repechaje",
+    "base44": "podio",
+    "fliki": "podio",
+    "lovable": "repechaje",
     "supermaven": "repechaje",
     "moltbook": "repechaje",
     "fly-pieter": "repechaje"

@@ -1,10 +1,71 @@
 {
-  "generated_at": "2026-10-09 15:31 UTC",
-  "ranking_date": "2026-10-09",
+  "generated_at": "2026-10-10 14:38 UTC",
+  "ranking_date": "2026-10-10",
   "repo_url": "https://github.com/gonzalodiascenzi/seedproof",
   "podium_size": 3,
   "repechaje_size": 7,
   "ranked": [
+    {
+      "id": "chatbase",
+      "name": "Chatbase",
+      "light": "green",
+      "category": "chatbots saas",
+      "ai_role": "ai_product",
+      "evidence_level": 3,
+      "launched": "2023-02",
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": 10363584,
+        "revenue_basis": "payments_dashboard"
+      },
+      "flags": [
+        "stale_source"
+      ],
+      "status": "confirmed",
+      "rank": 1,
+      "zone": "podio",
+      "score": {
+        "total": 100.0,
+        "evidence": 30,
+        "traction": 26.0,
+        "age": 20,
+        "light": 10,
+        "flags": -5,
+        "automation": 40,
+        "age_months": 44,
+        "missing": []
+      },
+      "check": {
+        "checked_at": "2026-10-08",
+        "domains": [
+          "checkthat.ai",
+          "toolpilot.ai"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.toolpilot.ai/products/chatbase",
+            "quote": "Chatbase is an AI Chatbot Builder that speeds up the process of website chatbot creation"
+          },
+          {
+            "url": "https://checkthat.ai/brands/chatbase",
+            "quote": "Chatbase provides no-code AI chatbot software that enables businesses to automate customer support"
+          }
+        ]
+      },
+      "facts": [
+        {
+          "text": "La página de TrustMRR de Chatbase muestra 863.632 dólares de MRR y 12.424 suscripciones; la clave de Stripe figura vencida, por lo que la cifra puede no ser actual.",
+          "source_url": "https://trustmrr.com/startup/chatbase",
+          "label": "TrustMRR"
+        },
+        {
+          "text": "Supabase indica que Chatbase tiene más de 10 millones de dólares de ARR, que lanzó en febrero de 2023 con un MVP de unas 2 semanas y que hoy tiene 18 personas.",
+          "source_url": "https://supabase.com/customers/chatbase",
+          "label": "Supabase (caso de cliente)"
+        }
+      ],
+      "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/05-chatbase.md"
+    },
     {
       "id": "base44",
       "name": "Base44",
@@ -22,7 +83,7 @@
         "margin_near_zero"
       ],
       "status": "confirmed",
-      "rank": 1,
+      "rank": 2,
       "zone": "podio",
       "score": {
         "total": 84.0,
@@ -31,8 +92,11 @@
         "age": 14,
         "light": 10,
         "flags": -10,
+        "automation": 0,
         "age_months": 22,
-        "missing": []
+        "missing": [
+          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
+        ]
       },
       "check": {
         "checked_at": "2026-10-08",
@@ -71,126 +135,6 @@
       "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/06-base44.md"
     },
     {
-      "id": "chatbase",
-      "name": "Chatbase",
-      "light": "green",
-      "category": "chatbots saas",
-      "ai_role": "ai_product",
-      "evidence_level": 3,
-      "launched": "2023-02",
-      "ended": null,
-      "metrics": {
-        "revenue_usd_annual": 10363584,
-        "revenue_basis": "payments_dashboard"
-      },
-      "flags": [
-        "stale_source"
-      ],
-      "status": "confirmed",
-      "rank": 2,
-      "zone": "podio",
-      "score": {
-        "total": 81.0,
-        "evidence": 30,
-        "traction": 26.0,
-        "age": 20,
-        "light": 10,
-        "flags": -5,
-        "age_months": 44,
-        "missing": []
-      },
-      "check": {
-        "checked_at": "2026-10-08",
-        "domains": [
-          "checkthat.ai",
-          "toolpilot.ai"
-        ],
-        "evidence": [
-          {
-            "url": "https://www.toolpilot.ai/products/chatbase",
-            "quote": "Chatbase is an AI Chatbot Builder that speeds up the process of website chatbot creation"
-          },
-          {
-            "url": "https://checkthat.ai/brands/chatbase",
-            "quote": "Chatbase provides no-code AI chatbot software that enables businesses to automate customer support"
-          }
-        ]
-      },
-      "facts": [
-        {
-          "text": "La página de TrustMRR de Chatbase muestra 863.632 dólares de MRR y 12.424 suscripciones; la clave de Stripe figura vencida, por lo que la cifra puede no ser actual.",
-          "source_url": "https://trustmrr.com/startup/chatbase",
-          "label": "TrustMRR"
-        },
-        {
-          "text": "Supabase indica que Chatbase tiene más de 10 millones de dólares de ARR, que lanzó en febrero de 2023 con un MVP de unas 2 semanas y que hoy tiene 18 personas.",
-          "source_url": "https://supabase.com/customers/chatbase",
-          "label": "Supabase (caso de cliente)"
-        }
-      ],
-      "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/05-chatbase.md"
-    },
-    {
-      "id": "lovable",
-      "name": "Lovable",
-      "light": "yellow",
-      "category": "plataforma de vibe coding",
-      "ai_role": "ai_product",
-      "evidence_level": 2,
-      "launched": null,
-      "ended": null,
-      "metrics": {
-        "revenue_usd_annual": 400000000,
-        "revenue_basis": "self_reported"
-      },
-      "flags": [],
-      "status": "confirmed",
-      "rank": 3,
-      "zone": "podio",
-      "score": {
-        "total": 27.5,
-        "evidence": 20,
-        "traction": 7.5,
-        "age": 0,
-        "light": 0,
-        "flags": 0,
-        "age_months": null,
-        "missing": [
-          "antigüedad"
-        ]
-      },
-      "check": {
-        "checked_at": "2026-10-08",
-        "domains": [
-          "research.contrary.com",
-          "techjacksolutions.com"
-        ],
-        "evidence": [
-          {
-            "url": "https://research.contrary.com/company/lovable",
-            "quote": "Lovable is an AI platform that turns natural language prompts into working full-stack web applications."
-          },
-          {
-            "url": "https://techjacksolutions.com/ai-tools/lovable/what-is-lovable-ai/",
-            "quote": "Lovable AI is a full-stack app builder you control with natural language."
-          }
-        ]
-      },
-      "facts": [
-        {
-          "text": "Lovable declaró unos 400 millones de dólares de ARR en marzo de 2026, frente a 100 millones en junio de 2025; son cifras de la propia empresa.",
-          "source_url": "https://techcrunch.com/2026/03/23/vibe-coding-startup-lovable-is-on-the-hunt-for-acquisitions/",
-          "label": "TechCrunch"
-        },
-        {
-          "text": "Lovable dice tener casi 8 millones de usuarios y retención neta en dólares superior a 100%; Barclays reportó una caída de tráfico de 40% a septiembre.",
-          "source_url": "https://techcrunch.com/2025/11/10/lovable-says-its-nearing-8-million-users-as-the-year-old-ai-coding-startup-eyes-more-corporate-employees",
-          "label": "TechCrunch"
-        }
-      ],
-      "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/12-lovable.md"
-    },
-    {
       "id": "fliki",
       "name": "Fliki",
       "light": "yellow",
@@ -205,15 +149,16 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 4,
-      "zone": "repechaje",
+      "rank": 3,
+      "zone": "podio",
       "score": {
-        "total": 10.0,
+        "total": 50.0,
         "evidence": 10,
         "traction": 0.0,
         "age": 0,
         "light": 0,
         "flags": 0,
+        "automation": 40,
         "age_months": null,
         "missing": [
           "antigüedad",
@@ -252,6 +197,68 @@
       "ficha_url": null
     },
     {
+      "id": "lovable",
+      "name": "Lovable",
+      "light": "yellow",
+      "category": "plataforma de vibe coding",
+      "ai_role": "ai_product",
+      "evidence_level": 2,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": 400000000,
+        "revenue_basis": "self_reported"
+      },
+      "flags": [],
+      "status": "confirmed",
+      "rank": 4,
+      "zone": "repechaje",
+      "score": {
+        "total": 27.5,
+        "evidence": 20,
+        "traction": 7.5,
+        "age": 0,
+        "light": 0,
+        "flags": 0,
+        "automation": 0,
+        "age_months": null,
+        "missing": [
+          "antigüedad",
+          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
+        ]
+      },
+      "check": {
+        "checked_at": "2026-10-08",
+        "domains": [
+          "research.contrary.com",
+          "techjacksolutions.com"
+        ],
+        "evidence": [
+          {
+            "url": "https://research.contrary.com/company/lovable",
+            "quote": "Lovable is an AI platform that turns natural language prompts into working full-stack web applications."
+          },
+          {
+            "url": "https://techjacksolutions.com/ai-tools/lovable/what-is-lovable-ai/",
+            "quote": "Lovable AI is a full-stack app builder you control with natural language."
+          }
+        ]
+      },
+      "facts": [
+        {
+          "text": "Lovable declaró unos 400 millones de dólares de ARR en marzo de 2026, frente a 100 millones en junio de 2025; son cifras de la propia empresa.",
+          "source_url": "https://techcrunch.com/2026/03/23/vibe-coding-startup-lovable-is-on-the-hunt-for-acquisitions/",
+          "label": "TechCrunch"
+        },
+        {
+          "text": "Lovable dice tener casi 8 millones de usuarios y retención neta en dólares superior a 100%; Barclays reportó una caída de tráfico de 40% a septiembre.",
+          "source_url": "https://techcrunch.com/2025/11/10/lovable-says-its-nearing-8-million-users-as-the-year-old-ai-coding-startup-eyes-more-corporate-employees",
+          "label": "TechCrunch"
+        }
+      ],
+      "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/12-lovable.md"
+    },
+    {
       "id": "supermaven",
       "name": "Supermaven",
       "light": "yellow",
@@ -275,10 +282,12 @@
         "age": 0,
         "light": 0,
         "flags": 0,
+        "automation": 0,
         "age_months": null,
         "missing": [
           "antigüedad",
-          "ingresos"
+          "ingresos",
+          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
         ]
       },
       "check": {
@@ -334,10 +343,12 @@
         "age": 0,
         "light": -25,
         "flags": -25,
+        "automation": 0,
         "age_months": null,
         "missing": [
           "antigüedad",
-          "ingresos"
+          "ingresos",
+          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
         ]
       },
       "check": {
@@ -400,9 +411,11 @@
         "age": 0,
         "light": -25,
         "flags": 0,
+        "automation": 0,
         "age_months": null,
         "missing": [
-          "antigüedad"
+          "antigüedad",
+          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
         ]
       },
       "check": {
@@ -464,10 +477,12 @@
         "age": 0,
         "light": -25,
         "flags": -10,
+        "automation": 0,
         "age_months": null,
         "missing": [
           "antigüedad",
-          "ingresos"
+          "ingresos",
+          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
         ]
       },
       "check": {
@@ -507,12 +522,13 @@
       "rank": null,
       "zone": null,
       "score": {
-        "total": 35.0,
+        "total": 75.0,
         "evidence": 10,
         "traction": 5.0,
         "age": 20,
         "light": 0,
         "flags": 0,
+        "automation": 40,
         "age_months": 44,
         "missing": []
       },
@@ -566,9 +582,11 @@
         "age": 0,
         "light": 0,
         "flags": 0,
+        "automation": 0,
         "age_months": null,
         "missing": [
-          "antigüedad"
+          "antigüedad",
+          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
         ]
       },
       "check": {
@@ -611,9 +629,11 @@
         "age": 0,
         "light": 0,
         "flags": -10,
+        "automation": 0,
         "age_months": null,
         "missing": [
-          "antigüedad"
+          "antigüedad",
+          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
         ]
       },
       "check": {
@@ -659,9 +679,11 @@
         "age": 0,
         "light": -25,
         "flags": 0,
+        "automation": 0,
         "age_months": null,
         "missing": [
-          "antigüedad"
+          "antigüedad",
+          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
         ]
       },
       "check": {
@@ -709,9 +731,11 @@
         "age": 0,
         "light": -25,
         "flags": -20,
+        "automation": 0,
         "age_months": null,
         "missing": [
-          "antigüedad"
+          "antigüedad",
+          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
         ]
       },
       "check": {
@@ -752,10 +776,12 @@
         "age": 0,
         "light": 0,
         "flags": 0,
+        "automation": 0,
         "age_months": null,
         "missing": [
           "antigüedad",
-          "ingresos"
+          "ingresos",
+          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
         ]
       },
       "check": {
@@ -783,6 +809,59 @@
         }
       ],
       "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/11-project-vend.md"
+    },
+    {
+      "id": "glean",
+      "name": "Glean",
+      "light": "yellow",
+      "category": "Enterprise AI Search",
+      "ai_role": "ai_product",
+      "evidence_level": 1,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": null,
+        "revenue_basis": null
+      },
+      "flags": [],
+      "status": "unconfirmed",
+      "rank": null,
+      "zone": null,
+      "score": {
+        "total": 10.0,
+        "evidence": 10,
+        "traction": 0.0,
+        "age": 0,
+        "light": 0,
+        "flags": 0,
+        "automation": 0,
+        "age_months": null,
+        "missing": [
+          "antigüedad",
+          "ingresos",
+          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
+        ]
+      },
+      "check": {
+        "checked_at": "2026-10-10",
+        "domains": [
+          "backlinko.com"
+        ],
+        "evidence": [
+          {
+            "url": "https://backlinko.com/ai-startups",
+            "quote": "Glean offers an AI-powered enterprise search software that aims to boost workplace efficiency."
+          }
+        ]
+      },
+      "facts": [
+        {
+          "text": "Según backlinko.com: «Glean offers an AI-powered enterprise search software that aims to boost workplace efficiency.»",
+          "source_url": "https://backlinko.com/ai-startups",
+          "label": "backlinko.com"
+        }
+      ],
+      "ficha_url": null
     }
   ],
   "discarded": [],
@@ -926,12 +1005,29 @@
         "moltbook": 6,
         "fly-pieter": 7
       }
+    },
+    {
+      "date": "2026-10-10",
+      "podium": [
+        "chatbase",
+        "base44",
+        "fliki"
+      ],
+      "ranks": {
+        "chatbase": 1,
+        "base44": 2,
+        "fliki": 3,
+        "lovable": 4,
+        "supermaven": 5,
+        "moltbook": 6,
+        "fly-pieter": 7
+      }
     }
   ],
   "validation": {
-    "last_run_at": "2026-10-09",
-    "total": 21,
-    "up": 18,
+    "last_run_at": "2026-10-10",
+    "total": 22,
+    "up": 19,
     "down": 0,
     "blocked": 3
   }

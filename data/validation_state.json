@@ -1,5 +1,5 @@
 {
-  "last_run_at": "2026-10-09",
+  "last_run_at": "2026-10-10",
   "sources": {
     "https://404media.co/this-game-created-by-ai-vibe-coding-makes-50-000-a-month-yours-probably-wont": {
       "status": "up"
@@ -46,12 +46,15 @@
       "anchors": {
         "863,632": true
       },
-      "hash": "bfaa31e7d7f8cdf73fb157608a20ba7d741cf62ef5682bdc83db620f4190ce25"
+      "hash": "2e2d9b882d6d5b7ed511a2fb10478c45043979863308609878ce6d901e62e3f9"
     },
     "https://wiz.io/blog/exposed-moltbook-database-reveals-millions-of-api-keys": {
       "status": "up"
     },
     "https://www.anthropic.com/research/project-vend-1": {
+      "status": "up"
+    },
+    "https://www.everydev.ai/tools/supermaven": {
       "status": "up"
     },
     "https://www.globenewswire.com/de/news-release/2026/08/04/3338018/0/en/Wix-Reports-Second-Quarter-2026-Results.html": {

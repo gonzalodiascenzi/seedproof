@@ -232,5 +232,21 @@
       }
     ],
     "rejected_evidence": 1
+  },
+  "glean": {
+    "status": "unconfirmed",
+    "rev": 1,
+    "checked_at": "2026-10-10",
+    "model_verdict": "confirmed",
+    "domains": [
+      "backlinko.com"
+    ],
+    "evidence": [
+      {
+        "url": "https://backlinko.com/ai-startups",
+        "quote": "Glean offers an AI-powered enterprise search software that aims to boost workplace efficiency."
+      }
+    ],
+    "rejected_evidence": 2
   }
 }
