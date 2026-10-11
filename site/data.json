@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-10 14:38 UTC",
-  "ranking_date": "2026-10-10",
+  "generated_at": "2026-10-11 15:02 UTC",
+  "ranking_date": "2026-10-11",
   "repo_url": "https://github.com/gonzalodiascenzi/seedproof",
   "podium_size": 3,
   "repechaje_size": 7,
@@ -259,6 +259,69 @@
       "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/12-lovable.md"
     },
     {
+      "id": "superdesign",
+      "name": "Superdesign",
+      "light": "yellow",
+      "category": "Generador de UI con IA",
+      "ai_role": "ai_product",
+      "evidence_level": 1,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": null,
+        "revenue_basis": null
+      },
+      "flags": [],
+      "status": "confirmed",
+      "rank": 5,
+      "zone": "repechaje",
+      "score": {
+        "total": 10.0,
+        "evidence": 10,
+        "traction": 0.0,
+        "age": 0,
+        "light": 0,
+        "flags": 0,
+        "automation": 0,
+        "age_months": null,
+        "missing": [
+          "antigüedad",
+          "ingresos",
+          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
+        ]
+      },
+      "check": {
+        "checked_at": "2026-10-11",
+        "domains": [
+          "github.com",
+          "superdesign.dev",
+          "wellows.com"
+        ],
+        "evidence": [
+          {
+            "url": "https://wellows.com/blog/ai-startups/",
+            "quote": "Superdesign generates UI mockups, components, and wireframes from natural language prompts"
+          },
+          {
+            "url": "https://superdesign.dev/blog/ai-ui-generator-exports-code",
+            "quote": "Superdesign is an AI product design agent that generates UI mockups, components, and full designs"
+          },
+          {
+            "url": "https://github.com/superdesigndev/superdesign",
+            "quote": "Generate UI mockups, components, and wireframes directly from natural language prompts"
+          }
+        ]
+      },
+      "facts": [
+        {
+          "text": "Según wellows.com: «Superdesign generates UI mockups, components, and wireframes from natural language prompts»",
+          "source_url": "https://wellows.com/blog/ai-startups/",
+          "label": "wellows.com"
+        }
+      ],
+      "ficha_url": null
+    },
+    {
       "id": "supermaven",
       "name": "Supermaven",
       "light": "yellow",
@@ -273,7 +336,7 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 5,
+      "rank": 6,
       "zone": "repechaje",
       "score": {
         "total": 10.0,
@@ -334,7 +397,7 @@
         "claim_disputed"
       ],
       "status": "confirmed",
-      "rank": 6,
+      "rank": 7,
       "zone": "repechaje",
       "score": {
         "total": 0.0,
@@ -402,7 +465,7 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 7,
+      "rank": 8,
       "zone": "repechaje",
       "score": {
         "total": 0.0,
@@ -877,6 +940,15 @@
     },
     {
       "dimension": "categoría",
+      "group": "Generador de UI con IA",
+      "n": 1,
+      "green": 0,
+      "yellow": 1,
+      "red": 0,
+      "verdict": "sin muestra suficiente (mínimo 5)"
+    },
+    {
+      "dimension": "categoría",
       "group": "Plataforma de video texto-a-video",
       "n": 1,
       "green": 0,
@@ -923,9 +995,9 @@
     {
       "dimension": "rol de la IA",
       "group": "ai_product",
-      "n": 6,
+      "n": 7,
       "green": 2,
-      "yellow": 3,
+      "yellow": 4,
       "red": 1,
       "verdict": "mixto"
     },
@@ -1022,12 +1094,30 @@
         "moltbook": 6,
         "fly-pieter": 7
       }
+    },
+    {
+      "date": "2026-10-11",
+      "podium": [
+        "chatbase",
+        "base44",
+        "fliki"
+      ],
+      "ranks": {
+        "chatbase": 1,
+        "base44": 2,
+        "fliki": 3,
+        "lovable": 4,
+        "superdesign": 5,
+        "supermaven": 6,
+        "moltbook": 7,
+        "fly-pieter": 8
+      }
     }
   ],
   "validation": {
-    "last_run_at": "2026-10-10",
-    "total": 22,
-    "up": 19,
+    "last_run_at": "2026-10-11",
+    "total": 23,
+    "up": 20,
     "down": 0,
     "blocked": 3
   }

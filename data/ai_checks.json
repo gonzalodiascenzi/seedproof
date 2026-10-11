@@ -248,5 +248,31 @@
       }
     ],
     "rejected_evidence": 2
+  },
+  "superdesign": {
+    "status": "confirmed",
+    "rev": 1,
+    "checked_at": "2026-10-11",
+    "model_verdict": "confirmed",
+    "domains": [
+      "github.com",
+      "superdesign.dev",
+      "wellows.com"
+    ],
+    "evidence": [
+      {
+        "url": "https://wellows.com/blog/ai-startups/",
+        "quote": "Superdesign generates UI mockups, components, and wireframes from natural language prompts"
+      },
+      {
+        "url": "https://superdesign.dev/blog/ai-ui-generator-exports-code",
+        "quote": "Superdesign is an AI product design agent that generates UI mockups, components, and full designs"
+      },
+      {
+        "url": "https://github.com/superdesigndev/superdesign",
+        "quote": "Generate UI mockups, components, and wireframes directly from natural language prompts"
+      }
+    ],
+    "rejected_evidence": 0
   }
 }

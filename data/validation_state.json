@@ -1,7 +1,10 @@
 {
-  "last_run_at": "2026-10-10",
+  "last_run_at": "2026-10-11",
   "sources": {
     "https://404media.co/this-game-created-by-ai-vibe-coding-makes-50-000-a-month-yours-probably-wont": {
+      "status": "up"
+    },
+    "https://backlinko.com/ai-startups": {
       "status": "up"
     },
     "https://dev.to/promptway/he-built-a-flight-simulator-in-three-hours-and-hit-1m-a-year-in-17-days-then-it-went-to-zero-1b1l": {
@@ -46,7 +49,7 @@
       "anchors": {
         "863,632": true
       },
-      "hash": "2e2d9b882d6d5b7ed511a2fb10478c45043979863308609878ce6d901e62e3f9"
+      "hash": "896c94a1d7d3be26f006fafc69988bf1c6095777cb30c1b33b9f115690dba9d0"
     },
     "https://wiz.io/blog/exposed-moltbook-database-reveals-millions-of-api-keys": {
       "status": "up"
