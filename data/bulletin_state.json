@@ -1,4 +1,8 @@
 {
-  "last_run_at": null,
-  "covered": []
+  "last_run_at": "2026-10-12",
+  "covered": [
+    "enrichlead@1",
+    "moltbook@1",
+    "fly-pieter@1"
+  ]
 }
