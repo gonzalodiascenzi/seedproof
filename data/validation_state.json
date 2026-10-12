@@ -1,5 +1,5 @@
 {
-  "last_run_at": "2026-10-11",
+  "last_run_at": "2026-10-12",
   "sources": {
     "https://404media.co/this-game-created-by-ai-vibe-coding-makes-50-000-a-month-yours-probably-wont": {
       "status": "up"
@@ -21,7 +21,7 @@
     },
     "https://supabase.com/customers/chatbase": {
       "status": "up",
-      "hash": "f1ddd19c07e006ba1c9102c142f7760893c411f48a17420f71b65a305032df4d"
+      "hash": "c12927faea8b7dcff41f5b3ef11adb105bdb69af6a8e5e5b06f8ff94d4c5b0a9"
     },
     "https://techcrunch.com/2025/06/18/six-month-old-solo-owned-vibe-coder-base44-sells-to-wix-for-80m-cash": {
       "status": "up"
@@ -49,7 +49,10 @@
       "anchors": {
         "863,632": true
       },
-      "hash": "896c94a1d7d3be26f006fafc69988bf1c6095777cb30c1b33b9f115690dba9d0"
+      "hash": "1b7443fddc07263ee43838cac29ad96912bb58d5b0ecd5f8e64466e17b823045"
+    },
+    "https://wellows.com/blog/ai-startups/": {
+      "status": "up"
     },
     "https://wiz.io/blog/exposed-moltbook-database-reveals-millions-of-api-keys": {
       "status": "up"
