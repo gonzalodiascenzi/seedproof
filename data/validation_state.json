@@ -1,5 +1,5 @@
 {
-  "last_run_at": "2026-10-16",
+  "last_run_at": "2026-10-17",
   "sources": {
     "https://404media.co/this-game-created-by-ai-vibe-coding-makes-50-000-a-month-yours-probably-wont": {
       "status": "up"
@@ -14,7 +14,7 @@
       "status": "up"
     },
     "https://fliki.ai/masterclass/tutorials/text-to-video": {
-      "status": "down"
+      "status": "up"
     },
     "https://runtimewire.com/article/polsia-30m-raise-ben-cera-solo-ai-agents": {
       "status": "up"
@@ -49,7 +49,7 @@
       "anchors": {
         "863,632": true
       },
-      "hash": "931672fa9876d48775519148af4e2f3b9afc09ab9731fab4087f01f4e0018c7f"
+      "hash": "2e6803392a9d6f834f33df9cd90e6bc5deb4f91adcc7811703a7f543a5ed2025"
     },
     "https://wellows.com/blog/ai-startups/": {
       "status": "up"
