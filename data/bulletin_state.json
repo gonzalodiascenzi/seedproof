@@ -1,8 +1,11 @@
 {
-  "last_run_at": "2026-10-12",
+  "last_run_at": "2026-10-19",
   "covered": [
     "enrichlead@1",
     "moltbook@1",
-    "fly-pieter@1"
+    "fly-pieter@1",
+    "photo-ai@1",
+    "chatbase@1",
+    "base44@1"
   ]
 }
