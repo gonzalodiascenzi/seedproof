@@ -274,5 +274,47 @@
       }
     ],
     "rejected_evidence": 0
+  },
+  "suki": {
+    "status": "confirmed",
+    "rev": 1,
+    "checked_at": "2026-10-22",
+    "model_verdict": "confirmed",
+    "domains": [
+      "deepcura.com",
+      "suki.ai"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.deepcura.com/resources/suki-ai-review",
+        "quote": "Suki AI is an AI-powered voice assistant and ambient clinical intelligence platform for healthcare professionals."
+      },
+      {
+        "url": "https://www.suki.ai/press-releases/suki-launches-patient-summarization-and-clinical-qa-for-doctors-with-google-cloud/",
+        "quote": "Suki becomes the industry's first end-to-end clinical assistant by offering summaries"
+      }
+    ],
+    "rejected_evidence": 2
+  },
+  "cognition-ai": {
+    "status": "confirmed",
+    "rev": 1,
+    "checked_at": "2026-10-22",
+    "model_verdict": "confirmed",
+    "domains": [
+      "fast.io",
+      "omnius.so"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.omnius.so/blog/leading-us-ai-startups",
+        "quote": "Cognition AI develops Devin, an autonomous AI software engineer built to plan, write, debug"
+      },
+      {
+        "url": "https://fast.io/resources/what-is-devin-ai/",
+        "quote": "Devin AI, developed by Cognition, is an autonomous AI software engineer"
+      }
+    ],
+    "rejected_evidence": 1
   }
 }

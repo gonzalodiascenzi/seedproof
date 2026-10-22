@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-21 14:03 UTC",
-  "ranking_date": "2026-10-11",
+  "generated_at": "2026-10-22 14:02 UTC",
+  "ranking_date": "2026-10-22",
   "repo_url": "https://github.com/gonzalodiascenzi/seedproof",
   "podium_size": 3,
   "repechaje_size": 7,
@@ -259,6 +259,122 @@
       "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/12-lovable.md"
     },
     {
+      "id": "cognition-ai",
+      "name": "Cognition AI",
+      "light": "yellow",
+      "category": "Autonomous AI software engineer",
+      "ai_role": "ai_product",
+      "evidence_level": 1,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": null,
+        "revenue_basis": null
+      },
+      "flags": [],
+      "status": "confirmed",
+      "rank": 5,
+      "zone": "repechaje",
+      "score": {
+        "total": 10.0,
+        "evidence": 10,
+        "traction": 0.0,
+        "age": 0,
+        "light": 0,
+        "flags": 0,
+        "automation": 0,
+        "age_months": null,
+        "missing": [
+          "antigüedad",
+          "ingresos",
+          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
+        ]
+      },
+      "check": {
+        "checked_at": "2026-10-22",
+        "domains": [
+          "fast.io",
+          "omnius.so"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.omnius.so/blog/leading-us-ai-startups",
+            "quote": "Cognition AI develops Devin, an autonomous AI software engineer built to plan, write, debug"
+          },
+          {
+            "url": "https://fast.io/resources/what-is-devin-ai/",
+            "quote": "Devin AI, developed by Cognition, is an autonomous AI software engineer"
+          }
+        ]
+      },
+      "facts": [
+        {
+          "text": "Según omnius.so: «Cognition AI develops Devin, an autonomous AI software engineer built to plan, write, debug»",
+          "source_url": "https://www.omnius.so/blog/leading-us-ai-startups",
+          "label": "omnius.so"
+        }
+      ],
+      "ficha_url": null
+    },
+    {
+      "id": "suki",
+      "name": "Suki",
+      "light": "yellow",
+      "category": "Healthcare AI documentation and clinical assistance",
+      "ai_role": "ai_product",
+      "evidence_level": 1,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": null,
+        "revenue_basis": null
+      },
+      "flags": [],
+      "status": "confirmed",
+      "rank": 6,
+      "zone": "repechaje",
+      "score": {
+        "total": 10.0,
+        "evidence": 10,
+        "traction": 0.0,
+        "age": 0,
+        "light": 0,
+        "flags": 0,
+        "automation": 0,
+        "age_months": null,
+        "missing": [
+          "antigüedad",
+          "ingresos",
+          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
+        ]
+      },
+      "check": {
+        "checked_at": "2026-10-22",
+        "domains": [
+          "deepcura.com",
+          "suki.ai"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.deepcura.com/resources/suki-ai-review",
+            "quote": "Suki AI is an AI-powered voice assistant and ambient clinical intelligence platform for healthcare professionals."
+          },
+          {
+            "url": "https://www.suki.ai/press-releases/suki-launches-patient-summarization-and-clinical-qa-for-doctors-with-google-cloud/",
+            "quote": "Suki becomes the industry's first end-to-end clinical assistant by offering summaries"
+          }
+        ]
+      },
+      "facts": [
+        {
+          "text": "Según suki.ai: «Suki becomes the industry's first end-to-end clinical assistant by offering summaries»",
+          "source_url": "https://www.suki.ai/press-releases/suki-launches-patient-summarization-and-clinical-qa-for-doctors-with-google-cloud/",
+          "label": "suki.ai"
+        }
+      ],
+      "ficha_url": null
+    },
+    {
       "id": "superdesign",
       "name": "Superdesign",
       "light": "yellow",
@@ -273,7 +389,7 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 5,
+      "rank": 7,
       "zone": "repechaje",
       "score": {
         "total": 10.0,
@@ -336,7 +452,7 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 6,
+      "rank": 8,
       "zone": "repechaje",
       "score": {
         "total": 10.0,
@@ -397,7 +513,7 @@
         "claim_disputed"
       ],
       "status": "confirmed",
-      "rank": 7,
+      "rank": 9,
       "zone": "repechaje",
       "score": {
         "total": 0.0,
@@ -465,7 +581,7 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 8,
+      "rank": 10,
       "zone": "repechaje",
       "score": {
         "total": 0.0,
@@ -940,7 +1056,25 @@
     },
     {
       "dimension": "categoría",
+      "group": "Autonomous AI software engineer",
+      "n": 1,
+      "green": 0,
+      "yellow": 1,
+      "red": 0,
+      "verdict": "sin muestra suficiente (mínimo 5)"
+    },
+    {
+      "dimension": "categoría",
       "group": "Generador de UI con IA",
+      "n": 1,
+      "green": 0,
+      "yellow": 1,
+      "red": 0,
+      "verdict": "sin muestra suficiente (mínimo 5)"
+    },
+    {
+      "dimension": "categoría",
+      "group": "Healthcare AI documentation and clinical assistance",
       "n": 1,
       "green": 0,
       "yellow": 1,
@@ -995,9 +1129,9 @@
     {
       "dimension": "rol de la IA",
       "group": "ai_product",
-      "n": 7,
+      "n": 9,
       "green": 2,
-      "yellow": 4,
+      "yellow": 6,
       "red": 1,
       "verdict": "mixto"
     },
@@ -1112,10 +1246,30 @@
         "moltbook": 7,
         "fly-pieter": 8
       }
+    },
+    {
+      "date": "2026-10-22",
+      "podium": [
+        "chatbase",
+        "base44",
+        "fliki"
+      ],
+      "ranks": {
+        "chatbase": 1,
+        "base44": 2,
+        "fliki": 3,
+        "lovable": 4,
+        "cognition-ai": 5,
+        "suki": 6,
+        "superdesign": 7,
+        "supermaven": 8,
+        "moltbook": 9,
+        "fly-pieter": 10
+      }
     }
   ],
   "validation": {
-    "last_run_at": "2026-10-21",
+    "last_run_at": "2026-10-22",
     "total": 24,
     "up": 21,
     "down": 0,

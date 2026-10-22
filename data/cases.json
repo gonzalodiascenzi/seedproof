@@ -548,5 +548,57 @@
       "revenue_basis": null
     },
     "flags": []
+  },
+  {
+    "id": "suki",
+    "rev": 1,
+    "origin": "discovered",
+    "name": "Suki",
+    "light": "🟡",
+    "facts": [
+      {
+        "text": "Según suki.ai: «Suki becomes the industry's first end-to-end clinical assistant by offering summaries»",
+        "source_url": "https://www.suki.ai/press-releases/suki-launches-patient-summarization-and-clinical-qa-for-doctors-with-google-cloud/",
+        "label": "suki.ai",
+        "anchors": []
+      }
+    ],
+    "live": false,
+    "category": "Healthcare AI documentation and clinical assistance",
+    "ai_role": "ai_product",
+    "evidence_level": 1,
+    "launched": null,
+    "ended": null,
+    "metrics": {
+      "revenue_usd_annual": null,
+      "revenue_basis": null
+    },
+    "flags": []
+  },
+  {
+    "id": "cognition-ai",
+    "rev": 1,
+    "origin": "discovered",
+    "name": "Cognition AI",
+    "light": "🟡",
+    "facts": [
+      {
+        "text": "Según omnius.so: «Cognition AI develops Devin, an autonomous AI software engineer built to plan, write, debug»",
+        "source_url": "https://www.omnius.so/blog/leading-us-ai-startups",
+        "label": "omnius.so",
+        "anchors": []
+      }
+    ],
+    "live": false,
+    "category": "Autonomous AI software engineer",
+    "ai_role": "ai_product",
+    "evidence_level": 1,
+    "launched": null,
+    "ended": null,
+    "metrics": {
+      "revenue_usd_annual": null,
+      "revenue_basis": null
+    },
+    "flags": []
   }
 ]
