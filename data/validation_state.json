@@ -1,5 +1,5 @@
 {
-  "last_run_at": "2026-10-22",
+  "last_run_at": "2026-10-23",
   "sources": {
     "https://404media.co/this-game-created-by-ai-vibe-coding-makes-50-000-a-month-yours-probably-wont": {
       "status": "up"
@@ -21,7 +21,7 @@
     },
     "https://supabase.com/customers/chatbase": {
       "status": "up",
-      "hash": "829e1a283bebe8c96935f669da98204aa1f8460cb24fce8a86bf3c083b202948"
+      "hash": "76005121ef10cf9bdcbcf4a14b73cf06983a3b28ac491658d959058932e40ca8"
     },
     "https://techcrunch.com/2025/06/18/six-month-old-solo-owned-vibe-coder-base44-sells-to-wix-for-80m-cash": {
       "status": "up"
@@ -49,7 +49,7 @@
       "anchors": {
         "863,632": true
       },
-      "hash": "06f87bba5080c45385a39cf91840301a52f62521e728caab3ab3b27d0dc6adfb"
+      "hash": "062e481373ce3d9bf50a744fb0815f5afc6ad2893d8c4feee8778abf64947799"
     },
     "https://wellows.com/blog/ai-startups/": {
       "status": "up"
@@ -74,6 +74,12 @@
     },
     "https://www.indiehackers.com/post/tech/vibe-coding-has-a-security-problem-vLxyPTrTlZVwDo76oqvr": {
       "status": "blocked"
+    },
+    "https://www.omnius.so/blog/leading-us-ai-startups": {
+      "status": "up"
+    },
+    "https://www.suki.ai/press-releases/suki-launches-patient-summarization-and-clinical-qa-for-doctors-with-google-cloud/": {
+      "status": "up"
     },
     "https://www.techdirt.com/company/medvi/": {
       "status": "up"
