@@ -1,5 +1,5 @@
 {
-  "last_run_at": "2026-10-23",
+  "last_run_at": "2026-10-24",
   "sources": {
     "https://404media.co/this-game-created-by-ai-vibe-coding-makes-50-000-a-month-yours-probably-wont": {
       "status": "up"
@@ -21,7 +21,7 @@
     },
     "https://supabase.com/customers/chatbase": {
       "status": "up",
-      "hash": "76005121ef10cf9bdcbcf4a14b73cf06983a3b28ac491658d959058932e40ca8"
+      "hash": "9a883c8fee3b2ec871c3cd8cb7e43bb7ee49b06fd6baca6de6892085251c13ed"
     },
     "https://techcrunch.com/2025/06/18/six-month-old-solo-owned-vibe-coder-base44-sells-to-wix-for-80m-cash": {
       "status": "up"
@@ -49,7 +49,7 @@
       "anchors": {
         "863,632": true
       },
-      "hash": "062e481373ce3d9bf50a744fb0815f5afc6ad2893d8c4feee8778abf64947799"
+      "hash": "67c73dbcc75208f8634a06c3f9f59e40a15c219aa80f6e4b834d80dfb6595d7e"
     },
     "https://wellows.com/blog/ai-startups/": {
       "status": "up"
