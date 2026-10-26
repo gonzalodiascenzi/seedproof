@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-25 08:43 UTC",
-  "ranking_date": "2026-10-22",
+  "generated_at": "2026-10-26 08:54 UTC",
+  "ranking_date": "2026-10-26",
   "repo_url": "https://github.com/gonzalodiascenzi/seedproof",
   "podium_size": 3,
   "repechaje_size": 7,
@@ -1041,6 +1041,59 @@
         }
       ],
       "ficha_url": null
+    },
+    {
+      "id": "suno",
+      "name": "Suno",
+      "light": "yellow",
+      "category": "Generación de música con IA",
+      "ai_role": "ai_product",
+      "evidence_level": 1,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": null,
+        "revenue_basis": null
+      },
+      "flags": [],
+      "status": "unconfirmed",
+      "rank": null,
+      "zone": null,
+      "score": {
+        "total": 10.0,
+        "evidence": 10,
+        "traction": 0.0,
+        "age": 0,
+        "light": 0,
+        "flags": 0,
+        "automation": 0,
+        "age_months": null,
+        "missing": [
+          "antigüedad",
+          "ingresos",
+          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
+        ]
+      },
+      "check": {
+        "checked_at": "2026-10-26",
+        "domains": [
+          "en.wikipedia.org"
+        ],
+        "evidence": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Suno_(platform)",
+            "quote": "Suno is a generative artificial intelligence music creation platform."
+          }
+        ]
+      },
+      "facts": [
+        {
+          "text": "Según suno.com: «Suno is a music company building the world's first creative entertainment platform»",
+          "source_url": "https://suno.com/about",
+          "label": "suno.com"
+        }
+      ],
+      "ficha_url": null
     }
   ],
   "discarded": [],
@@ -1266,13 +1319,33 @@
         "moltbook": 9,
         "fly-pieter": 10
       }
+    },
+    {
+      "date": "2026-10-26",
+      "podium": [
+        "chatbase",
+        "base44",
+        "fliki"
+      ],
+      "ranks": {
+        "chatbase": 1,
+        "base44": 2,
+        "fliki": 3,
+        "lovable": 4,
+        "cognition-ai": 5,
+        "suki": 6,
+        "superdesign": 7,
+        "supermaven": 8,
+        "moltbook": 9,
+        "fly-pieter": 10
+      }
     }
   ],
   "validation": {
-    "last_run_at": "2026-10-25",
+    "last_run_at": "2026-10-26",
     "total": 26,
-    "up": 23,
-    "down": 0,
+    "up": 22,
+    "down": 1,
     "blocked": 3
   }
 }

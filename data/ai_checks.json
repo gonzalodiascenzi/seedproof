@@ -316,5 +316,21 @@
       }
     ],
     "rejected_evidence": 1
+  },
+  "suno": {
+    "status": "unconfirmed",
+    "rev": 1,
+    "checked_at": "2026-10-26",
+    "model_verdict": "confirmed",
+    "domains": [
+      "en.wikipedia.org"
+    ],
+    "evidence": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Suno_(platform)",
+        "quote": "Suno is a generative artificial intelligence music creation platform."
+      }
+    ],
+    "rejected_evidence": 3
   }
 }

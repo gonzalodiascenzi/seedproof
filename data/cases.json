@@ -600,5 +600,31 @@
       "revenue_basis": null
     },
     "flags": []
+  },
+  {
+    "id": "suno",
+    "rev": 1,
+    "origin": "discovered",
+    "name": "Suno",
+    "light": "🟡",
+    "facts": [
+      {
+        "text": "Según suno.com: «Suno is a music company building the world's first creative entertainment platform»",
+        "source_url": "https://suno.com/about",
+        "label": "suno.com",
+        "anchors": []
+      }
+    ],
+    "live": false,
+    "category": "Generación de música con IA",
+    "ai_role": "ai_product",
+    "evidence_level": 1,
+    "launched": null,
+    "ended": null,
+    "metrics": {
+      "revenue_usd_annual": null,
+      "revenue_basis": null
+    },
+    "flags": []
   }
 ]

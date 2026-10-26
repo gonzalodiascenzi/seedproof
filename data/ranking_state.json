@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-26",
   "order": [
     "chatbase",
     "base44",
@@ -30,7 +30,8 @@
     "polsia": "unconfirmed",
     "cluely": "unconfirmed",
     "project-vend": "unconfirmed",
-    "glean": "unconfirmed"
+    "glean": "unconfirmed",
+    "suno": "unconfirmed"
   },
   "zones": {
     "chatbase": "podio",
