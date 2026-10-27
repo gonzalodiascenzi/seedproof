@@ -626,5 +626,31 @@
       "revenue_basis": null
     },
     "flags": []
+  },
+  {
+    "id": "mistral",
+    "rev": 1,
+    "origin": "discovered",
+    "name": "Mistral",
+    "light": "🟡",
+    "facts": [
+      {
+        "text": "Según elearningindustry.com: «It is building open, efficient AI models and tools.»",
+        "source_url": "https://elearningindustry.com/advertise/elearning-marketing-resources/blog/hottest-ai-startups-the-companies-defining-the-next-wave-of-ai",
+        "label": "elearningindustry.com",
+        "anchors": []
+      }
+    ],
+    "live": false,
+    "category": "Modelos de IA de código abierto",
+    "ai_role": "ai_product",
+    "evidence_level": 1,
+    "launched": null,
+    "ended": null,
+    "metrics": {
+      "revenue_usd_annual": null,
+      "revenue_basis": null
+    },
+    "flags": []
   }
 ]
