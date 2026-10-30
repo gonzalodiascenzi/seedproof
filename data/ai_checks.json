@@ -348,5 +348,21 @@
       }
     ],
     "rejected_evidence": 2
+  },
+  "synthesia": {
+    "status": "unconfirmed",
+    "rev": 1,
+    "checked_at": "2026-10-30",
+    "model_verdict": "confirmed",
+    "domains": [
+      "startus-insights.com"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.startus-insights.com/innovators-guide/hottest-ai-startups/",
+        "quote": "UK-based startup Synthesia offers an AI-powered video generation platform."
+      }
+    ],
+    "rejected_evidence": 2
   }
 }

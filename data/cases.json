@@ -652,5 +652,31 @@
       "revenue_basis": null
     },
     "flags": []
+  },
+  {
+    "id": "synthesia",
+    "rev": 1,
+    "origin": "discovered",
+    "name": "Synthesia",
+    "light": "🟡",
+    "facts": [
+      {
+        "text": "Según startus-insights.com: «UK-based startup Synthesia offers an AI-powered video generation platform.»",
+        "source_url": "https://www.startus-insights.com/innovators-guide/hottest-ai-startups/",
+        "label": "startus-insights.com",
+        "anchors": []
+      }
+    ],
+    "live": false,
+    "category": "Generación de video con avatares IA",
+    "ai_role": "ai_product",
+    "evidence_level": 1,
+    "launched": null,
+    "ended": null,
+    "metrics": {
+      "revenue_usd_annual": null,
+      "revenue_basis": null
+    },
+    "flags": []
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-30",
   "order": [
     "chatbase",
     "base44",
@@ -32,7 +32,8 @@
     "project-vend": "unconfirmed",
     "glean": "unconfirmed",
     "suno": "unconfirmed",
-    "mistral": "unconfirmed"
+    "mistral": "unconfirmed",
+    "synthesia": "unconfirmed"
   },
   "zones": {
     "chatbase": "podio",

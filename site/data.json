@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29 08:38 UTC",
-  "ranking_date": "2026-10-27",
+  "generated_at": "2026-10-30 08:38 UTC",
+  "ranking_date": "2026-10-30",
   "repo_url": "https://github.com/gonzalodiascenzi/seedproof",
   "podium_size": 3,
   "repechaje_size": 7,
@@ -1147,6 +1147,59 @@
         }
       ],
       "ficha_url": null
+    },
+    {
+      "id": "synthesia",
+      "name": "Synthesia",
+      "light": "yellow",
+      "category": "Generación de video con avatares IA",
+      "ai_role": "ai_product",
+      "evidence_level": 1,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": null,
+        "revenue_basis": null
+      },
+      "flags": [],
+      "status": "unconfirmed",
+      "rank": null,
+      "zone": null,
+      "score": {
+        "total": 10.0,
+        "evidence": 10,
+        "traction": 0.0,
+        "age": 0,
+        "light": 0,
+        "flags": 0,
+        "automation": 0,
+        "age_months": null,
+        "missing": [
+          "antigüedad",
+          "ingresos",
+          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
+        ]
+      },
+      "check": {
+        "checked_at": "2026-10-30",
+        "domains": [
+          "startus-insights.com"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.startus-insights.com/innovators-guide/hottest-ai-startups/",
+            "quote": "UK-based startup Synthesia offers an AI-powered video generation platform."
+          }
+        ]
+      },
+      "facts": [
+        {
+          "text": "Según startus-insights.com: «UK-based startup Synthesia offers an AI-powered video generation platform.»",
+          "source_url": "https://www.startus-insights.com/innovators-guide/hottest-ai-startups/",
+          "label": "startus-insights.com"
+        }
+      ],
+      "ficha_url": null
     }
   ],
   "discarded": [],
@@ -1412,13 +1465,33 @@
         "moltbook": 9,
         "fly-pieter": 10
       }
+    },
+    {
+      "date": "2026-10-30",
+      "podium": [
+        "chatbase",
+        "base44",
+        "fliki"
+      ],
+      "ranks": {
+        "chatbase": 1,
+        "base44": 2,
+        "fliki": 3,
+        "lovable": 4,
+        "cognition-ai": 5,
+        "suki": 6,
+        "superdesign": 7,
+        "supermaven": 8,
+        "moltbook": 9,
+        "fly-pieter": 10
+      }
     }
   ],
   "validation": {
-    "last_run_at": "2026-10-29",
+    "last_run_at": "2026-10-30",
     "total": 28,
-    "up": 24,
+    "up": 23,
     "down": 1,
-    "blocked": 3
+    "blocked": 4
   }
 }
