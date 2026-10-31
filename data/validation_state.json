@@ -1,5 +1,5 @@
 {
-  "last_run_at": "2026-10-30",
+  "last_run_at": "2026-10-31",
   "sources": {
     "https://404media.co/this-game-created-by-ai-vibe-coding-makes-50-000-a-month-yours-probably-wont": {
       "status": "up"
@@ -84,11 +84,14 @@
     "https://www.omnius.so/blog/leading-us-ai-startups": {
       "status": "up"
     },
+    "https://www.startus-insights.com/innovators-guide/hottest-ai-startups/": {
+      "status": "up"
+    },
     "https://www.suki.ai/press-releases/suki-launches-patient-summarization-and-clinical-qa-for-doctors-with-google-cloud/": {
       "status": "up"
     },
     "https://www.techdirt.com/company/medvi/": {
-      "status": "blocked"
+      "status": "up"
     }
   }
 }
