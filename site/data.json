@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-31 08:36 UTC",
-  "ranking_date": "2026-10-30",
+  "generated_at": "2026-11-02 08:36 UTC",
+  "ranking_date": "2026-11-02",
   "repo_url": "https://github.com/gonzalodiascenzi/seedproof",
   "podium_size": 3,
   "repechaje_size": 7,
@@ -32,7 +32,7 @@
         "light": 10,
         "flags": -5,
         "automation": 40,
-        "age_months": 44,
+        "age_months": 45,
         "missing": []
       },
       "check": {
@@ -93,7 +93,7 @@
         "light": 10,
         "flags": -10,
         "automation": 0,
-        "age_months": 22,
+        "age_months": 23,
         "missing": [
           "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
         ]
@@ -317,6 +317,64 @@
       "ficha_url": null
     },
     {
+      "id": "decagon",
+      "name": "Decagon",
+      "light": "yellow",
+      "category": "Agentes IA para servicio al cliente",
+      "ai_role": "ai_product",
+      "evidence_level": 1,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": null,
+        "revenue_basis": null
+      },
+      "flags": [],
+      "status": "confirmed",
+      "rank": 6,
+      "zone": "repechaje",
+      "score": {
+        "total": 10.0,
+        "evidence": 10,
+        "traction": 0.0,
+        "age": 0,
+        "light": 0,
+        "flags": 0,
+        "automation": 0,
+        "age_months": null,
+        "missing": [
+          "antigüedad",
+          "ingresos",
+          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
+        ]
+      },
+      "check": {
+        "checked_at": "2026-11-02",
+        "domains": [
+          "sitegpt.ai",
+          "zenml.io"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.zenml.io/llmops-database/building-a-production-ai-agent-system-for-customer-support",
+            "quote": "Decagon is a Series B startup building AI agents specifically for customer support"
+          },
+          {
+            "url": "https://sitegpt.ai/resources/decagon-review",
+            "quote": "Decagon is a conversational AI platform that builds and runs AI agents for customer service"
+          }
+        ]
+      },
+      "facts": [
+        {
+          "text": "Según decagon.ai: «Build, optimize, and scale AI agents that treat every customer like the only one.»",
+          "source_url": "https://decagon.ai/",
+          "label": "decagon.ai"
+        }
+      ],
+      "ficha_url": null
+    },
+    {
       "id": "suki",
       "name": "Suki",
       "light": "yellow",
@@ -331,7 +389,7 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 6,
+      "rank": 7,
       "zone": "repechaje",
       "score": {
         "total": 10.0,
@@ -389,7 +447,7 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 7,
+      "rank": 8,
       "zone": "repechaje",
       "score": {
         "total": 10.0,
@@ -452,7 +510,7 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 8,
+      "rank": 9,
       "zone": "repechaje",
       "score": {
         "total": 10.0,
@@ -513,7 +571,7 @@
         "claim_disputed"
       ],
       "status": "confirmed",
-      "rank": 9,
+      "rank": 10,
       "zone": "repechaje",
       "score": {
         "total": 0.0,
@@ -581,8 +639,8 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 10,
-      "zone": "repechaje",
+      "rank": 11,
+      "zone": "banca",
       "score": {
         "total": 0.0,
         "evidence": 10,
@@ -708,7 +766,7 @@
         "light": 0,
         "flags": 0,
         "automation": 40,
-        "age_months": 44,
+        "age_months": 45,
         "missing": []
       },
       "check": {
@@ -1206,6 +1264,15 @@
   "radar": [
     {
       "dimension": "categoría",
+      "group": "Agentes IA para servicio al cliente",
+      "n": 1,
+      "green": 0,
+      "yellow": 1,
+      "red": 0,
+      "verdict": "sin muestra suficiente (mínimo 5)"
+    },
+    {
+      "dimension": "categoría",
       "group": "Asistente IA para completado de código",
       "n": 1,
       "green": 0,
@@ -1288,9 +1355,9 @@
     {
       "dimension": "rol de la IA",
       "group": "ai_product",
-      "n": 9,
+      "n": 10,
       "green": 2,
-      "yellow": 6,
+      "yellow": 7,
       "red": 1,
       "verdict": "mixto"
     },
@@ -1484,6 +1551,27 @@
         "supermaven": 8,
         "moltbook": 9,
         "fly-pieter": 10
+      }
+    },
+    {
+      "date": "2026-11-02",
+      "podium": [
+        "chatbase",
+        "base44",
+        "fliki"
+      ],
+      "ranks": {
+        "chatbase": 1,
+        "base44": 2,
+        "fliki": 3,
+        "lovable": 4,
+        "cognition-ai": 5,
+        "decagon": 6,
+        "suki": 7,
+        "superdesign": 8,
+        "supermaven": 9,
+        "moltbook": 10,
+        "fly-pieter": 11
       }
     }
   ],

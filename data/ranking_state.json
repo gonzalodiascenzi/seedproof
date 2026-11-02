@@ -1,11 +1,12 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-11-02",
   "order": [
     "chatbase",
     "base44",
     "fliki",
     "lovable",
     "cognition-ai",
+    "decagon",
     "suki",
     "superdesign",
     "supermaven",
@@ -18,6 +19,7 @@
     "fliki": "confirmed",
     "lovable": "confirmed",
     "cognition-ai": "confirmed",
+    "decagon": "confirmed",
     "suki": "confirmed",
     "superdesign": "confirmed",
     "supermaven": "confirmed",
@@ -41,10 +43,11 @@
     "fliki": "podio",
     "lovable": "repechaje",
     "cognition-ai": "repechaje",
+    "decagon": "repechaje",
     "suki": "repechaje",
     "superdesign": "repechaje",
     "supermaven": "repechaje",
     "moltbook": "repechaje",
-    "fly-pieter": "repechaje"
+    "fly-pieter": "banca"
   }
 }

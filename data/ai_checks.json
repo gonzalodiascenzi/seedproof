@@ -364,5 +364,26 @@
       }
     ],
     "rejected_evidence": 2
+  },
+  "decagon": {
+    "status": "confirmed",
+    "rev": 1,
+    "checked_at": "2026-11-02",
+    "model_verdict": "confirmed",
+    "domains": [
+      "sitegpt.ai",
+      "zenml.io"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.zenml.io/llmops-database/building-a-production-ai-agent-system-for-customer-support",
+        "quote": "Decagon is a Series B startup building AI agents specifically for customer support"
+      },
+      {
+        "url": "https://sitegpt.ai/resources/decagon-review",
+        "quote": "Decagon is a conversational AI platform that builds and runs AI agents for customer service"
+      }
+    ],
+    "rejected_evidence": 2
   }
 }

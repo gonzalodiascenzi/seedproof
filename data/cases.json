@@ -678,5 +678,31 @@
       "revenue_basis": null
     },
     "flags": []
+  },
+  {
+    "id": "decagon",
+    "rev": 1,
+    "origin": "discovered",
+    "name": "Decagon",
+    "light": "🟡",
+    "facts": [
+      {
+        "text": "Según decagon.ai: «Build, optimize, and scale AI agents that treat every customer like the only one.»",
+        "source_url": "https://decagon.ai/",
+        "label": "decagon.ai",
+        "anchors": []
+      }
+    ],
+    "live": false,
+    "category": "Agentes IA para servicio al cliente",
+    "ai_role": "ai_product",
+    "evidence_level": 1,
+    "launched": null,
+    "ended": null,
+    "metrics": {
+      "revenue_usd_annual": null,
+      "revenue_basis": null
+    },
+    "flags": []
   }
 ]
