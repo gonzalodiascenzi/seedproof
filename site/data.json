@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-03 08:36 UTC",
-  "ranking_date": "2026-11-02",
+  "generated_at": "2026-11-04 08:36 UTC",
+  "ranking_date": "2026-11-04",
   "repo_url": "https://github.com/gonzalodiascenzi/seedproof",
   "podium_size": 3,
   "repechaje_size": 7,
@@ -1258,6 +1258,59 @@
         }
       ],
       "ficha_url": null
+    },
+    {
+      "id": "adept-ai",
+      "name": "Adept AI",
+      "light": "yellow",
+      "category": "IA para automatización de tareas",
+      "ai_role": "ai_product",
+      "evidence_level": 1,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": null,
+        "revenue_basis": null
+      },
+      "flags": [],
+      "status": "unconfirmed",
+      "rank": null,
+      "zone": null,
+      "score": {
+        "total": 10.0,
+        "evidence": 10,
+        "traction": 0.0,
+        "age": 0,
+        "light": 0,
+        "flags": 0,
+        "automation": 0,
+        "age_months": null,
+        "missing": [
+          "antigüedad",
+          "ingresos",
+          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
+        ]
+      },
+      "check": {
+        "checked_at": "2026-11-04",
+        "domains": [
+          "choppingblock.ai"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.choppingblock.ai/companies/adept-ai",
+            "quote": "Adept's ACT-1 technology actually learns to navigate software interfaces, click buttons, and complete complex tasks."
+          }
+        ]
+      },
+      "facts": [
+        {
+          "text": "Según diamondmind.ai: «Adept is pioneering AI that executes tasks across digital tools.»",
+          "source_url": "https://www.diamondmind.ai/post/top-ai-startups-of-2025-and-what-they-teach-us-about-building-with-ai",
+          "label": "diamondmind.ai"
+        }
+      ],
+      "ficha_url": null
     }
   ],
   "discarded": [],
@@ -1573,10 +1626,31 @@
         "moltbook": 10,
         "fly-pieter": 11
       }
+    },
+    {
+      "date": "2026-11-04",
+      "podium": [
+        "chatbase",
+        "base44",
+        "fliki"
+      ],
+      "ranks": {
+        "chatbase": 1,
+        "base44": 2,
+        "fliki": 3,
+        "lovable": 4,
+        "cognition-ai": 5,
+        "decagon": 6,
+        "suki": 7,
+        "superdesign": 8,
+        "supermaven": 9,
+        "moltbook": 10,
+        "fly-pieter": 11
+      }
     }
   ],
   "validation": {
-    "last_run_at": "2026-11-03",
+    "last_run_at": "2026-11-04",
     "total": 30,
     "up": 26,
     "down": 1,

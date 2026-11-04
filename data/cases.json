@@ -704,5 +704,31 @@
       "revenue_basis": null
     },
     "flags": []
+  },
+  {
+    "id": "adept-ai",
+    "rev": 1,
+    "origin": "discovered",
+    "name": "Adept AI",
+    "light": "🟡",
+    "facts": [
+      {
+        "text": "Según diamondmind.ai: «Adept is pioneering AI that executes tasks across digital tools.»",
+        "source_url": "https://www.diamondmind.ai/post/top-ai-startups-of-2025-and-what-they-teach-us-about-building-with-ai",
+        "label": "diamondmind.ai",
+        "anchors": []
+      }
+    ],
+    "live": false,
+    "category": "IA para automatización de tareas",
+    "ai_role": "ai_product",
+    "evidence_level": 1,
+    "launched": null,
+    "ended": null,
+    "metrics": {
+      "revenue_usd_annual": null,
+      "revenue_basis": null
+    },
+    "flags": []
   }
 ]

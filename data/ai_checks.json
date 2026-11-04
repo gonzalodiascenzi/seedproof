@@ -385,5 +385,21 @@
       }
     ],
     "rejected_evidence": 2
+  },
+  "adept-ai": {
+    "status": "unconfirmed",
+    "rev": 1,
+    "checked_at": "2026-11-04",
+    "model_verdict": "confirmed",
+    "domains": [
+      "choppingblock.ai"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.choppingblock.ai/companies/adept-ai",
+        "quote": "Adept's ACT-1 technology actually learns to navigate software interfaces, click buttons, and complete complex tasks."
+      }
+    ],
+    "rejected_evidence": 3
   }
 }
