@@ -1,5 +1,5 @@
 {
-  "last_run_at": "2026-11-04",
+  "last_run_at": "2026-11-05",
   "sources": {
     "https://404media.co/this-game-created-by-ai-vibe-coding-makes-50-000-a-month-yours-probably-wont": {
       "status": "up"
@@ -30,7 +30,7 @@
     },
     "https://supabase.com/customers/chatbase": {
       "status": "up",
-      "hash": "44c0ccc7264d7c420e2b050e21c4af32556dd5bfb7487068d7679cb2794e217e"
+      "hash": "9602b86ccc177a5f0c335dd0d5ff9d47031b6196bedfcf1a5264746520068795"
     },
     "https://techcrunch.com/2025/06/18/six-month-old-solo-owned-vibe-coder-base44-sells-to-wix-for-80m-cash": {
       "status": "up"
@@ -69,8 +69,11 @@
     "https://www.anthropic.com/research/project-vend-1": {
       "status": "up"
     },
-    "https://www.everydev.ai/tools/supermaven": {
+    "https://www.diamondmind.ai/post/top-ai-startups-of-2025-and-what-they-teach-us-about-building-with-ai": {
       "status": "up"
+    },
+    "https://www.everydev.ai/tools/supermaven": {
+      "status": "blocked"
     },
     "https://www.globenewswire.com/de/news-release/2026/08/04/3338018/0/en/Wix-Reports-Second-Quarter-2026-Results.html": {
       "status": "blocked"
