@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-06",
   "order": [
     "chatbase",
     "base44",
@@ -36,7 +36,8 @@
     "suno": "unconfirmed",
     "mistral": "unconfirmed",
     "synthesia": "unconfirmed",
-    "adept-ai": "unconfirmed"
+    "adept-ai": "unconfirmed",
+    "rosebud-ai": "unconfirmed"
   },
   "zones": {
     "chatbase": "podio",

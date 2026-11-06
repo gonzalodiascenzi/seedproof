@@ -730,5 +730,31 @@
       "revenue_basis": null
     },
     "flags": []
+  },
+  {
+    "id": "rosebud-ai",
+    "rev": 1,
+    "origin": "discovered",
+    "name": "Rosebud AI",
+    "light": "🟡",
+    "facts": [
+      {
+        "text": "Según rosebud.ai: «Rosebud AI Game Maker helps people turn ideas into playable games.»",
+        "source_url": "https://rosebud.ai/company",
+        "label": "rosebud.ai",
+        "anchors": []
+      }
+    ],
+    "live": false,
+    "category": "Creación de juegos 2D/3D con IA",
+    "ai_role": "ai_product",
+    "evidence_level": 1,
+    "launched": null,
+    "ended": null,
+    "metrics": {
+      "revenue_usd_annual": null,
+      "revenue_basis": null
+    },
+    "flags": []
   }
 ]
