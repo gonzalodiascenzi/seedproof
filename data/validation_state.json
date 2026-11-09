@@ -1,5 +1,5 @@
 {
-  "last_run_at": "2026-11-06",
+  "last_run_at": "2026-11-09",
   "sources": {
     "https://404media.co/this-game-created-by-ai-vibe-coding-makes-50-000-a-month-yours-probably-wont": {
       "status": "up"
@@ -22,6 +22,9 @@
     "https://fliki.ai/masterclass/tutorials/text-to-video": {
       "status": "up"
     },
+    "https://rosebud.ai/company": {
+      "status": "up"
+    },
     "https://runtimewire.com/article/polsia-30m-raise-ben-cera-solo-ai-agents": {
       "status": "up"
     },
@@ -30,7 +33,7 @@
     },
     "https://supabase.com/customers/chatbase": {
       "status": "up",
-      "hash": "271e556f29fcc02933ca9e06d231f47bbb239b94fb212fa90843944505571f08"
+      "hash": "29872280e772e7ef0feafd4a19008327676361e8dcc3c5c4d6aa35354a99c29a"
     },
     "https://techcrunch.com/2025/06/18/six-month-old-solo-owned-vibe-coder-base44-sells-to-wix-for-80m-cash": {
       "status": "up"
