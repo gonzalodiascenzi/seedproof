@@ -7,7 +7,7 @@
       "ai_role": "ai_product",
       "light": "green",
       "evidence_level": 3,
-      "validation": "confirmed",
+      "validation": "unconfirmed",
       "revenue_usd_annual": 10363584,
       "revenue_basis": "payments_dashboard",
       "score": 100.0,

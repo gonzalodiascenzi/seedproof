@@ -2,121 +2,82 @@
   "enrichlead": {
     "status": "unconfirmed",
     "rev": 1,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-10",
+    "model_verdict": "confirmed",
+    "domains": [
+      "industrycontents.com"
+    ],
+    "evidence": [
+      {
+        "url": "https://industrycontents.com/vibe-coding-hangover-ai-apps-production/",
+        "quote": "Non-technical founder Leonel Acevedo built a working SaaS product, Enrichlead, entirely through Cursor prompts."
+      }
+    ],
+    "rejected_evidence": 1
+  },
+  "moltbook": {
+    "status": "unconfirmed",
+    "rev": 1,
+    "checked_at": "2026-11-10",
+    "model_verdict": "confirmed",
+    "domains": [],
+    "evidence": [],
+    "rejected_evidence": 3
+  },
+  "fly-pieter": {
+    "status": "unconfirmed",
+    "rev": 1,
+    "checked_at": "2026-11-10",
     "model_verdict": "confirmed",
     "domains": [],
     "evidence": [],
     "rejected_evidence": 4
   },
-  "moltbook": {
-    "status": "confirmed",
-    "rev": 1,
-    "checked_at": "2026-10-08",
-    "model_verdict": "confirmed",
-    "domains": [
-      "arxiv.org",
-      "nbcnews.com"
-    ],
-    "evidence": [
-      {
-        "url": "https://arxiv.org/html/2602.10127v1",
-        "quote": "Moltbook is a Reddit-like social platform designed specifically for AI agents"
-      },
-      {
-        "url": "https://www.nbcnews.com/tech/tech-news/ai-agents-social-media-platform-moltbook-rcna256738",
-        "quote": "Moltbook allows AI agents to interact with other AI agents in a public forum"
-      }
-    ],
-    "rejected_evidence": 3
-  },
-  "fly-pieter": {
-    "status": "confirmed",
-    "rev": 1,
-    "checked_at": "2026-10-08",
-    "model_verdict": "confirmed",
-    "domains": [
-      "404media.co",
-      "aiapps.com"
-    ],
-    "evidence": [
-      {
-        "url": "https://www.404media.co/this-game-created-by-ai-vibe-coding-makes-50-000-a-month-yours-probably-wont/",
-        "quote": "fly.pieter.com was initially made in just 30 minutes with AI tools"
-      },
-      {
-        "url": "https://www.aiapps.com/items/fly-pieter/",
-        "quote": "built by Pieter Levels in three hours using AI tools like Cursor and xAI's Grok"
-      }
-    ],
-    "rejected_evidence": 2
-  },
   "photo-ai": {
     "status": "unconfirmed",
     "rev": 1,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-10",
     "model_verdict": "confirmed",
     "domains": [
-      "aituts.com"
+      "vibecoderhq.com"
     ],
     "evidence": [
       {
-        "url": "https://aituts.com/case-study/photo-ai-pieter-levels/",
-        "quote": "fine-tuned Stable Diffusion on people's selfies, wrapped it in a plain PHP site"
-      }
-    ],
-    "rejected_evidence": 2
-  },
-  "chatbase": {
-    "status": "confirmed",
-    "rev": 1,
-    "checked_at": "2026-10-08",
-    "model_verdict": "confirmed",
-    "domains": [
-      "checkthat.ai",
-      "toolpilot.ai"
-    ],
-    "evidence": [
-      {
-        "url": "https://www.toolpilot.ai/products/chatbase",
-        "quote": "Chatbase is an AI Chatbot Builder that speeds up the process of website chatbot creation"
-      },
-      {
-        "url": "https://checkthat.ai/brands/chatbase",
-        "quote": "Chatbase provides no-code AI chatbot software that enables businesses to automate customer support"
-      }
-    ],
-    "rejected_evidence": 2
-  },
-  "base44": {
-    "status": "confirmed",
-    "rev": 1,
-    "checked_at": "2026-10-08",
-    "model_verdict": "confirmed",
-    "domains": [
-      "certifiedcode.us",
-      "finance.yahoo.com",
-      "wix.com"
-    ],
-    "evidence": [
-      {
-        "url": "https://www.wix.com/press-room/home/post/wix-further-expands-into-vibe-coding-with-acquisition-of-base44-a-hyper-growth-startup-that-simplif",
-        "quote": "Base44 delivers effortless, code-free digital creation through an intuitive, conversational AI experience"
-      },
-      {
-        "url": "https://finance.yahoo.com/news/wix-acquires-base44-boost-ai-130000539.html",
-        "quote": "Base44's core innovation lies in its fully automated, chat-based development environment"
-      },
-      {
-        "url": "https://www.certifiedcode.us/resources/article/what-is-base44-app-builder-and-how-does-it-work-with-wix",
-        "quote": "Base44 uses a conversational, chat-based interface where you describe your app requirements in plain English"
+        "url": "https://vibecoderhq.com/success-stories/pieter-levels-photo-ai",
+        "quote": "Photo AI lets you train an AI model of yourself and generate studio-quality photos"
       }
     ],
     "rejected_evidence": 1
   },
+  "chatbase": {
+    "status": "unconfirmed",
+    "rev": 1,
+    "checked_at": "2026-11-10",
+    "model_verdict": "confirmed",
+    "domains": [
+      "castmagic.io"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.castmagic.io/software-reviews/chatbase",
+        "quote": "Chatbase is a platform for building AI agents that handle customer support and sales."
+      }
+    ],
+    "rejected_evidence": 3
+  },
+  "base44": {
+    "status": "unconfirmed",
+    "rev": 1,
+    "checked_at": "2026-11-10",
+    "model_verdict": "confirmed",
+    "domains": [],
+    "evidence": [],
+    "rejected_evidence": 4
+  },
   "cal-ai": {
     "status": "unconfirmed",
     "rev": 1,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-10",
     "model_verdict": "confirmed",
     "domains": [],
     "evidence": [],
@@ -125,45 +86,52 @@
   "medvi": {
     "status": "unconfirmed",
     "rev": 1,
-    "checked_at": "2026-10-08",
-    "model_verdict": "confirmed",
-    "domains": [],
-    "evidence": [],
-    "rejected_evidence": 3
-  },
-  "polsia": {
-    "status": "unconfirmed",
-    "rev": 1,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-10",
     "model_verdict": "confirmed",
     "domains": [],
     "evidence": [],
     "rejected_evidence": 4
   },
+  "polsia": {
+    "status": "unconfirmed",
+    "rev": 1,
+    "checked_at": "2026-11-10",
+    "model_verdict": "confirmed",
+    "domains": [
+      "nanocorp.so"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.nanocorp.so/blog/what-is-polsia",
+        "quote": "Its product is a set of AI agents that operate a business on your behalf"
+      }
+    ],
+    "rejected_evidence": 3
+  },
   "cluely": {
     "status": "unconfirmed",
     "rev": 1,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-10",
     "model_verdict": "confirmed",
     "domains": [],
     "evidence": [],
-    "rejected_evidence": 3
+    "rejected_evidence": 2
   },
   "project-vend": {
     "status": "unconfirmed",
     "rev": 1,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-10",
     "model_verdict": "confirmed",
     "domains": [
-      "the-decoder.com"
+      "gigazine.net"
     ],
     "evidence": [
       {
-        "url": "https://the-decoder.com/anthropics-ai-store-makes-money-while-debating-eternal-transcendence/",
-        "quote": "From October on, the system generated consistent weekly profits without dipping back into the red."
+        "url": "https://gigazine.net/gsc_news/en/20250630-anthropic-claudius-project-vend/",
+        "quote": "Claude Sonnet 3.7 ran an office vending machine for about a month"
       }
     ],
-    "rejected_evidence": 2
+    "rejected_evidence": 3
   },
   "lovable": {
     "status": "confirmed",
@@ -409,6 +377,22 @@
     "model_verdict": "confirmed",
     "domains": [],
     "evidence": [],
+    "rejected_evidence": 3
+  },
+  "reflection-ai": {
+    "status": "unconfirmed",
+    "rev": 1,
+    "checked_at": "2026-11-10",
+    "model_verdict": "confirmed",
+    "domains": [
+      "techcrunch.com"
+    ],
+    "evidence": [
+      {
+        "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+        "quote": "Reflection AI is officially unveiling Beam, its first frontier, open-weight AI model."
+      }
+    ],
     "rejected_evidence": 3
   }
 }

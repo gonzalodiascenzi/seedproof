@@ -1,139 +1,10 @@
 {
-  "generated_at": "2026-11-09 08:37 UTC",
-  "ranking_date": "2026-11-06",
+  "generated_at": "2026-11-10 00:04 UTC",
+  "ranking_date": "2026-11-10",
   "repo_url": "https://github.com/gonzalodiascenzi/seedproof",
   "podium_size": 3,
   "repechaje_size": 7,
   "ranked": [
-    {
-      "id": "chatbase",
-      "name": "Chatbase",
-      "light": "green",
-      "category": "chatbots saas",
-      "ai_role": "ai_product",
-      "evidence_level": 3,
-      "launched": "2023-02",
-      "ended": null,
-      "metrics": {
-        "revenue_usd_annual": 10363584,
-        "revenue_basis": "payments_dashboard"
-      },
-      "flags": [
-        "stale_source"
-      ],
-      "status": "confirmed",
-      "rank": 1,
-      "zone": "podio",
-      "score": {
-        "total": 100.0,
-        "evidence": 30,
-        "traction": 26.0,
-        "age": 20,
-        "light": 10,
-        "flags": -5,
-        "automation": 40,
-        "age_months": 45,
-        "missing": []
-      },
-      "check": {
-        "checked_at": "2026-10-08",
-        "domains": [
-          "checkthat.ai",
-          "toolpilot.ai"
-        ],
-        "evidence": [
-          {
-            "url": "https://www.toolpilot.ai/products/chatbase",
-            "quote": "Chatbase is an AI Chatbot Builder that speeds up the process of website chatbot creation"
-          },
-          {
-            "url": "https://checkthat.ai/brands/chatbase",
-            "quote": "Chatbase provides no-code AI chatbot software that enables businesses to automate customer support"
-          }
-        ]
-      },
-      "facts": [
-        {
-          "text": "La página de TrustMRR de Chatbase muestra 863.632 dólares de MRR y 12.424 suscripciones; la clave de Stripe figura vencida, por lo que la cifra puede no ser actual.",
-          "source_url": "https://trustmrr.com/startup/chatbase",
-          "label": "TrustMRR"
-        },
-        {
-          "text": "Supabase indica que Chatbase tiene más de 10 millones de dólares de ARR, que lanzó en febrero de 2023 con un MVP de unas 2 semanas y que hoy tiene 18 personas.",
-          "source_url": "https://supabase.com/customers/chatbase",
-          "label": "Supabase (caso de cliente)"
-        }
-      ],
-      "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/05-chatbase.md"
-    },
-    {
-      "id": "base44",
-      "name": "Base44",
-      "light": "green",
-      "category": "plataforma de vibe coding",
-      "ai_role": "ai_product",
-      "evidence_level": 4,
-      "launched": "2024-12",
-      "ended": null,
-      "metrics": {
-        "revenue_usd_annual": 150000000,
-        "revenue_basis": "filing"
-      },
-      "flags": [
-        "margin_near_zero"
-      ],
-      "status": "confirmed",
-      "rank": 2,
-      "zone": "podio",
-      "score": {
-        "total": 84.0,
-        "evidence": 40,
-        "traction": 30.0,
-        "age": 14,
-        "light": 10,
-        "flags": -10,
-        "automation": 0,
-        "age_months": 23,
-        "missing": [
-          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
-        ]
-      },
-      "check": {
-        "checked_at": "2026-10-08",
-        "domains": [
-          "certifiedcode.us",
-          "finance.yahoo.com",
-          "wix.com"
-        ],
-        "evidence": [
-          {
-            "url": "https://www.wix.com/press-room/home/post/wix-further-expands-into-vibe-coding-with-acquisition-of-base44-a-hyper-growth-startup-that-simplif",
-            "quote": "Base44 delivers effortless, code-free digital creation through an intuitive, conversational AI experience"
-          },
-          {
-            "url": "https://finance.yahoo.com/news/wix-acquires-base44-boost-ai-130000539.html",
-            "quote": "Base44's core innovation lies in its fully automated, chat-based development environment"
-          },
-          {
-            "url": "https://www.certifiedcode.us/resources/article/what-is-base44-app-builder-and-how-does-it-work-with-wix",
-            "quote": "Base44 uses a conversational, chat-based interface where you describe your app requirements in plain English"
-          }
-        ]
-      },
-      "facts": [
-        {
-          "text": "Wix compró Base44 por 80 millones de dólares en efectivo, de los cuales 25 millones son un bono de retención para 8 empleados; la empresa llevaba unos 6 meses.",
-          "source_url": "https://techcrunch.com/2025/06/18/six-month-old-solo-owned-vibe-coder-base44-sells-to-wix-for-80m-cash",
-          "label": "TechCrunch"
-        },
-        {
-          "text": "El comunicado de Wix del segundo trimestre de 2026 indica que el margen bruto no-GAAP de Base44 estaba cerca de cero al entrar a 2026, con un objetivo de 60% para el segundo semestre.",
-          "source_url": "https://www.globenewswire.com/de/news-release/2026/08/04/3338018/0/en/Wix-Reports-Second-Quarter-2026-Results.html",
-          "label": "Wix (comunicado)"
-        }
-      ],
-      "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/06-base44.md"
-    },
     {
       "id": "fliki",
       "name": "Fliki",
@@ -149,7 +20,7 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 3,
+      "rank": 1,
       "zone": "podio",
       "score": {
         "total": 50.0,
@@ -211,8 +82,8 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 4,
-      "zone": "repechaje",
+      "rank": 2,
+      "zone": "podio",
       "score": {
         "total": 27.5,
         "evidence": 20,
@@ -273,8 +144,8 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 5,
-      "zone": "repechaje",
+      "rank": 3,
+      "zone": "podio",
       "score": {
         "total": 10.0,
         "evidence": 10,
@@ -331,7 +202,7 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 6,
+      "rank": 4,
       "zone": "repechaje",
       "score": {
         "total": 10.0,
@@ -389,7 +260,7 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 7,
+      "rank": 5,
       "zone": "repechaje",
       "score": {
         "total": 10.0,
@@ -447,7 +318,7 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 8,
+      "rank": 6,
       "zone": "repechaje",
       "score": {
         "total": 10.0,
@@ -510,7 +381,7 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 9,
+      "rank": 7,
       "zone": "repechaje",
       "score": {
         "total": 10.0,
@@ -552,139 +423,6 @@
         }
       ],
       "ficha_url": null
-    },
-    {
-      "id": "moltbook",
-      "name": "Moltbook",
-      "light": "red",
-      "category": "red social de agentes",
-      "ai_role": "ai_product",
-      "evidence_level": 2,
-      "launched": null,
-      "ended": null,
-      "metrics": {
-        "revenue_usd_annual": null,
-        "revenue_basis": null
-      },
-      "flags": [
-        "security_incident",
-        "claim_disputed"
-      ],
-      "status": "confirmed",
-      "rank": 10,
-      "zone": "repechaje",
-      "score": {
-        "total": 0.0,
-        "evidence": 20,
-        "traction": 0.0,
-        "age": 0,
-        "light": -25,
-        "flags": -25,
-        "automation": 0,
-        "age_months": null,
-        "missing": [
-          "antigüedad",
-          "ingresos",
-          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
-        ]
-      },
-      "check": {
-        "checked_at": "2026-10-08",
-        "domains": [
-          "arxiv.org",
-          "nbcnews.com"
-        ],
-        "evidence": [
-          {
-            "url": "https://arxiv.org/html/2602.10127v1",
-            "quote": "Moltbook is a Reddit-like social platform designed specifically for AI agents"
-          },
-          {
-            "url": "https://www.nbcnews.com/tech/tech-news/ai-agents-social-media-platform-moltbook-rcna256738",
-            "quote": "Moltbook allows AI agents to interact with other AI agents in a public forum"
-          }
-        ]
-      },
-      "facts": [
-        {
-          "text": "Wiz informó el 2 de febrero de 2026 que detrás de los 1,5 millones de agentes declarados de Moltbook había unos 17.000 dueños humanos.",
-          "source_url": "https://wiz.io/blog/exposed-moltbook-database-reveals-millions-of-api-keys",
-          "label": "Wiz"
-        },
-        {
-          "text": "La misma investigación encontró expuestos unos 1,5 millones de tokens de API, 35.000 correos y 4.060 conversaciones privadas, por una base de datos Supabase sin seguridad a nivel de fila.",
-          "source_url": "https://wiz.io/blog/exposed-moltbook-database-reveals-millions-of-api-keys",
-          "label": "Wiz"
-        },
-        {
-          "text": "Meta adquirió Moltbook el 10 de marzo de 2026, con términos no revelados.",
-          "source_url": "https://thenextweb.com/news/meta-acquires-moltbook-ai-agent-social-network",
-          "label": "The Next Web"
-        }
-      ],
-      "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/02-moltbook.md"
-    },
-    {
-      "id": "fly-pieter",
-      "name": "fly.pieter.com",
-      "light": "red",
-      "category": "juego de navegador",
-      "ai_role": "built_with_ai",
-      "evidence_level": 1,
-      "launched": null,
-      "ended": null,
-      "metrics": {
-        "revenue_usd_annual": 1044000,
-        "revenue_basis": "self_reported"
-      },
-      "flags": [],
-      "status": "confirmed",
-      "rank": 11,
-      "zone": "banca",
-      "score": {
-        "total": 0.0,
-        "evidence": 10,
-        "traction": 5.0,
-        "age": 0,
-        "light": -25,
-        "flags": 0,
-        "automation": 0,
-        "age_months": null,
-        "missing": [
-          "antigüedad",
-          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
-        ]
-      },
-      "check": {
-        "checked_at": "2026-10-08",
-        "domains": [
-          "404media.co",
-          "aiapps.com"
-        ],
-        "evidence": [
-          {
-            "url": "https://www.404media.co/this-game-created-by-ai-vibe-coding-makes-50-000-a-month-yours-probably-wont/",
-            "quote": "fly.pieter.com was initially made in just 30 minutes with AI tools"
-          },
-          {
-            "url": "https://www.aiapps.com/items/fly-pieter/",
-            "quote": "built by Pieter Levels in three hours using AI tools like Cursor and xAI's Grok"
-          }
-        ]
-      },
-      "facts": [
-        {
-          "text": "Un artículo de dev.to dice que el juego de navegador de Pieter Levels se construyó en unas 3 horas y que al día 17 llegó a 87.000 dólares de MRR, equivalentes a 1 millón de dólares anualizado; la fuente de la cifra es el propio creador.",
-          "source_url": "https://dev.to/promptway/he-built-a-flight-simulator-in-three-hours-and-hit-1m-a-year-in-17-days-then-it-went-to-zero-1b1l",
-          "label": "dev.to"
-        },
-        {
-          "text": "404 Media reportó 50.000 dólares al mes como dicho del creador.",
-          "source_url": "https://404media.co/this-game-created-by-ai-vibe-coding-makes-50-000-a-month-yours-probably-wont",
-          "label": "404 Media"
-        }
-      ],
-      "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/03-fly-pieter.md"
     }
   ],
   "unverified": [
@@ -723,9 +461,16 @@
         ]
       },
       "check": {
-        "checked_at": "2026-10-08",
-        "domains": [],
-        "evidence": []
+        "checked_at": "2026-11-10",
+        "domains": [
+          "industrycontents.com"
+        ],
+        "evidence": [
+          {
+            "url": "https://industrycontents.com/vibe-coding-hangover-ai-apps-production/",
+            "quote": "Non-technical founder Leonel Acevedo built a working SaaS product, Enrichlead, entirely through Cursor prompts."
+          }
+        ]
       },
       "facts": [
         {
@@ -740,6 +485,115 @@
         }
       ],
       "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/01-enrichlead.md"
+    },
+    {
+      "id": "moltbook",
+      "name": "Moltbook",
+      "light": "red",
+      "category": "red social de agentes",
+      "ai_role": "ai_product",
+      "evidence_level": 2,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": null,
+        "revenue_basis": null
+      },
+      "flags": [
+        "security_incident",
+        "claim_disputed"
+      ],
+      "status": "unconfirmed",
+      "rank": null,
+      "zone": null,
+      "score": {
+        "total": 0.0,
+        "evidence": 20,
+        "traction": 0.0,
+        "age": 0,
+        "light": -25,
+        "flags": -25,
+        "automation": 0,
+        "age_months": null,
+        "missing": [
+          "antigüedad",
+          "ingresos",
+          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
+        ]
+      },
+      "check": {
+        "checked_at": "2026-11-10",
+        "domains": [],
+        "evidence": []
+      },
+      "facts": [
+        {
+          "text": "Wiz informó el 2 de febrero de 2026 que detrás de los 1,5 millones de agentes declarados de Moltbook había unos 17.000 dueños humanos.",
+          "source_url": "https://wiz.io/blog/exposed-moltbook-database-reveals-millions-of-api-keys",
+          "label": "Wiz"
+        },
+        {
+          "text": "La misma investigación encontró expuestos unos 1,5 millones de tokens de API, 35.000 correos y 4.060 conversaciones privadas, por una base de datos Supabase sin seguridad a nivel de fila.",
+          "source_url": "https://wiz.io/blog/exposed-moltbook-database-reveals-millions-of-api-keys",
+          "label": "Wiz"
+        },
+        {
+          "text": "Meta adquirió Moltbook el 10 de marzo de 2026, con términos no revelados.",
+          "source_url": "https://thenextweb.com/news/meta-acquires-moltbook-ai-agent-social-network",
+          "label": "The Next Web"
+        }
+      ],
+      "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/02-moltbook.md"
+    },
+    {
+      "id": "fly-pieter",
+      "name": "fly.pieter.com",
+      "light": "red",
+      "category": "juego de navegador",
+      "ai_role": "built_with_ai",
+      "evidence_level": 1,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": 1044000,
+        "revenue_basis": "self_reported"
+      },
+      "flags": [],
+      "status": "unconfirmed",
+      "rank": null,
+      "zone": null,
+      "score": {
+        "total": 0.0,
+        "evidence": 10,
+        "traction": 5.0,
+        "age": 0,
+        "light": -25,
+        "flags": 0,
+        "automation": 0,
+        "age_months": null,
+        "missing": [
+          "antigüedad",
+          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
+        ]
+      },
+      "check": {
+        "checked_at": "2026-11-10",
+        "domains": [],
+        "evidence": []
+      },
+      "facts": [
+        {
+          "text": "Un artículo de dev.to dice que el juego de navegador de Pieter Levels se construyó en unas 3 horas y que al día 17 llegó a 87.000 dólares de MRR, equivalentes a 1 millón de dólares anualizado; la fuente de la cifra es el propio creador.",
+          "source_url": "https://dev.to/promptway/he-built-a-flight-simulator-in-three-hours-and-hit-1m-a-year-in-17-days-then-it-went-to-zero-1b1l",
+          "label": "dev.to"
+        },
+        {
+          "text": "404 Media reportó 50.000 dólares al mes como dicho del creador.",
+          "source_url": "https://404media.co/this-game-created-by-ai-vibe-coding-makes-50-000-a-month-yours-probably-wont",
+          "label": "404 Media"
+        }
+      ],
+      "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/03-fly-pieter.md"
     },
     {
       "id": "photo-ai",
@@ -770,14 +624,14 @@
         "missing": []
       },
       "check": {
-        "checked_at": "2026-10-08",
+        "checked_at": "2026-11-10",
         "domains": [
-          "aituts.com"
+          "vibecoderhq.com"
         ],
         "evidence": [
           {
-            "url": "https://aituts.com/case-study/photo-ai-pieter-levels/",
-            "quote": "fine-tuned Stable Diffusion on people's selfies, wrapped it in a plain PHP site"
+            "url": "https://vibecoderhq.com/success-stories/pieter-levels-photo-ai",
+            "quote": "Photo AI lets you train an AI model of yourself and generate studio-quality photos"
           }
         ]
       },
@@ -794,6 +648,113 @@
         }
       ],
       "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/04-photo-ai.md"
+    },
+    {
+      "id": "chatbase",
+      "name": "Chatbase",
+      "light": "green",
+      "category": "chatbots saas",
+      "ai_role": "ai_product",
+      "evidence_level": 3,
+      "launched": "2023-02",
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": 10363584,
+        "revenue_basis": "payments_dashboard"
+      },
+      "flags": [
+        "stale_source"
+      ],
+      "status": "unconfirmed",
+      "rank": null,
+      "zone": null,
+      "score": {
+        "total": 100.0,
+        "evidence": 30,
+        "traction": 26.0,
+        "age": 20,
+        "light": 10,
+        "flags": -5,
+        "automation": 40,
+        "age_months": 45,
+        "missing": []
+      },
+      "check": {
+        "checked_at": "2026-11-10",
+        "domains": [
+          "castmagic.io"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.castmagic.io/software-reviews/chatbase",
+            "quote": "Chatbase is a platform for building AI agents that handle customer support and sales."
+          }
+        ]
+      },
+      "facts": [
+        {
+          "text": "La página de TrustMRR de Chatbase muestra 863.632 dólares de MRR y 12.424 suscripciones; la clave de Stripe figura vencida, por lo que la cifra puede no ser actual.",
+          "source_url": "https://trustmrr.com/startup/chatbase",
+          "label": "TrustMRR"
+        },
+        {
+          "text": "Supabase indica que Chatbase tiene más de 10 millones de dólares de ARR, que lanzó en febrero de 2023 con un MVP de unas 2 semanas y que hoy tiene 18 personas.",
+          "source_url": "https://supabase.com/customers/chatbase",
+          "label": "Supabase (caso de cliente)"
+        }
+      ],
+      "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/05-chatbase.md"
+    },
+    {
+      "id": "base44",
+      "name": "Base44",
+      "light": "green",
+      "category": "plataforma de vibe coding",
+      "ai_role": "ai_product",
+      "evidence_level": 4,
+      "launched": "2024-12",
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": 150000000,
+        "revenue_basis": "filing"
+      },
+      "flags": [
+        "margin_near_zero"
+      ],
+      "status": "unconfirmed",
+      "rank": null,
+      "zone": null,
+      "score": {
+        "total": 84.0,
+        "evidence": 40,
+        "traction": 30.0,
+        "age": 14,
+        "light": 10,
+        "flags": -10,
+        "automation": 0,
+        "age_months": 23,
+        "missing": [
+          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
+        ]
+      },
+      "check": {
+        "checked_at": "2026-11-10",
+        "domains": [],
+        "evidence": []
+      },
+      "facts": [
+        {
+          "text": "Wix compró Base44 por 80 millones de dólares en efectivo, de los cuales 25 millones son un bono de retención para 8 empleados; la empresa llevaba unos 6 meses.",
+          "source_url": "https://techcrunch.com/2025/06/18/six-month-old-solo-owned-vibe-coder-base44-sells-to-wix-for-80m-cash",
+          "label": "TechCrunch"
+        },
+        {
+          "text": "El comunicado de Wix del segundo trimestre de 2026 indica que el margen bruto no-GAAP de Base44 estaba cerca de cero al entrar a 2026, con un objetivo de 60% para el segundo semestre.",
+          "source_url": "https://www.globenewswire.com/de/news-release/2026/08/04/3338018/0/en/Wix-Reports-Second-Quarter-2026-Results.html",
+          "label": "Wix (comunicado)"
+        }
+      ],
+      "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/06-base44.md"
     },
     {
       "id": "cal-ai",
@@ -827,7 +788,7 @@
         ]
       },
       "check": {
-        "checked_at": "2026-10-08",
+        "checked_at": "2026-11-10",
         "domains": [],
         "evidence": []
       },
@@ -874,7 +835,7 @@
         ]
       },
       "check": {
-        "checked_at": "2026-10-08",
+        "checked_at": "2026-11-10",
         "domains": [],
         "evidence": []
       },
@@ -924,9 +885,16 @@
         ]
       },
       "check": {
-        "checked_at": "2026-10-08",
-        "domains": [],
-        "evidence": []
+        "checked_at": "2026-11-10",
+        "domains": [
+          "nanocorp.so"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.nanocorp.so/blog/what-is-polsia",
+            "quote": "Its product is a set of AI agents that operate a business on your behalf"
+          }
+        ]
       },
       "facts": [
         {
@@ -976,7 +944,7 @@
         ]
       },
       "check": {
-        "checked_at": "2026-10-08",
+        "checked_at": "2026-11-10",
         "domains": [],
         "evidence": []
       },
@@ -1022,14 +990,14 @@
         ]
       },
       "check": {
-        "checked_at": "2026-10-08",
+        "checked_at": "2026-11-10",
         "domains": [
-          "the-decoder.com"
+          "gigazine.net"
         ],
         "evidence": [
           {
-            "url": "https://the-decoder.com/anthropics-ai-store-makes-money-while-debating-eternal-transcendence/",
-            "quote": "From October on, the system generated consistent weekly profits without dipping back into the red."
+            "url": "https://gigazine.net/gsc_news/en/20250630-anthropic-claudius-project-vend/",
+            "quote": "Claude Sonnet 3.7 ran an office vending machine for about a month"
           }
         ]
       },
@@ -1357,6 +1325,59 @@
         }
       ],
       "ficha_url": null
+    },
+    {
+      "id": "reflection-ai",
+      "name": "Reflection AI",
+      "light": "yellow",
+      "category": "Open-source frontier AI models",
+      "ai_role": "ai_product",
+      "evidence_level": 1,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": null,
+        "revenue_basis": null
+      },
+      "flags": [],
+      "status": "unconfirmed",
+      "rank": null,
+      "zone": null,
+      "score": {
+        "total": 10.0,
+        "evidence": 10,
+        "traction": 0.0,
+        "age": 0,
+        "light": 0,
+        "flags": 0,
+        "automation": 0,
+        "age_months": null,
+        "missing": [
+          "antigüedad",
+          "ingresos",
+          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
+        ]
+      },
+      "check": {
+        "checked_at": "2026-11-10",
+        "domains": [
+          "techcrunch.com"
+        ],
+        "evidence": [
+          {
+            "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+            "quote": "Reflection AI is officially unveiling Beam, its first frontier, open-weight AI model."
+          }
+        ]
+      },
+      "facts": [
+        {
+          "text": "Según reflection.ai: «We are introducing Beam, Reflection's first open-weight model.»",
+          "source_url": "https://reflection.ai/blog/introducing-beam",
+          "label": "reflection.ai"
+        }
+      ],
+      "ficha_url": null
     }
   ],
   "discarded": [],
@@ -1417,57 +1438,21 @@
     },
     {
       "dimension": "categoría",
-      "group": "chatbots saas",
-      "n": 1,
-      "green": 1,
-      "yellow": 0,
-      "red": 0,
-      "verdict": "sin muestra suficiente (mínimo 5)"
-    },
-    {
-      "dimension": "categoría",
-      "group": "juego de navegador",
+      "group": "plataforma de vibe coding",
       "n": 1,
       "green": 0,
-      "yellow": 0,
-      "red": 1,
-      "verdict": "sin muestra suficiente (mínimo 5)"
-    },
-    {
-      "dimension": "categoría",
-      "group": "plataforma de vibe coding",
-      "n": 2,
-      "green": 1,
       "yellow": 1,
       "red": 0,
       "verdict": "sin muestra suficiente (mínimo 5)"
     },
     {
-      "dimension": "categoría",
-      "group": "red social de agentes",
-      "n": 1,
-      "green": 0,
-      "yellow": 0,
-      "red": 1,
-      "verdict": "sin muestra suficiente (mínimo 5)"
-    },
-    {
       "dimension": "rol de la IA",
       "group": "ai_product",
-      "n": 10,
-      "green": 2,
-      "yellow": 7,
-      "red": 1,
-      "verdict": "mixto"
-    },
-    {
-      "dimension": "rol de la IA",
-      "group": "built_with_ai",
-      "n": 1,
+      "n": 7,
       "green": 0,
-      "yellow": 0,
-      "red": 1,
-      "verdict": "sin muestra suficiente (mínimo 5)"
+      "yellow": 7,
+      "red": 0,
+      "verdict": "mixto"
     }
   ],
   "history": [
@@ -1713,6 +1698,23 @@
         "supermaven": 9,
         "moltbook": 10,
         "fly-pieter": 11
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "podium": [
+        "fliki",
+        "lovable",
+        "cognition-ai"
+      ],
+      "ranks": {
+        "fliki": 1,
+        "lovable": 2,
+        "cognition-ai": 3,
+        "decagon": 4,
+        "suki": 5,
+        "superdesign": 6,
+        "supermaven": 7
       }
     }
   ],

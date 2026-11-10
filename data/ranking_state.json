@@ -1,21 +1,15 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-10",
   "order": [
-    "chatbase",
-    "base44",
     "fliki",
     "lovable",
     "cognition-ai",
     "decagon",
     "suki",
     "superdesign",
-    "supermaven",
-    "moltbook",
-    "fly-pieter"
+    "supermaven"
   ],
   "status": {
-    "chatbase": "confirmed",
-    "base44": "confirmed",
     "fliki": "confirmed",
     "lovable": "confirmed",
     "cognition-ai": "confirmed",
@@ -23,10 +17,12 @@
     "suki": "confirmed",
     "superdesign": "confirmed",
     "supermaven": "confirmed",
-    "moltbook": "confirmed",
-    "fly-pieter": "confirmed",
     "enrichlead": "unconfirmed",
+    "moltbook": "unconfirmed",
+    "fly-pieter": "unconfirmed",
     "photo-ai": "unconfirmed",
+    "chatbase": "unconfirmed",
+    "base44": "unconfirmed",
     "cal-ai": "unconfirmed",
     "medvi": "unconfirmed",
     "polsia": "unconfirmed",
@@ -37,19 +33,16 @@
     "mistral": "unconfirmed",
     "synthesia": "unconfirmed",
     "adept-ai": "unconfirmed",
-    "rosebud-ai": "unconfirmed"
+    "rosebud-ai": "unconfirmed",
+    "reflection-ai": "unconfirmed"
   },
   "zones": {
-    "chatbase": "podio",
-    "base44": "podio",
     "fliki": "podio",
-    "lovable": "repechaje",
-    "cognition-ai": "repechaje",
+    "lovable": "podio",
+    "cognition-ai": "podio",
     "decagon": "repechaje",
     "suki": "repechaje",
     "superdesign": "repechaje",
-    "supermaven": "repechaje",
-    "moltbook": "repechaje",
-    "fly-pieter": "banca"
+    "supermaven": "repechaje"
   }
 }
