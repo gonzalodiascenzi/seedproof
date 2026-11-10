@@ -1,72 +1,10 @@
 {
-  "generated_at": "2026-11-10 00:04 UTC",
+  "generated_at": "2026-11-10 08:37 UTC",
   "ranking_date": "2026-11-10",
   "repo_url": "https://github.com/gonzalodiascenzi/seedproof",
   "podium_size": 3,
   "repechaje_size": 7,
   "ranked": [
-    {
-      "id": "fliki",
-      "name": "Fliki",
-      "light": "yellow",
-      "category": "Plataforma de video texto-a-video",
-      "ai_role": "ai_product",
-      "evidence_level": 1,
-      "launched": null,
-      "ended": null,
-      "metrics": {
-        "revenue_usd_annual": null,
-        "revenue_basis": null
-      },
-      "flags": [],
-      "status": "confirmed",
-      "rank": 1,
-      "zone": "podio",
-      "score": {
-        "total": 50.0,
-        "evidence": 10,
-        "traction": 0.0,
-        "age": 0,
-        "light": 0,
-        "flags": 0,
-        "automation": 40,
-        "age_months": null,
-        "missing": [
-          "antigüedad",
-          "ingresos"
-        ]
-      },
-      "check": {
-        "checked_at": "2026-10-08",
-        "domains": [
-          "genai.works",
-          "siteefy.com",
-          "theinvisiblementor.com"
-        ],
-        "evidence": [
-          {
-            "url": "https://siteefy.com/tools/fliki",
-            "quote": "Fliki is an AI-powered platform that transforms text into professional-quality videos"
-          },
-          {
-            "url": "https://theinvisiblementor.com/ai-mondays-turning-text-into-video-with-fliki/",
-            "quote": "Fliki is a web based platform that converts text into videos and voiceovers using AI"
-          },
-          {
-            "url": "https://genai.works/applications/fliki",
-            "quote": "Fliki is an AI-powered video generation platform that allows users to create videos from text"
-          }
-        ]
-      },
-      "facts": [
-        {
-          "text": "Según fliki.ai: «Fliki is an AI-powered platform that facilitates the conversion of text to video.»",
-          "source_url": "https://fliki.ai/masterclass/tutorials/text-to-video",
-          "label": "fliki.ai"
-        }
-      ],
-      "ficha_url": null
-    },
     {
       "id": "lovable",
       "name": "Lovable",
@@ -82,7 +20,7 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 2,
+      "rank": 1,
       "zone": "podio",
       "score": {
         "total": 27.5,
@@ -99,10 +37,10 @@
         ]
       },
       "check": {
-        "checked_at": "2026-10-08",
+        "checked_at": "2026-11-10",
         "domains": [
           "research.contrary.com",
-          "techjacksolutions.com"
+          "startupintros.com"
         ],
         "evidence": [
           {
@@ -110,8 +48,8 @@
             "quote": "Lovable is an AI platform that turns natural language prompts into working full-stack web applications."
           },
           {
-            "url": "https://techjacksolutions.com/ai-tools/lovable/what-is-lovable-ai/",
-            "quote": "Lovable AI is a full-stack app builder you control with natural language."
+            "url": "https://startupintros.com/orgs/lovable",
+            "quote": "Lovable provides an AI-powered platform for creating and deploying web applications and websites."
           }
         ]
       },
@@ -144,7 +82,7 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 3,
+      "rank": 2,
       "zone": "podio",
       "score": {
         "total": 10.0,
@@ -202,8 +140,8 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 4,
-      "zone": "repechaje",
+      "rank": 3,
+      "zone": "podio",
       "score": {
         "total": 10.0,
         "evidence": 10,
@@ -241,6 +179,64 @@
           "text": "Según decagon.ai: «Build, optimize, and scale AI agents that treat every customer like the only one.»",
           "source_url": "https://decagon.ai/",
           "label": "decagon.ai"
+        }
+      ],
+      "ficha_url": null
+    },
+    {
+      "id": "glean",
+      "name": "Glean",
+      "light": "yellow",
+      "category": "Enterprise AI Search",
+      "ai_role": "ai_product",
+      "evidence_level": 1,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": null,
+        "revenue_basis": null
+      },
+      "flags": [],
+      "status": "confirmed",
+      "rank": 4,
+      "zone": "repechaje",
+      "score": {
+        "total": 10.0,
+        "evidence": 10,
+        "traction": 0.0,
+        "age": 0,
+        "light": 0,
+        "flags": 0,
+        "automation": 0,
+        "age_months": null,
+        "missing": [
+          "antigüedad",
+          "ingresos",
+          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
+        ]
+      },
+      "check": {
+        "checked_at": "2026-11-10",
+        "domains": [
+          "backlinko.com",
+          "slite.com"
+        ],
+        "evidence": [
+          {
+            "url": "https://backlinko.com/ai-startups",
+            "quote": "Glean offers an AI-powered enterprise search software that aims to boost workplace efficiency."
+          },
+          {
+            "url": "https://slite.com/learn/glean-ai-review",
+            "quote": "Glean is an AI Enterprise Search platform."
+          }
+        ]
+      },
+      "facts": [
+        {
+          "text": "Según backlinko.com: «Glean offers an AI-powered enterprise search software that aims to boost workplace efficiency.»",
+          "source_url": "https://backlinko.com/ai-startups",
+          "label": "backlinko.com"
         }
       ],
       "ficha_url": null
@@ -362,64 +358,6 @@
           "text": "Según wellows.com: «Superdesign generates UI mockups, components, and wireframes from natural language prompts»",
           "source_url": "https://wellows.com/blog/ai-startups/",
           "label": "wellows.com"
-        }
-      ],
-      "ficha_url": null
-    },
-    {
-      "id": "supermaven",
-      "name": "Supermaven",
-      "light": "yellow",
-      "category": "Asistente IA para completado de código",
-      "ai_role": "ai_product",
-      "evidence_level": 1,
-      "launched": null,
-      "ended": null,
-      "metrics": {
-        "revenue_usd_annual": null,
-        "revenue_basis": null
-      },
-      "flags": [],
-      "status": "confirmed",
-      "rank": 7,
-      "zone": "repechaje",
-      "score": {
-        "total": 10.0,
-        "evidence": 10,
-        "traction": 0.0,
-        "age": 0,
-        "light": 0,
-        "flags": 0,
-        "automation": 0,
-        "age_months": null,
-        "missing": [
-          "antigüedad",
-          "ingresos",
-          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
-        ]
-      },
-      "check": {
-        "checked_at": "2026-10-09",
-        "domains": [
-          "brouseai.com",
-          "everydev.ai"
-        ],
-        "evidence": [
-          {
-            "url": "https://www.everydev.ai/tools/supermaven",
-            "quote": "Supermaven is an AI coding copilot that helps developers write code 2x faster"
-          },
-          {
-            "url": "https://www.brouseai.com/ai/supermaven",
-            "quote": "Supermaven allows developers to write code up to 2x faster than traditional methods"
-          }
-        ]
-      },
-      "facts": [
-        {
-          "text": "Según everydev.ai: «Supermaven is an AI coding copilot that helps developers write code 2x faster»",
-          "source_url": "https://www.everydev.ai/tools/supermaven",
-          "label": "everydev.ai"
         }
       ],
       "ficha_url": null
@@ -1016,10 +954,55 @@
       "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/11-project-vend.md"
     },
     {
-      "id": "glean",
-      "name": "Glean",
+      "id": "fliki",
+      "name": "Fliki",
       "light": "yellow",
-      "category": "Enterprise AI Search",
+      "category": "Plataforma de video texto-a-video",
+      "ai_role": "ai_product",
+      "evidence_level": 1,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": null,
+        "revenue_basis": null
+      },
+      "flags": [],
+      "status": "unconfirmed",
+      "rank": null,
+      "zone": null,
+      "score": {
+        "total": 50.0,
+        "evidence": 10,
+        "traction": 0.0,
+        "age": 0,
+        "light": 0,
+        "flags": 0,
+        "automation": 40,
+        "age_months": null,
+        "missing": [
+          "antigüedad",
+          "ingresos"
+        ]
+      },
+      "check": {
+        "checked_at": "2026-11-10",
+        "domains": [],
+        "evidence": []
+      },
+      "facts": [
+        {
+          "text": "Según fliki.ai: «Fliki is an AI-powered platform that facilitates the conversion of text to video.»",
+          "source_url": "https://fliki.ai/masterclass/tutorials/text-to-video",
+          "label": "fliki.ai"
+        }
+      ],
+      "ficha_url": null
+    },
+    {
+      "id": "supermaven",
+      "name": "Supermaven",
+      "light": "yellow",
+      "category": "Asistente IA para completado de código",
       "ai_role": "ai_product",
       "evidence_level": 1,
       "launched": null,
@@ -1048,22 +1031,22 @@
         ]
       },
       "check": {
-        "checked_at": "2026-10-10",
+        "checked_at": "2026-11-10",
         "domains": [
-          "backlinko.com"
+          "beyondaitools.com"
         ],
         "evidence": [
           {
-            "url": "https://backlinko.com/ai-startups",
-            "quote": "Glean offers an AI-powered enterprise search software that aims to boost workplace efficiency."
+            "url": "https://www.beyondaitools.com/product/supermaven/",
+            "quote": "Supermaven aims to help developers write code 2x faster and minimize repetitive tasks"
           }
         ]
       },
       "facts": [
         {
-          "text": "Según backlinko.com: «Glean offers an AI-powered enterprise search software that aims to boost workplace efficiency.»",
-          "source_url": "https://backlinko.com/ai-startups",
-          "label": "backlinko.com"
+          "text": "Según everydev.ai: «Supermaven is an AI coding copilot that helps developers write code 2x faster»",
+          "source_url": "https://www.everydev.ai/tools/supermaven",
+          "label": "everydev.ai"
         }
       ],
       "ficha_url": null
@@ -1393,7 +1376,7 @@
     },
     {
       "dimension": "categoría",
-      "group": "Asistente IA para completado de código",
+      "group": "Autonomous AI software engineer",
       "n": 1,
       "green": 0,
       "yellow": 1,
@@ -1402,7 +1385,7 @@
     },
     {
       "dimension": "categoría",
-      "group": "Autonomous AI software engineer",
+      "group": "Enterprise AI Search",
       "n": 1,
       "green": 0,
       "yellow": 1,
@@ -1429,15 +1412,6 @@
     },
     {
       "dimension": "categoría",
-      "group": "Plataforma de video texto-a-video",
-      "n": 1,
-      "green": 0,
-      "yellow": 1,
-      "red": 0,
-      "verdict": "sin muestra suficiente (mínimo 5)"
-    },
-    {
-      "dimension": "categoría",
       "group": "plataforma de vibe coding",
       "n": 1,
       "green": 0,
@@ -1448,9 +1422,9 @@
     {
       "dimension": "rol de la IA",
       "group": "ai_product",
-      "n": 7,
+      "n": 6,
       "green": 0,
-      "yellow": 7,
+      "yellow": 6,
       "red": 0,
       "verdict": "mixto"
     }
@@ -1715,6 +1689,22 @@
         "suki": 5,
         "superdesign": 6,
         "supermaven": 7
+      }
+    },
+    {
+      "date": "2026-11-10-2",
+      "podium": [
+        "lovable",
+        "cognition-ai",
+        "decagon"
+      ],
+      "ranks": {
+        "lovable": 1,
+        "cognition-ai": 2,
+        "decagon": 3,
+        "glean": 4,
+        "suki": 5,
+        "superdesign": 6
       }
     }
   ],

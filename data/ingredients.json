@@ -82,7 +82,7 @@
       "ai_role": "ai_product",
       "light": "yellow",
       "evidence_level": 1,
-      "validation": "confirmed",
+      "validation": "unconfirmed",
       "revenue_usd_annual": null,
       "revenue_basis": null,
       "score": 50.0,

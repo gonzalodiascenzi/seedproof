@@ -1,22 +1,20 @@
 {
   "date": "2026-11-10",
   "order": [
-    "fliki",
     "lovable",
     "cognition-ai",
     "decagon",
+    "glean",
     "suki",
-    "superdesign",
-    "supermaven"
+    "superdesign"
   ],
   "status": {
-    "fliki": "confirmed",
     "lovable": "confirmed",
     "cognition-ai": "confirmed",
     "decagon": "confirmed",
+    "glean": "confirmed",
     "suki": "confirmed",
     "superdesign": "confirmed",
-    "supermaven": "confirmed",
     "enrichlead": "unconfirmed",
     "moltbook": "unconfirmed",
     "fly-pieter": "unconfirmed",
@@ -28,7 +26,8 @@
     "polsia": "unconfirmed",
     "cluely": "unconfirmed",
     "project-vend": "unconfirmed",
-    "glean": "unconfirmed",
+    "fliki": "unconfirmed",
+    "supermaven": "unconfirmed",
     "suno": "unconfirmed",
     "mistral": "unconfirmed",
     "synthesia": "unconfirmed",
@@ -37,12 +36,11 @@
     "reflection-ai": "unconfirmed"
   },
   "zones": {
-    "fliki": "podio",
     "lovable": "podio",
     "cognition-ai": "podio",
-    "decagon": "repechaje",
+    "decagon": "podio",
+    "glean": "repechaje",
     "suki": "repechaje",
-    "superdesign": "repechaje",
-    "supermaven": "repechaje"
+    "superdesign": "repechaje"
   }
 }
