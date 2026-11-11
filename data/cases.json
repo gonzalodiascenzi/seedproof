@@ -782,5 +782,31 @@
       "revenue_basis": null
     },
     "flags": []
+  },
+  {
+    "id": "archgen-labs",
+    "rev": 1,
+    "origin": "discovered",
+    "name": "Archgen Labs",
+    "light": "🟡",
+    "facts": [
+      {
+        "text": "Según ycombinator.com: «Archgen Labs builds AI-powered chip design tools for the next generation of 3D semiconductors.»",
+        "source_url": "https://www.ycombinator.com/companies/archgen-labs",
+        "label": "ycombinator.com",
+        "anchors": []
+      }
+    ],
+    "live": false,
+    "category": "Herramientas de diseño de chips con IA",
+    "ai_role": "ai_product",
+    "evidence_level": 1,
+    "launched": null,
+    "ended": null,
+    "metrics": {
+      "revenue_usd_annual": null,
+      "revenue_basis": null
+    },
+    "flags": []
   }
 ]

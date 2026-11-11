@@ -201,30 +201,20 @@
     "rejected_evidence": 3
   },
   "superdesign": {
-    "status": "confirmed",
+    "status": "unconfirmed",
     "rev": 1,
-    "checked_at": "2026-10-11",
+    "checked_at": "2026-11-11",
     "model_verdict": "confirmed",
     "domains": [
-      "github.com",
-      "superdesign.dev",
       "wellows.com"
     ],
     "evidence": [
       {
         "url": "https://wellows.com/blog/ai-startups/",
         "quote": "Superdesign generates UI mockups, components, and wireframes from natural language prompts"
-      },
-      {
-        "url": "https://superdesign.dev/blog/ai-ui-generator-exports-code",
-        "quote": "Superdesign is an AI product design agent that generates UI mockups, components, and full designs"
-      },
-      {
-        "url": "https://github.com/superdesigndev/superdesign",
-        "quote": "Generate UI mockups, components, and wireframes directly from natural language prompts"
       }
     ],
-    "rejected_evidence": 0
+    "rejected_evidence": 1
   },
   "suki": {
     "status": "confirmed",
@@ -377,5 +367,21 @@
       }
     ],
     "rejected_evidence": 3
+  },
+  "archgen-labs": {
+    "status": "unconfirmed",
+    "rev": 1,
+    "checked_at": "2026-11-11",
+    "model_verdict": "confirmed",
+    "domains": [
+      "ycombinator.com"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.ycombinator.com/companies/archgen-labs",
+        "quote": "Archgen Labs builds AI-powered chip design tools for the next generation of 3D semiconductors."
+      }
+    ],
+    "rejected_evidence": 2
   }
 }

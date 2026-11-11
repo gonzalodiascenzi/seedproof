@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-10 08:37 UTC",
-  "ranking_date": "2026-11-10",
+  "generated_at": "2026-11-11 08:36 UTC",
+  "ranking_date": "2026-11-11",
   "repo_url": "https://github.com/gonzalodiascenzi/seedproof",
   "podium_size": 3,
   "repechaje_size": 7,
@@ -295,69 +295,6 @@
           "text": "Según suki.ai: «Suki becomes the industry's first end-to-end clinical assistant by offering summaries»",
           "source_url": "https://www.suki.ai/press-releases/suki-launches-patient-summarization-and-clinical-qa-for-doctors-with-google-cloud/",
           "label": "suki.ai"
-        }
-      ],
-      "ficha_url": null
-    },
-    {
-      "id": "superdesign",
-      "name": "Superdesign",
-      "light": "yellow",
-      "category": "Generador de UI con IA",
-      "ai_role": "ai_product",
-      "evidence_level": 1,
-      "launched": null,
-      "ended": null,
-      "metrics": {
-        "revenue_usd_annual": null,
-        "revenue_basis": null
-      },
-      "flags": [],
-      "status": "confirmed",
-      "rank": 6,
-      "zone": "repechaje",
-      "score": {
-        "total": 10.0,
-        "evidence": 10,
-        "traction": 0.0,
-        "age": 0,
-        "light": 0,
-        "flags": 0,
-        "automation": 0,
-        "age_months": null,
-        "missing": [
-          "antigüedad",
-          "ingresos",
-          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
-        ]
-      },
-      "check": {
-        "checked_at": "2026-10-11",
-        "domains": [
-          "github.com",
-          "superdesign.dev",
-          "wellows.com"
-        ],
-        "evidence": [
-          {
-            "url": "https://wellows.com/blog/ai-startups/",
-            "quote": "Superdesign generates UI mockups, components, and wireframes from natural language prompts"
-          },
-          {
-            "url": "https://superdesign.dev/blog/ai-ui-generator-exports-code",
-            "quote": "Superdesign is an AI product design agent that generates UI mockups, components, and full designs"
-          },
-          {
-            "url": "https://github.com/superdesigndev/superdesign",
-            "quote": "Generate UI mockups, components, and wireframes directly from natural language prompts"
-          }
-        ]
-      },
-      "facts": [
-        {
-          "text": "Según wellows.com: «Superdesign generates UI mockups, components, and wireframes from natural language prompts»",
-          "source_url": "https://wellows.com/blog/ai-startups/",
-          "label": "wellows.com"
         }
       ],
       "ficha_url": null
@@ -1052,6 +989,59 @@
       "ficha_url": null
     },
     {
+      "id": "superdesign",
+      "name": "Superdesign",
+      "light": "yellow",
+      "category": "Generador de UI con IA",
+      "ai_role": "ai_product",
+      "evidence_level": 1,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": null,
+        "revenue_basis": null
+      },
+      "flags": [],
+      "status": "unconfirmed",
+      "rank": null,
+      "zone": null,
+      "score": {
+        "total": 10.0,
+        "evidence": 10,
+        "traction": 0.0,
+        "age": 0,
+        "light": 0,
+        "flags": 0,
+        "automation": 0,
+        "age_months": null,
+        "missing": [
+          "antigüedad",
+          "ingresos",
+          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
+        ]
+      },
+      "check": {
+        "checked_at": "2026-11-11",
+        "domains": [
+          "wellows.com"
+        ],
+        "evidence": [
+          {
+            "url": "https://wellows.com/blog/ai-startups/",
+            "quote": "Superdesign generates UI mockups, components, and wireframes from natural language prompts"
+          }
+        ]
+      },
+      "facts": [
+        {
+          "text": "Según wellows.com: «Superdesign generates UI mockups, components, and wireframes from natural language prompts»",
+          "source_url": "https://wellows.com/blog/ai-startups/",
+          "label": "wellows.com"
+        }
+      ],
+      "ficha_url": null
+    },
+    {
       "id": "suno",
       "name": "Suno",
       "light": "yellow",
@@ -1361,6 +1351,59 @@
         }
       ],
       "ficha_url": null
+    },
+    {
+      "id": "archgen-labs",
+      "name": "Archgen Labs",
+      "light": "yellow",
+      "category": "Herramientas de diseño de chips con IA",
+      "ai_role": "ai_product",
+      "evidence_level": 1,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": null,
+        "revenue_basis": null
+      },
+      "flags": [],
+      "status": "unconfirmed",
+      "rank": null,
+      "zone": null,
+      "score": {
+        "total": 10.0,
+        "evidence": 10,
+        "traction": 0.0,
+        "age": 0,
+        "light": 0,
+        "flags": 0,
+        "automation": 0,
+        "age_months": null,
+        "missing": [
+          "antigüedad",
+          "ingresos",
+          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
+        ]
+      },
+      "check": {
+        "checked_at": "2026-11-11",
+        "domains": [
+          "ycombinator.com"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.ycombinator.com/companies/archgen-labs",
+            "quote": "Archgen Labs builds AI-powered chip design tools for the next generation of 3D semiconductors."
+          }
+        ]
+      },
+      "facts": [
+        {
+          "text": "Según ycombinator.com: «Archgen Labs builds AI-powered chip design tools for the next generation of 3D semiconductors.»",
+          "source_url": "https://www.ycombinator.com/companies/archgen-labs",
+          "label": "ycombinator.com"
+        }
+      ],
+      "ficha_url": null
     }
   ],
   "discarded": [],
@@ -1394,15 +1437,6 @@
     },
     {
       "dimension": "categoría",
-      "group": "Generador de UI con IA",
-      "n": 1,
-      "green": 0,
-      "yellow": 1,
-      "red": 0,
-      "verdict": "sin muestra suficiente (mínimo 5)"
-    },
-    {
-      "dimension": "categoría",
       "group": "Healthcare AI documentation and clinical assistance",
       "n": 1,
       "green": 0,
@@ -1422,9 +1456,9 @@
     {
       "dimension": "rol de la IA",
       "group": "ai_product",
-      "n": 6,
+      "n": 5,
       "green": 0,
-      "yellow": 6,
+      "yellow": 5,
       "red": 0,
       "verdict": "mixto"
     }
@@ -1705,6 +1739,21 @@
         "glean": 4,
         "suki": 5,
         "superdesign": 6
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "podium": [
+        "lovable",
+        "cognition-ai",
+        "decagon"
+      ],
+      "ranks": {
+        "lovable": 1,
+        "cognition-ai": 2,
+        "decagon": 3,
+        "glean": 4,
+        "suki": 5
       }
     }
   ],
