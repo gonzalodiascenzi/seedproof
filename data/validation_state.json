@@ -1,5 +1,5 @@
 {
-  "last_run_at": "2026-11-09",
+  "last_run_at": "2026-11-12",
   "sources": {
     "https://404media.co/this-game-created-by-ai-vibe-coding-makes-50-000-a-month-yours-probably-wont": {
       "status": "up"
@@ -22,6 +22,9 @@
     "https://fliki.ai/masterclass/tutorials/text-to-video": {
       "status": "up"
     },
+    "https://reflection.ai/blog/introducing-beam": {
+      "status": "up"
+    },
     "https://rosebud.ai/company": {
       "status": "up"
     },
@@ -33,7 +36,7 @@
     },
     "https://supabase.com/customers/chatbase": {
       "status": "up",
-      "hash": "29872280e772e7ef0feafd4a19008327676361e8dcc3c5c4d6aa35354a99c29a"
+      "hash": "b9734752997c725067baf7f48c0dc7dd9cfd112a83b8d5bd207eaf3644f6063a"
     },
     "https://techcrunch.com/2025/06/18/six-month-old-solo-owned-vibe-coder-base44-sells-to-wix-for-80m-cash": {
       "status": "up"
@@ -100,6 +103,9 @@
       "status": "up"
     },
     "https://www.techdirt.com/company/medvi/": {
+      "status": "up"
+    },
+    "https://www.ycombinator.com/companies/archgen-labs": {
       "status": "up"
     }
   }

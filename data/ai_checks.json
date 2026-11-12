@@ -383,5 +383,31 @@
       }
     ],
     "rejected_evidence": 2
+  },
+  "h-company": {
+    "status": "confirmed",
+    "rev": 1,
+    "checked_at": "2026-11-12",
+    "model_verdict": "confirmed",
+    "domains": [
+      "en.wikipedia.org",
+      "hcompany.ai",
+      "therundown.ai"
+    ],
+    "evidence": [
+      {
+        "url": "https://hcompany.ai/holo3.1",
+        "quote": "we released Holo3, our state-of-the-art computer-use model"
+      },
+      {
+        "url": "https://www.therundown.ai/tools/holo-3",
+        "quote": "Holo3 is H Company's family of vision-language models trained for UI grounding and computer-use agents"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/H_(company)",
+        "quote": "In 2026, H Company released Holo 3, the latest generation of its computer-use AI models"
+      }
+    ],
+    "rejected_evidence": 0
   }
 }

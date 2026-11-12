@@ -808,5 +808,31 @@
       "revenue_basis": null
     },
     "flags": []
+  },
+  {
+    "id": "h-company",
+    "rev": 1,
+    "origin": "discovered",
+    "name": "H Company",
+    "light": "🟡",
+    "facts": [
+      {
+        "text": "Según hcompany.ai: «we released Holo3, our state-of-the-art computer-use model.»",
+        "source_url": "https://hcompany.ai/holo3.1",
+        "label": "hcompany.ai",
+        "anchors": []
+      }
+    ],
+    "live": false,
+    "category": "Modelos de IA para automatización de computadoras",
+    "ai_role": "ai_product",
+    "evidence_level": 1,
+    "launched": null,
+    "ended": null,
+    "metrics": {
+      "revenue_usd_annual": null,
+      "revenue_basis": null
+    },
+    "flags": []
   }
 ]

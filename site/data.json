@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-11 08:36 UTC",
-  "ranking_date": "2026-11-11",
+  "generated_at": "2026-11-12 08:36 UTC",
+  "ranking_date": "2026-11-12",
   "repo_url": "https://github.com/gonzalodiascenzi/seedproof",
   "podium_size": 3,
   "repechaje_size": 7,
@@ -242,6 +242,69 @@
       "ficha_url": null
     },
     {
+      "id": "h-company",
+      "name": "H Company",
+      "light": "yellow",
+      "category": "Modelos de IA para automatización de computadoras",
+      "ai_role": "ai_product",
+      "evidence_level": 1,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": null,
+        "revenue_basis": null
+      },
+      "flags": [],
+      "status": "confirmed",
+      "rank": 5,
+      "zone": "repechaje",
+      "score": {
+        "total": 10.0,
+        "evidence": 10,
+        "traction": 0.0,
+        "age": 0,
+        "light": 0,
+        "flags": 0,
+        "automation": 0,
+        "age_months": null,
+        "missing": [
+          "antigüedad",
+          "ingresos",
+          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
+        ]
+      },
+      "check": {
+        "checked_at": "2026-11-12",
+        "domains": [
+          "en.wikipedia.org",
+          "hcompany.ai",
+          "therundown.ai"
+        ],
+        "evidence": [
+          {
+            "url": "https://hcompany.ai/holo3.1",
+            "quote": "we released Holo3, our state-of-the-art computer-use model"
+          },
+          {
+            "url": "https://www.therundown.ai/tools/holo-3",
+            "quote": "Holo3 is H Company's family of vision-language models trained for UI grounding and computer-use agents"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/H_(company)",
+            "quote": "In 2026, H Company released Holo 3, the latest generation of its computer-use AI models"
+          }
+        ]
+      },
+      "facts": [
+        {
+          "text": "Según hcompany.ai: «we released Holo3, our state-of-the-art computer-use model.»",
+          "source_url": "https://hcompany.ai/holo3.1",
+          "label": "hcompany.ai"
+        }
+      ],
+      "ficha_url": null
+    },
+    {
       "id": "suki",
       "name": "Suki",
       "light": "yellow",
@@ -256,7 +319,7 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 5,
+      "rank": 6,
       "zone": "repechaje",
       "score": {
         "total": 10.0,
@@ -1446,6 +1509,15 @@
     },
     {
       "dimension": "categoría",
+      "group": "Modelos de IA para automatización de computadoras",
+      "n": 1,
+      "green": 0,
+      "yellow": 1,
+      "red": 0,
+      "verdict": "sin muestra suficiente (mínimo 5)"
+    },
+    {
+      "dimension": "categoría",
       "group": "plataforma de vibe coding",
       "n": 1,
       "green": 0,
@@ -1456,9 +1528,9 @@
     {
       "dimension": "rol de la IA",
       "group": "ai_product",
-      "n": 5,
+      "n": 6,
       "green": 0,
-      "yellow": 5,
+      "yellow": 6,
       "red": 0,
       "verdict": "mixto"
     }
@@ -1755,12 +1827,28 @@
         "glean": 4,
         "suki": 5
       }
+    },
+    {
+      "date": "2026-11-12",
+      "podium": [
+        "lovable",
+        "cognition-ai",
+        "decagon"
+      ],
+      "ranks": {
+        "lovable": 1,
+        "cognition-ai": 2,
+        "decagon": 3,
+        "glean": 4,
+        "h-company": 5,
+        "suki": 6
+      }
     }
   ],
   "validation": {
-    "last_run_at": "2026-11-09",
-    "total": 32,
-    "up": 27,
+    "last_run_at": "2026-11-12",
+    "total": 34,
+    "up": 29,
     "down": 1,
     "blocked": 4
   }
