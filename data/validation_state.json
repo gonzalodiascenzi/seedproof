@@ -1,5 +1,5 @@
 {
-  "last_run_at": "2026-11-13",
+  "last_run_at": "2026-11-16",
   "sources": {
     "https://404media.co/this-game-created-by-ai-vibe-coding-makes-50-000-a-month-yours-probably-wont": {
       "status": "up"
@@ -39,7 +39,7 @@
     },
     "https://supabase.com/customers/chatbase": {
       "status": "up",
-      "hash": "20d1cdd6cb259a7cb75719fc47ccc92102447f0f9f7ca9f87112c9d302b6cfe7"
+      "hash": "7ad6ace4e32f367ae3bf7b023fa624790647c557d123be98277899f14319ed34"
     },
     "https://techcrunch.com/2025/06/18/six-month-old-solo-owned-vibe-coder-base44-sells-to-wix-for-80m-cash": {
       "status": "up"
@@ -85,7 +85,7 @@
       "status": "blocked"
     },
     "https://www.globenewswire.com/de/news-release/2026/08/04/3338018/0/en/Wix-Reports-Second-Quarter-2026-Results.html": {
-      "status": "blocked"
+      "status": "up"
     },
     "https://www.implicator.ai/medvi-got-an-fda-warning-before-the-times-called-it-a-1-8-billion-ai-story/": {
       "status": "up"
