@@ -1,5 +1,5 @@
 {
-  "last_run_at": "2026-11-02",
+  "last_run_at": "2026-11-16",
   "covered": [
     "enrichlead@1",
     "moltbook@1",
@@ -12,6 +12,9 @@
     "polsia@1",
     "cluely@1",
     "project-vend@1",
-    "lovable@1"
+    "lovable@1",
+    "fliki@1",
+    "supermaven@1",
+    "glean@1"
   ]
 }
