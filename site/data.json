@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-16 09:28 UTC",
-  "ranking_date": "2026-11-12",
+  "generated_at": "2026-11-17 08:36 UTC",
+  "ranking_date": "2026-11-17",
   "repo_url": "https://github.com/gonzalodiascenzi/seedproof",
   "podium_size": 3,
   "repechaje_size": 7,
@@ -305,6 +305,69 @@
       "ficha_url": null
     },
     {
+      "id": "regal-ai",
+      "name": "Regal AI",
+      "light": "yellow",
+      "category": "Plataforma de agentes de voz para centros de contacto",
+      "ai_role": "ai_product",
+      "evidence_level": 1,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": null,
+        "revenue_basis": null
+      },
+      "flags": [],
+      "status": "confirmed",
+      "rank": 6,
+      "zone": "repechaje",
+      "score": {
+        "total": 10.0,
+        "evidence": 10,
+        "traction": 0.0,
+        "age": 0,
+        "light": 0,
+        "flags": 0,
+        "automation": 0,
+        "age_months": null,
+        "missing": [
+          "antigüedad",
+          "ingresos",
+          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
+        ]
+      },
+      "check": {
+        "checked_at": "2026-11-17",
+        "domains": [
+          "assembled.com",
+          "getmacha.com",
+          "usecarly.com"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.assembled.com/page/regal-ai",
+            "quote": "Regal AI is a voice-first AI agent platform built for contact centers"
+          },
+          {
+            "url": "https://www.getmacha.com/blog/regal-ai-complete-guide",
+            "quote": "Regal AI is a voice-first AI agent platform for B2C contact centers"
+          },
+          {
+            "url": "https://www.usecarly.com/blog/regal-ai/",
+            "quote": "Regal is an enterprise voice AI platform. Its AI phone agents answer inbound calls"
+          }
+        ]
+      },
+      "facts": [
+        {
+          "text": "Según regal.ai: «Regal's AI Agent Builder lets enterprises create and deploy custom Voice AI Agents without code»",
+          "source_url": "https://www.regal.ai/blog/march-2026-releases",
+          "label": "regal.ai"
+        }
+      ],
+      "ficha_url": null
+    },
+    {
       "id": "suki",
       "name": "Suki",
       "light": "yellow",
@@ -319,7 +382,7 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 6,
+      "rank": 7,
       "zone": "repechaje",
       "score": {
         "total": 10.0,
@@ -1518,6 +1581,15 @@
     },
     {
       "dimension": "categoría",
+      "group": "Plataforma de agentes de voz para centros de contacto",
+      "n": 1,
+      "green": 0,
+      "yellow": 1,
+      "red": 0,
+      "verdict": "sin muestra suficiente (mínimo 5)"
+    },
+    {
+      "dimension": "categoría",
       "group": "plataforma de vibe coding",
       "n": 1,
       "green": 0,
@@ -1528,9 +1600,9 @@
     {
       "dimension": "rol de la IA",
       "group": "ai_product",
-      "n": 6,
+      "n": 7,
       "green": 0,
-      "yellow": 6,
+      "yellow": 7,
       "red": 0,
       "verdict": "mixto"
     }
@@ -1843,13 +1915,30 @@
         "h-company": 5,
         "suki": 6
       }
+    },
+    {
+      "date": "2026-11-17",
+      "podium": [
+        "lovable",
+        "cognition-ai",
+        "decagon"
+      ],
+      "ranks": {
+        "lovable": 1,
+        "cognition-ai": 2,
+        "decagon": 3,
+        "glean": 4,
+        "h-company": 5,
+        "regal-ai": 6,
+        "suki": 7
+      }
     }
   ],
   "validation": {
-    "last_run_at": "2026-11-16",
+    "last_run_at": "2026-11-17",
     "total": 35,
-    "up": 31,
+    "up": 30,
     "down": 1,
-    "blocked": 3
+    "blocked": 4
   }
 }

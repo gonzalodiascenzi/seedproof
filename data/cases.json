@@ -834,5 +834,31 @@
       "revenue_basis": null
     },
     "flags": []
+  },
+  {
+    "id": "regal-ai",
+    "rev": 1,
+    "origin": "discovered",
+    "name": "Regal AI",
+    "light": "🟡",
+    "facts": [
+      {
+        "text": "Según regal.ai: «Regal's AI Agent Builder lets enterprises create and deploy custom Voice AI Agents without code»",
+        "source_url": "https://www.regal.ai/blog/march-2026-releases",
+        "label": "regal.ai",
+        "anchors": []
+      }
+    ],
+    "live": false,
+    "category": "Plataforma de agentes de voz para centros de contacto",
+    "ai_role": "ai_product",
+    "evidence_level": 1,
+    "launched": null,
+    "ended": null,
+    "metrics": {
+      "revenue_usd_annual": null,
+      "revenue_basis": null
+    },
+    "flags": []
   }
 ]

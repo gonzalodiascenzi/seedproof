@@ -409,5 +409,31 @@
       }
     ],
     "rejected_evidence": 0
+  },
+  "regal-ai": {
+    "status": "confirmed",
+    "rev": 1,
+    "checked_at": "2026-11-17",
+    "model_verdict": "confirmed",
+    "domains": [
+      "assembled.com",
+      "getmacha.com",
+      "usecarly.com"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.assembled.com/page/regal-ai",
+        "quote": "Regal AI is a voice-first AI agent platform built for contact centers"
+      },
+      {
+        "url": "https://www.getmacha.com/blog/regal-ai-complete-guide",
+        "quote": "Regal AI is a voice-first AI agent platform for B2C contact centers"
+      },
+      {
+        "url": "https://www.usecarly.com/blog/regal-ai/",
+        "quote": "Regal is an enterprise voice AI platform. Its AI phone agents answer inbound calls"
+      }
+    ],
+    "rejected_evidence": 1
   }
 }

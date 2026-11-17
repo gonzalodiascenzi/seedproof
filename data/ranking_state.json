@@ -1,11 +1,12 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-17",
   "order": [
     "lovable",
     "cognition-ai",
     "decagon",
     "glean",
     "h-company",
+    "regal-ai",
     "suki"
   ],
   "status": {
@@ -14,6 +15,7 @@
     "decagon": "confirmed",
     "glean": "confirmed",
     "h-company": "confirmed",
+    "regal-ai": "confirmed",
     "suki": "confirmed",
     "enrichlead": "unconfirmed",
     "moltbook": "unconfirmed",
@@ -43,6 +45,7 @@
     "decagon": "podio",
     "glean": "repechaje",
     "h-company": "repechaje",
+    "regal-ai": "repechaje",
     "suki": "repechaje"
   }
 }
