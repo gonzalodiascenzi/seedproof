@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "order": [
     "lovable",
     "cognition-ai",
@@ -37,7 +37,8 @@
     "adept-ai": "unconfirmed",
     "rosebud-ai": "unconfirmed",
     "reflection-ai": "unconfirmed",
-    "archgen-labs": "unconfirmed"
+    "archgen-labs": "unconfirmed",
+    "cursor": "unconfirmed"
   },
   "zones": {
     "lovable": "podio",

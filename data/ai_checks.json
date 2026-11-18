@@ -435,5 +435,14 @@
       }
     ],
     "rejected_evidence": 1
+  },
+  "cursor": {
+    "status": "unconfirmed",
+    "rev": 1,
+    "checked_at": "2026-11-18",
+    "model_verdict": "confirmed",
+    "domains": [],
+    "evidence": [],
+    "rejected_evidence": 4
   }
 }
