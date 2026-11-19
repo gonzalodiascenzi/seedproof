@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18 08:36 UTC",
+  "generated_at": "2026-11-19 08:36 UTC",
   "ranking_date": "2026-11-18",
   "repo_url": "https://github.com/gonzalodiascenzi/seedproof",
   "podium_size": 3,
@@ -1998,9 +1998,9 @@
     }
   ],
   "validation": {
-    "last_run_at": "2026-11-18",
-    "total": 36,
-    "up": 31,
+    "last_run_at": "2026-11-19",
+    "total": 37,
+    "up": 32,
     "down": 1,
     "blocked": 4
   }
