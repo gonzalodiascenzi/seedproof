@@ -444,5 +444,47 @@
     "domains": [],
     "evidence": [],
     "rejected_evidence": 4
+  },
+  "notte": {
+    "status": "confirmed",
+    "rev": 1,
+    "checked_at": "2026-11-21",
+    "model_verdict": "confirmed",
+    "domains": [
+      "github.com",
+      "usecarly.com",
+      "ycombinator.com"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.ycombinator.com/companies/notte",
+        "quote": "Notte is cloud browser infrastructure for AI agents."
+      },
+      {
+        "url": "https://www.usecarly.com/blog/notte/",
+        "quote": "Notte is a browser platform for AI agents and web automation."
+      },
+      {
+        "url": "https://github.com/nottelabs/notte",
+        "quote": "Cloud browser infrastructure and web automation platform for your AI and coding agents"
+      }
+    ],
+    "rejected_evidence": 1
+  },
+  "webai": {
+    "status": "unconfirmed",
+    "rev": 1,
+    "checked_at": "2026-11-21",
+    "model_verdict": "confirmed",
+    "domains": [
+      "siliconangle.com"
+    ],
+    "evidence": [
+      {
+        "url": "https://siliconangle.com/2025/01/23/webais-companion-privacy-focused-ai-assistant-enterprise-employees-runs-devices/",
+        "quote": "provides tools that enable enterprises to deploy AI models locally on Apple Inc."
+      }
+    ],
+    "rejected_evidence": 2
   }
 }

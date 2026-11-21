@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20 08:36 UTC",
-  "ranking_date": "2026-11-18",
+  "generated_at": "2026-11-21 08:36 UTC",
+  "ranking_date": "2026-11-21",
   "repo_url": "https://github.com/gonzalodiascenzi/seedproof",
   "podium_size": 3,
   "repechaje_size": 7,
@@ -305,6 +305,69 @@
       "ficha_url": null
     },
     {
+      "id": "notte",
+      "name": "Notte",
+      "light": "yellow",
+      "category": "Infraestructura de navegador para agentes IA",
+      "ai_role": "ai_product",
+      "evidence_level": 1,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": null,
+        "revenue_basis": null
+      },
+      "flags": [],
+      "status": "confirmed",
+      "rank": 6,
+      "zone": "repechaje",
+      "score": {
+        "total": 10.0,
+        "evidence": 10,
+        "traction": 0.0,
+        "age": 0,
+        "light": 0,
+        "flags": 0,
+        "automation": 0,
+        "age_months": null,
+        "missing": [
+          "antigüedad",
+          "ingresos",
+          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
+        ]
+      },
+      "check": {
+        "checked_at": "2026-11-21",
+        "domains": [
+          "github.com",
+          "usecarly.com",
+          "ycombinator.com"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.ycombinator.com/companies/notte",
+            "quote": "Notte is cloud browser infrastructure for AI agents."
+          },
+          {
+            "url": "https://www.usecarly.com/blog/notte/",
+            "quote": "Notte is a browser platform for AI agents and web automation."
+          },
+          {
+            "url": "https://github.com/nottelabs/notte",
+            "quote": "Cloud browser infrastructure and web automation platform for your AI and coding agents"
+          }
+        ]
+      },
+      "facts": [
+        {
+          "text": "Según notte.cc: «Notte is a browser infrastructure platform for AI agents»",
+          "source_url": "https://www.notte.cc/",
+          "label": "notte.cc"
+        }
+      ],
+      "ficha_url": null
+    },
+    {
       "id": "regal-ai",
       "name": "Regal AI",
       "light": "yellow",
@@ -319,7 +382,7 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 6,
+      "rank": 7,
       "zone": "repechaje",
       "score": {
         "total": 10.0,
@@ -382,7 +445,7 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 7,
+      "rank": 8,
       "zone": "repechaje",
       "score": {
         "total": 10.0,
@@ -1576,6 +1639,59 @@
         }
       ],
       "ficha_url": null
+    },
+    {
+      "id": "webai",
+      "name": "webAI",
+      "light": "yellow",
+      "category": "Plataforma de IA privada en dispositivos Apple",
+      "ai_role": "ai_product",
+      "evidence_level": 1,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": null,
+        "revenue_basis": null
+      },
+      "flags": [],
+      "status": "unconfirmed",
+      "rank": null,
+      "zone": null,
+      "score": {
+        "total": 10.0,
+        "evidence": 10,
+        "traction": 0.0,
+        "age": 0,
+        "light": 0,
+        "flags": 0,
+        "automation": 0,
+        "age_months": null,
+        "missing": [
+          "antigüedad",
+          "ingresos",
+          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
+        ]
+      },
+      "check": {
+        "checked_at": "2026-11-21",
+        "domains": [
+          "siliconangle.com"
+        ],
+        "evidence": [
+          {
+            "url": "https://siliconangle.com/2025/01/23/webais-companion-privacy-focused-ai-assistant-enterprise-employees-runs-devices/",
+            "quote": "provides tools that enable enterprises to deploy AI models locally on Apple Inc."
+          }
+        ]
+      },
+      "facts": [
+        {
+          "text": "Según en.wikipedia.org: «enables organizations to deploy AI models locally on devices, minimizing reliance on cloud infrastructures»",
+          "source_url": "https://en.wikipedia.org/wiki/WebAI",
+          "label": "en.wikipedia.org"
+        }
+      ],
+      "ficha_url": null
     }
   ],
   "discarded": [],
@@ -1618,6 +1734,15 @@
     },
     {
       "dimension": "categoría",
+      "group": "Infraestructura de navegador para agentes IA",
+      "n": 1,
+      "green": 0,
+      "yellow": 1,
+      "red": 0,
+      "verdict": "sin muestra suficiente (mínimo 5)"
+    },
+    {
+      "dimension": "categoría",
       "group": "Modelos de IA para automatización de computadoras",
       "n": 1,
       "green": 0,
@@ -1646,9 +1771,9 @@
     {
       "dimension": "rol de la IA",
       "group": "ai_product",
-      "n": 7,
+      "n": 8,
       "green": 0,
-      "yellow": 7,
+      "yellow": 8,
       "red": 0,
       "verdict": "mixto"
     }
@@ -1994,6 +2119,24 @@
         "h-company": 5,
         "regal-ai": 6,
         "suki": 7
+      }
+    },
+    {
+      "date": "2026-11-21",
+      "podium": [
+        "lovable",
+        "cognition-ai",
+        "decagon"
+      ],
+      "ranks": {
+        "lovable": 1,
+        "cognition-ai": 2,
+        "decagon": 3,
+        "glean": 4,
+        "h-company": 5,
+        "notte": 6,
+        "regal-ai": 7,
+        "suki": 8
       }
     }
   ],

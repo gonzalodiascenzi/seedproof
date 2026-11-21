@@ -886,5 +886,57 @@
       "revenue_basis": null
     },
     "flags": []
+  },
+  {
+    "id": "notte",
+    "rev": 1,
+    "origin": "discovered",
+    "name": "Notte",
+    "light": "🟡",
+    "facts": [
+      {
+        "text": "Según notte.cc: «Notte is a browser infrastructure platform for AI agents»",
+        "source_url": "https://www.notte.cc/",
+        "label": "notte.cc",
+        "anchors": []
+      }
+    ],
+    "live": false,
+    "category": "Infraestructura de navegador para agentes IA",
+    "ai_role": "ai_product",
+    "evidence_level": 1,
+    "launched": null,
+    "ended": null,
+    "metrics": {
+      "revenue_usd_annual": null,
+      "revenue_basis": null
+    },
+    "flags": []
+  },
+  {
+    "id": "webai",
+    "rev": 1,
+    "origin": "discovered",
+    "name": "webAI",
+    "light": "🟡",
+    "facts": [
+      {
+        "text": "Según en.wikipedia.org: «enables organizations to deploy AI models locally on devices, minimizing reliance on cloud infrastructures»",
+        "source_url": "https://en.wikipedia.org/wiki/WebAI",
+        "label": "en.wikipedia.org",
+        "anchors": []
+      }
+    ],
+    "live": false,
+    "category": "Plataforma de IA privada en dispositivos Apple",
+    "ai_role": "ai_product",
+    "evidence_level": 1,
+    "launched": null,
+    "ended": null,
+    "metrics": {
+      "revenue_usd_annual": null,
+      "revenue_basis": null
+    },
+    "flags": []
   }
 ]

@@ -1,11 +1,12 @@
 {
-  "date": "2026-11-18",
+  "date": "2026-11-21",
   "order": [
     "lovable",
     "cognition-ai",
     "decagon",
     "glean",
     "h-company",
+    "notte",
     "regal-ai",
     "suki"
   ],
@@ -15,6 +16,7 @@
     "decagon": "confirmed",
     "glean": "confirmed",
     "h-company": "confirmed",
+    "notte": "confirmed",
     "regal-ai": "confirmed",
     "suki": "confirmed",
     "enrichlead": "unconfirmed",
@@ -38,7 +40,8 @@
     "rosebud-ai": "unconfirmed",
     "reflection-ai": "unconfirmed",
     "archgen-labs": "unconfirmed",
-    "cursor": "unconfirmed"
+    "cursor": "unconfirmed",
+    "webai": "unconfirmed"
   },
   "zones": {
     "lovable": "podio",
@@ -46,6 +49,7 @@
     "decagon": "podio",
     "glean": "repechaje",
     "h-company": "repechaje",
+    "notte": "repechaje",
     "regal-ai": "repechaje",
     "suki": "repechaje"
   }
