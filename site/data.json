@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-21 08:36 UTC",
-  "ranking_date": "2026-11-21",
+  "generated_at": "2026-11-22 08:36 UTC",
+  "ranking_date": "2026-11-22",
   "repo_url": "https://github.com/gonzalodiascenzi/seedproof",
   "podium_size": 3,
   "repechaje_size": 7,
@@ -68,64 +68,6 @@
       "ficha_url": "https://github.com/gonzalodiascenzi/seedproof/blob/main/casos/12-lovable.md"
     },
     {
-      "id": "cognition-ai",
-      "name": "Cognition AI",
-      "light": "yellow",
-      "category": "Autonomous AI software engineer",
-      "ai_role": "ai_product",
-      "evidence_level": 1,
-      "launched": null,
-      "ended": null,
-      "metrics": {
-        "revenue_usd_annual": null,
-        "revenue_basis": null
-      },
-      "flags": [],
-      "status": "confirmed",
-      "rank": 2,
-      "zone": "podio",
-      "score": {
-        "total": 10.0,
-        "evidence": 10,
-        "traction": 0.0,
-        "age": 0,
-        "light": 0,
-        "flags": 0,
-        "automation": 0,
-        "age_months": null,
-        "missing": [
-          "antigüedad",
-          "ingresos",
-          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
-        ]
-      },
-      "check": {
-        "checked_at": "2026-10-22",
-        "domains": [
-          "fast.io",
-          "omnius.so"
-        ],
-        "evidence": [
-          {
-            "url": "https://www.omnius.so/blog/leading-us-ai-startups",
-            "quote": "Cognition AI develops Devin, an autonomous AI software engineer built to plan, write, debug"
-          },
-          {
-            "url": "https://fast.io/resources/what-is-devin-ai/",
-            "quote": "Devin AI, developed by Cognition, is an autonomous AI software engineer"
-          }
-        ]
-      },
-      "facts": [
-        {
-          "text": "Según omnius.so: «Cognition AI develops Devin, an autonomous AI software engineer built to plan, write, debug»",
-          "source_url": "https://www.omnius.so/blog/leading-us-ai-startups",
-          "label": "omnius.so"
-        }
-      ],
-      "ficha_url": null
-    },
-    {
       "id": "decagon",
       "name": "Decagon",
       "light": "yellow",
@@ -140,7 +82,7 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 3,
+      "rank": 2,
       "zone": "podio",
       "score": {
         "total": 10.0,
@@ -198,8 +140,8 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 4,
-      "zone": "repechaje",
+      "rank": 3,
+      "zone": "podio",
       "score": {
         "total": 10.0,
         "evidence": 10,
@@ -256,7 +198,7 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 5,
+      "rank": 4,
       "zone": "repechaje",
       "score": {
         "total": 10.0,
@@ -319,7 +261,7 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 6,
+      "rank": 5,
       "zone": "repechaje",
       "score": {
         "total": 10.0,
@@ -382,7 +324,7 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 7,
+      "rank": 6,
       "zone": "repechaje",
       "score": {
         "total": 10.0,
@@ -445,7 +387,7 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 8,
+      "rank": 7,
       "zone": "repechaje",
       "score": {
         "total": 10.0,
@@ -463,19 +405,19 @@
         ]
       },
       "check": {
-        "checked_at": "2026-10-22",
+        "checked_at": "2026-11-22",
         "domains": [
           "deepcura.com",
-          "suki.ai"
+          "plaud.ai"
         ],
         "evidence": [
           {
             "url": "https://www.deepcura.com/resources/suki-ai-review",
-            "quote": "Suki AI is an AI-powered voice assistant and ambient clinical intelligence platform for healthcare professionals."
+            "quote": "Suki AI is an AI-powered voice assistant and ambient clinical intelligence platform for healthcare professionals"
           },
           {
-            "url": "https://www.suki.ai/press-releases/suki-launches-patient-summarization-and-clinical-qa-for-doctors-with-google-cloud/",
-            "quote": "Suki becomes the industry's first end-to-end clinical assistant by offering summaries"
+            "url": "https://www.plaud.ai/blogs/articles/suki-ai-review",
+            "quote": "Suki AI is a voice-first clinical assistant that goes beyond writing notes"
           }
         ]
       },
@@ -1231,6 +1173,59 @@
       "ficha_url": null
     },
     {
+      "id": "cognition-ai",
+      "name": "Cognition AI",
+      "light": "yellow",
+      "category": "Autonomous AI software engineer",
+      "ai_role": "ai_product",
+      "evidence_level": 1,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": null,
+        "revenue_basis": null
+      },
+      "flags": [],
+      "status": "unconfirmed",
+      "rank": null,
+      "zone": null,
+      "score": {
+        "total": 10.0,
+        "evidence": 10,
+        "traction": 0.0,
+        "age": 0,
+        "light": 0,
+        "flags": 0,
+        "automation": 0,
+        "age_months": null,
+        "missing": [
+          "antigüedad",
+          "ingresos",
+          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
+        ]
+      },
+      "check": {
+        "checked_at": "2026-11-22",
+        "domains": [
+          "omnius.so"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.omnius.so/blog/leading-us-ai-startups",
+            "quote": "Cognition AI develops Devin, an autonomous AI software engineer built to plan, write, debug"
+          }
+        ]
+      },
+      "facts": [
+        {
+          "text": "Según omnius.so: «Cognition AI develops Devin, an autonomous AI software engineer built to plan, write, debug»",
+          "source_url": "https://www.omnius.so/blog/leading-us-ai-startups",
+          "label": "omnius.so"
+        }
+      ],
+      "ficha_url": null
+    },
+    {
       "id": "suno",
       "name": "Suno",
       "light": "yellow",
@@ -1707,15 +1702,6 @@
     },
     {
       "dimension": "categoría",
-      "group": "Autonomous AI software engineer",
-      "n": 1,
-      "green": 0,
-      "yellow": 1,
-      "red": 0,
-      "verdict": "sin muestra suficiente (mínimo 5)"
-    },
-    {
-      "dimension": "categoría",
       "group": "Enterprise AI Search",
       "n": 1,
       "green": 0,
@@ -1771,9 +1757,9 @@
     {
       "dimension": "rol de la IA",
       "group": "ai_product",
-      "n": 8,
+      "n": 7,
       "green": 0,
-      "yellow": 8,
+      "yellow": 7,
       "red": 0,
       "verdict": "mixto"
     }
@@ -2137,6 +2123,23 @@
         "notte": 6,
         "regal-ai": 7,
         "suki": 8
+      }
+    },
+    {
+      "date": "2026-11-22",
+      "podium": [
+        "lovable",
+        "decagon",
+        "glean"
+      ],
+      "ranks": {
+        "lovable": 1,
+        "decagon": 2,
+        "glean": 3,
+        "h-company": 4,
+        "notte": 5,
+        "regal-ai": 6,
+        "suki": 7
       }
     }
   ],

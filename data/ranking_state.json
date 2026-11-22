@@ -1,8 +1,7 @@
 {
-  "date": "2026-11-21",
+  "date": "2026-11-22",
   "order": [
     "lovable",
-    "cognition-ai",
     "decagon",
     "glean",
     "h-company",
@@ -12,7 +11,6 @@
   ],
   "status": {
     "lovable": "confirmed",
-    "cognition-ai": "confirmed",
     "decagon": "confirmed",
     "glean": "confirmed",
     "h-company": "confirmed",
@@ -33,6 +31,7 @@
     "fliki": "unconfirmed",
     "supermaven": "unconfirmed",
     "superdesign": "unconfirmed",
+    "cognition-ai": "unconfirmed",
     "suno": "unconfirmed",
     "mistral": "unconfirmed",
     "synthesia": "unconfirmed",
@@ -45,9 +44,8 @@
   },
   "zones": {
     "lovable": "podio",
-    "cognition-ai": "podio",
     "decagon": "podio",
-    "glean": "repechaje",
+    "glean": "podio",
     "h-company": "repechaje",
     "notte": "repechaje",
     "regal-ai": "repechaje",
