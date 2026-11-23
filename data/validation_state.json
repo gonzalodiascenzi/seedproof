@@ -1,5 +1,5 @@
 {
-  "last_run_at": "2026-11-20",
+  "last_run_at": "2026-11-23",
   "sources": {
     "https://404media.co/this-game-created-by-ai-vibe-coding-makes-50-000-a-month-yours-probably-wont": {
       "status": "up"
@@ -17,6 +17,9 @@
       "status": "up"
     },
     "https://elearningindustry.com/advertise/elearning-marketing-resources/blog/hottest-ai-startups-the-companies-defining-the-next-wave-of-ai": {
+      "status": "up"
+    },
+    "https://en.wikipedia.org/wiki/WebAI": {
       "status": "up"
     },
     "https://eu.36kr.com/en/p/3825813697565316": {
@@ -42,7 +45,7 @@
     },
     "https://supabase.com/customers/chatbase": {
       "status": "up",
-      "hash": "dc4a33ff31d6221ca0d53eeb3f1f462ac7c7837ade5c8ca2d2d6756dbfad11bb"
+      "hash": "8b6657e7d94351efc36b7284f5e4da0878b8ee10e3011923167647bf5ef7b2c6"
     },
     "https://techcrunch.com/2025/06/18/six-month-old-solo-owned-vibe-coder-base44-sells-to-wix-for-80m-cash": {
       "status": "up"
@@ -98,6 +101,9 @@
     },
     "https://www.indiehackers.com/post/tech/vibe-coding-has-a-security-problem-vLxyPTrTlZVwDo76oqvr": {
       "status": "blocked"
+    },
+    "https://www.notte.cc/": {
+      "status": "up"
     },
     "https://www.omnius.so/blog/leading-us-ai-startups": {
       "status": "up"
