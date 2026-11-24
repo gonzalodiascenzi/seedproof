@@ -938,5 +938,31 @@
       "revenue_basis": null
     },
     "flags": []
+  },
+  {
+    "id": "harmonic",
+    "rev": 1,
+    "origin": "discovered",
+    "name": "Harmonic",
+    "light": "🟡",
+    "facts": [
+      {
+        "text": "Según topstartups.io: «Building mathematical superintelligence Artificial Intelligence»",
+        "source_url": "https://topstartups.io/?industries=Artificial+Intelligence",
+        "label": "topstartups.io",
+        "anchors": []
+      }
+    ],
+    "live": false,
+    "category": "Superinteligencia matemática",
+    "ai_role": "ai_product",
+    "evidence_level": 1,
+    "launched": null,
+    "ended": null,
+    "metrics": {
+      "revenue_usd_annual": null,
+      "revenue_basis": null
+    },
+    "flags": []
   }
 ]

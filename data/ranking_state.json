@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-22",
+  "date": "2026-11-24",
   "order": [
     "lovable",
     "decagon",
@@ -40,7 +40,8 @@
     "reflection-ai": "unconfirmed",
     "archgen-labs": "unconfirmed",
     "cursor": "unconfirmed",
-    "webai": "unconfirmed"
+    "webai": "unconfirmed",
+    "harmonic": "unconfirmed"
   },
   "zones": {
     "lovable": "podio",

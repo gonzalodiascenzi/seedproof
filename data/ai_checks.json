@@ -481,5 +481,21 @@
       }
     ],
     "rejected_evidence": 2
+  },
+  "harmonic": {
+    "status": "unconfirmed",
+    "rev": 1,
+    "checked_at": "2026-11-24",
+    "model_verdict": "confirmed",
+    "domains": [
+      "topstartups.io"
+    ],
+    "evidence": [
+      {
+        "url": "https://topstartups.io/?industries=Artificial+Intelligence",
+        "quote": "Building mathematical superintelligence Artificial Intelligence"
+      }
+    ],
+    "rejected_evidence": 2
   }
 }

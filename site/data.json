@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23 09:24 UTC",
-  "ranking_date": "2026-11-22",
+  "generated_at": "2026-11-24 08:37 UTC",
+  "ranking_date": "2026-11-24",
   "repo_url": "https://github.com/gonzalodiascenzi/seedproof",
   "podium_size": 3,
   "repechaje_size": 7,
@@ -1687,6 +1687,59 @@
         }
       ],
       "ficha_url": null
+    },
+    {
+      "id": "harmonic",
+      "name": "Harmonic",
+      "light": "yellow",
+      "category": "Superinteligencia matemática",
+      "ai_role": "ai_product",
+      "evidence_level": 1,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": null,
+        "revenue_basis": null
+      },
+      "flags": [],
+      "status": "unconfirmed",
+      "rank": null,
+      "zone": null,
+      "score": {
+        "total": 10.0,
+        "evidence": 10,
+        "traction": 0.0,
+        "age": 0,
+        "light": 0,
+        "flags": 0,
+        "automation": 0,
+        "age_months": null,
+        "missing": [
+          "antigüedad",
+          "ingresos",
+          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
+        ]
+      },
+      "check": {
+        "checked_at": "2026-11-24",
+        "domains": [
+          "topstartups.io"
+        ],
+        "evidence": [
+          {
+            "url": "https://topstartups.io/?industries=Artificial+Intelligence",
+            "quote": "Building mathematical superintelligence Artificial Intelligence"
+          }
+        ]
+      },
+      "facts": [
+        {
+          "text": "Según topstartups.io: «Building mathematical superintelligence Artificial Intelligence»",
+          "source_url": "https://topstartups.io/?industries=Artificial+Intelligence",
+          "label": "topstartups.io"
+        }
+      ],
+      "ficha_url": null
     }
   ],
   "discarded": [],
@@ -2127,6 +2180,23 @@
     },
     {
       "date": "2026-11-22",
+      "podium": [
+        "lovable",
+        "decagon",
+        "glean"
+      ],
+      "ranks": {
+        "lovable": 1,
+        "decagon": 2,
+        "glean": 3,
+        "h-company": 4,
+        "notte": 5,
+        "regal-ai": 6,
+        "suki": 7
+      }
+    },
+    {
+      "date": "2026-11-24",
       "podium": [
         "lovable",
         "decagon",
