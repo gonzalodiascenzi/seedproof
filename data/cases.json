@@ -964,5 +964,31 @@
       "revenue_basis": null
     },
     "flags": []
+  },
+  {
+    "id": "meow",
+    "rev": 1,
+    "origin": "discovered",
+    "name": "Meow",
+    "light": "🟡",
+    "facts": [
+      {
+        "text": "Según meow.com: «launching the first financial infrastructure built for AI agents»",
+        "source_url": "https://www.meow.com/blog/ai-agents-can-now-open-and-run-your-business-bank-account",
+        "label": "meow.com",
+        "anchors": []
+      }
+    ],
+    "live": false,
+    "category": "Banca para agentes IA",
+    "ai_role": "ai_product",
+    "evidence_level": 1,
+    "launched": null,
+    "ended": null,
+    "metrics": {
+      "revenue_usd_annual": null,
+      "revenue_basis": null
+    },
+    "flags": []
   }
 ]

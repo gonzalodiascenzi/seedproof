@@ -1,5 +1,5 @@
 {
-  "last_run_at": "2026-11-23",
+  "last_run_at": "2026-11-25",
   "sources": {
     "https://404media.co/this-game-created-by-ai-vibe-coding-makes-50-000-a-month-yours-probably-wont": {
       "status": "up"
@@ -45,7 +45,7 @@
     },
     "https://supabase.com/customers/chatbase": {
       "status": "up",
-      "hash": "8b6657e7d94351efc36b7284f5e4da0878b8ee10e3011923167647bf5ef7b2c6"
+      "hash": "efdf87447da3e23f3bc5cb2502c21ba1add80e20bd33eee2c98f4745b3811725"
     },
     "https://techcrunch.com/2025/06/18/six-month-old-solo-owned-vibe-coder-base44-sells-to-wix-for-80m-cash": {
       "status": "up"
@@ -66,6 +66,9 @@
       "status": "up"
     },
     "https://thenextweb.com/news/meta-acquires-moltbook-ai-agent-social-network": {
+      "status": "up"
+    },
+    "https://topstartups.io/?industries=Artificial+Intelligence": {
       "status": "up"
     },
     "https://trustmrr.com/startup/chatbase": {

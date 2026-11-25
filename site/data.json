@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-24 08:37 UTC",
-  "ranking_date": "2026-11-24",
+  "generated_at": "2026-11-25 08:37 UTC",
+  "ranking_date": "2026-11-25",
   "repo_url": "https://github.com/gonzalodiascenzi/seedproof",
   "podium_size": 3,
   "repechaje_size": 7,
@@ -247,6 +247,69 @@
       "ficha_url": null
     },
     {
+      "id": "meow",
+      "name": "Meow",
+      "light": "yellow",
+      "category": "Banca para agentes IA",
+      "ai_role": "ai_product",
+      "evidence_level": 1,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": null,
+        "revenue_basis": null
+      },
+      "flags": [],
+      "status": "confirmed",
+      "rank": 5,
+      "zone": "repechaje",
+      "score": {
+        "total": 10.0,
+        "evidence": 10,
+        "traction": 0.0,
+        "age": 0,
+        "light": 0,
+        "flags": 0,
+        "automation": 0,
+        "age_months": null,
+        "missing": [
+          "antigüedad",
+          "ingresos",
+          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
+        ]
+      },
+      "check": {
+        "checked_at": "2026-11-25",
+        "domains": [
+          "agent-finder.co",
+          "meow.com",
+          "thenextweb.com"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.meow.com/blog/ai-agents-can-now-open-and-run-your-business-bank-account",
+            "quote": "launching the first financial infrastructure built for AI agents"
+          },
+          {
+            "url": "https://thenextweb.com/news/meow-technologies-agentic-banking-ai-agents",
+            "quote": "world's first agentic banking platform, enabling AI agents to open business bank accounts"
+          },
+          {
+            "url": "https://agent-finder.co/reviews/meow",
+            "quote": "Meow is a banking platform built specifically for AI agents to operate autonomously"
+          }
+        ]
+      },
+      "facts": [
+        {
+          "text": "Según meow.com: «launching the first financial infrastructure built for AI agents»",
+          "source_url": "https://www.meow.com/blog/ai-agents-can-now-open-and-run-your-business-bank-account",
+          "label": "meow.com"
+        }
+      ],
+      "ficha_url": null
+    },
+    {
       "id": "notte",
       "name": "Notte",
       "light": "yellow",
@@ -261,7 +324,7 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 5,
+      "rank": 6,
       "zone": "repechaje",
       "score": {
         "total": 10.0,
@@ -324,7 +387,7 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 6,
+      "rank": 7,
       "zone": "repechaje",
       "score": {
         "total": 10.0,
@@ -387,7 +450,7 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 7,
+      "rank": 8,
       "zone": "repechaje",
       "score": {
         "total": 10.0,
@@ -1755,6 +1818,15 @@
     },
     {
       "dimension": "categoría",
+      "group": "Banca para agentes IA",
+      "n": 1,
+      "green": 0,
+      "yellow": 1,
+      "red": 0,
+      "verdict": "sin muestra suficiente (mínimo 5)"
+    },
+    {
+      "dimension": "categoría",
       "group": "Enterprise AI Search",
       "n": 1,
       "green": 0,
@@ -1810,9 +1882,9 @@
     {
       "dimension": "rol de la IA",
       "group": "ai_product",
-      "n": 7,
+      "n": 8,
       "green": 0,
-      "yellow": 7,
+      "yellow": 8,
       "red": 0,
       "verdict": "mixto"
     }
@@ -2211,12 +2283,30 @@
         "regal-ai": 6,
         "suki": 7
       }
+    },
+    {
+      "date": "2026-11-25",
+      "podium": [
+        "lovable",
+        "decagon",
+        "glean"
+      ],
+      "ranks": {
+        "lovable": 1,
+        "decagon": 2,
+        "glean": 3,
+        "h-company": 4,
+        "meow": 5,
+        "notte": 6,
+        "regal-ai": 7,
+        "suki": 8
+      }
     }
   ],
   "validation": {
-    "last_run_at": "2026-11-23",
-    "total": 39,
-    "up": 34,
+    "last_run_at": "2026-11-25",
+    "total": 40,
+    "up": 35,
     "down": 1,
     "blocked": 4
   }

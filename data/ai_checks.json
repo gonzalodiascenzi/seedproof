@@ -497,5 +497,31 @@
       }
     ],
     "rejected_evidence": 2
+  },
+  "meow": {
+    "status": "confirmed",
+    "rev": 1,
+    "checked_at": "2026-11-25",
+    "model_verdict": "confirmed",
+    "domains": [
+      "agent-finder.co",
+      "meow.com",
+      "thenextweb.com"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.meow.com/blog/ai-agents-can-now-open-and-run-your-business-bank-account",
+        "quote": "launching the first financial infrastructure built for AI agents"
+      },
+      {
+        "url": "https://thenextweb.com/news/meow-technologies-agentic-banking-ai-agents",
+        "quote": "world's first agentic banking platform, enabling AI agents to open business bank accounts"
+      },
+      {
+        "url": "https://agent-finder.co/reviews/meow",
+        "quote": "Meow is a banking platform built specifically for AI agents to operate autonomously"
+      }
+    ],
+    "rejected_evidence": 1
   }
 }
