@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "order": [
     "lovable",
     "decagon",
@@ -8,7 +8,8 @@
     "meow",
     "notte",
     "regal-ai",
-    "suki"
+    "suki",
+    "suno"
   ],
   "status": {
     "lovable": "confirmed",
@@ -19,6 +20,7 @@
     "notte": "confirmed",
     "regal-ai": "confirmed",
     "suki": "confirmed",
+    "suno": "confirmed",
     "enrichlead": "unconfirmed",
     "moltbook": "unconfirmed",
     "fly-pieter": "unconfirmed",
@@ -34,7 +36,6 @@
     "supermaven": "unconfirmed",
     "superdesign": "unconfirmed",
     "cognition-ai": "unconfirmed",
-    "suno": "unconfirmed",
     "mistral": "unconfirmed",
     "synthesia": "unconfirmed",
     "adept-ai": "unconfirmed",
@@ -53,6 +54,7 @@
     "meow": "repechaje",
     "notte": "repechaje",
     "regal-ai": "repechaje",
-    "suki": "repechaje"
+    "suki": "repechaje",
+    "suno": "repechaje"
   }
 }

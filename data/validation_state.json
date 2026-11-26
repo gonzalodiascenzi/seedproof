@@ -1,5 +1,5 @@
 {
-  "last_run_at": "2026-11-25",
+  "last_run_at": "2026-11-26",
   "sources": {
     "https://404media.co/this-game-created-by-ai-vibe-coding-makes-50-000-a-month-yours-probably-wont": {
       "status": "up"
@@ -45,7 +45,7 @@
     },
     "https://supabase.com/customers/chatbase": {
       "status": "up",
-      "hash": "efdf87447da3e23f3bc5cb2502c21ba1add80e20bd33eee2c98f4745b3811725"
+      "hash": "aa8445de3a96fc9e62a34877ef17b338078ec1bc098f0ce7a10fa2c521242b02"
     },
     "https://techcrunch.com/2025/06/18/six-month-old-solo-owned-vibe-coder-base44-sells-to-wix-for-80m-cash": {
       "status": "up"
@@ -94,7 +94,7 @@
       "status": "blocked"
     },
     "https://www.globenewswire.com/de/news-release/2026/08/04/3338018/0/en/Wix-Reports-Second-Quarter-2026-Results.html": {
-      "status": "blocked"
+      "status": "up"
     },
     "https://www.implicator.ai/medvi-got-an-fda-warning-before-the-times-called-it-a-1-8-billion-ai-story/": {
       "status": "up"
@@ -104,6 +104,9 @@
     },
     "https://www.indiehackers.com/post/tech/vibe-coding-has-a-security-problem-vLxyPTrTlZVwDo76oqvr": {
       "status": "blocked"
+    },
+    "https://www.meow.com/blog/ai-agents-can-now-open-and-run-your-business-bank-account": {
+      "status": "up"
     },
     "https://www.notte.cc/": {
       "status": "up"
