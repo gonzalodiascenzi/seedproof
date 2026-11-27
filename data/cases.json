@@ -990,5 +990,31 @@
       "revenue_basis": null
     },
     "flags": []
+  },
+  {
+    "id": "sierra-ai",
+    "rev": 1,
+    "origin": "discovered",
+    "name": "Sierra AI",
+    "light": "🟡",
+    "facts": [
+      {
+        "text": "Según sierra.ai: «Sierra is the leading platform for customer experience AI agents»",
+        "source_url": "https://sierra.ai/blog/agents-as-a-service",
+        "label": "sierra.ai",
+        "anchors": []
+      }
+    ],
+    "live": false,
+    "category": "Agentes de IA para servicio al cliente",
+    "ai_role": "ai_product",
+    "evidence_level": 1,
+    "launched": null,
+    "ended": null,
+    "metrics": {
+      "revenue_usd_annual": null,
+      "revenue_basis": null
+    },
+    "flags": []
   }
 ]

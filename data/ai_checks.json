@@ -277,18 +277,18 @@
   "mistral": {
     "status": "unconfirmed",
     "rev": 1,
-    "checked_at": "2026-10-27",
+    "checked_at": "2026-11-27",
     "model_verdict": "confirmed",
     "domains": [
-      "qz.com"
+      "builtin.com"
     ],
     "evidence": [
       {
-        "url": "https://qz.com/what-is-mistral-ai",
-        "quote": "Mistral AI is a French artificial intelligence company that develops large language models"
+        "url": "https://builtin.com/articles/mistral-ai",
+        "quote": "Mistral AI is an artificial intelligence startup that makes open source large language models"
       }
     ],
-    "rejected_evidence": 2
+    "rejected_evidence": 1
   },
   "synthesia": {
     "status": "unconfirmed",
@@ -528,5 +528,26 @@
       }
     ],
     "rejected_evidence": 1
+  },
+  "sierra-ai": {
+    "status": "confirmed",
+    "rev": 1,
+    "checked_at": "2026-11-27",
+    "model_verdict": "confirmed",
+    "domains": [
+      "myaskai.com",
+      "voiceflow.com"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.voiceflow.com/blog/sierra-ai",
+        "quote": "Sierra AI is a conversational AI platform built specifically for enterprise customer service."
+      },
+      {
+        "url": "https://myaskai.com/blog/sierra-ai-complete-guide-2026",
+        "quote": "Sierra AI builds autonomous AI agents for enterprise customer experience."
+      }
+    ],
+    "rejected_evidence": 2
   }
 }

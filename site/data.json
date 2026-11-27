@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-26 08:37 UTC",
-  "ranking_date": "2026-11-26",
+  "generated_at": "2026-11-27 08:37 UTC",
+  "ranking_date": "2026-11-27",
   "repo_url": "https://github.com/gonzalodiascenzi/seedproof",
   "podium_size": 3,
   "repechaje_size": 7,
@@ -436,6 +436,64 @@
       "ficha_url": null
     },
     {
+      "id": "sierra-ai",
+      "name": "Sierra AI",
+      "light": "yellow",
+      "category": "Agentes de IA para servicio al cliente",
+      "ai_role": "ai_product",
+      "evidence_level": 1,
+      "launched": null,
+      "ended": null,
+      "metrics": {
+        "revenue_usd_annual": null,
+        "revenue_basis": null
+      },
+      "flags": [],
+      "status": "confirmed",
+      "rank": 8,
+      "zone": "repechaje",
+      "score": {
+        "total": 10.0,
+        "evidence": 10,
+        "traction": 0.0,
+        "age": 0,
+        "light": 0,
+        "flags": 0,
+        "automation": 0,
+        "age_months": null,
+        "missing": [
+          "antigüedad",
+          "ingresos",
+          "automatización: cobro automático, entrega automática, vendible por WhatsApp, operable desde Argentina"
+        ]
+      },
+      "check": {
+        "checked_at": "2026-11-27",
+        "domains": [
+          "myaskai.com",
+          "voiceflow.com"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.voiceflow.com/blog/sierra-ai",
+            "quote": "Sierra AI is a conversational AI platform built specifically for enterprise customer service."
+          },
+          {
+            "url": "https://myaskai.com/blog/sierra-ai-complete-guide-2026",
+            "quote": "Sierra AI builds autonomous AI agents for enterprise customer experience."
+          }
+        ]
+      },
+      "facts": [
+        {
+          "text": "Según sierra.ai: «Sierra is the leading platform for customer experience AI agents»",
+          "source_url": "https://sierra.ai/blog/agents-as-a-service",
+          "label": "sierra.ai"
+        }
+      ],
+      "ficha_url": null
+    },
+    {
       "id": "suki",
       "name": "Suki",
       "light": "yellow",
@@ -450,7 +508,7 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 8,
+      "rank": 9,
       "zone": "repechaje",
       "score": {
         "total": 10.0,
@@ -508,7 +566,7 @@
       },
       "flags": [],
       "status": "confirmed",
-      "rank": 9,
+      "rank": 10,
       "zone": "repechaje",
       "score": {
         "total": 10.0,
@@ -1379,14 +1437,14 @@
         ]
       },
       "check": {
-        "checked_at": "2026-10-27",
+        "checked_at": "2026-11-27",
         "domains": [
-          "qz.com"
+          "builtin.com"
         ],
         "evidence": [
           {
-            "url": "https://qz.com/what-is-mistral-ai",
-            "quote": "Mistral AI is a French artificial intelligence company that develops large language models"
+            "url": "https://builtin.com/articles/mistral-ai",
+            "quote": "Mistral AI is an artificial intelligence startup that makes open source large language models"
           }
         ]
       },
@@ -1823,6 +1881,15 @@
     },
     {
       "dimension": "categoría",
+      "group": "Agentes de IA para servicio al cliente",
+      "n": 1,
+      "green": 0,
+      "yellow": 1,
+      "red": 0,
+      "verdict": "sin muestra suficiente (mínimo 5)"
+    },
+    {
+      "dimension": "categoría",
       "group": "Banca para agentes IA",
       "n": 1,
       "green": 0,
@@ -1896,9 +1963,9 @@
     {
       "dimension": "rol de la IA",
       "group": "ai_product",
-      "n": 9,
+      "n": 10,
       "green": 0,
-      "yellow": 9,
+      "yellow": 10,
       "red": 0,
       "verdict": "mixto"
     }
@@ -2334,13 +2401,33 @@
         "suki": 8,
         "suno": 9
       }
+    },
+    {
+      "date": "2026-11-27",
+      "podium": [
+        "lovable",
+        "decagon",
+        "glean"
+      ],
+      "ranks": {
+        "lovable": 1,
+        "decagon": 2,
+        "glean": 3,
+        "h-company": 4,
+        "meow": 5,
+        "notte": 6,
+        "regal-ai": 7,
+        "sierra-ai": 8,
+        "suki": 9,
+        "suno": 10
+      }
     }
   ],
   "validation": {
-    "last_run_at": "2026-11-26",
+    "last_run_at": "2026-11-27",
     "total": 41,
-    "up": 37,
+    "up": 36,
     "down": 1,
-    "blocked": 3
+    "blocked": 4
   }
 }

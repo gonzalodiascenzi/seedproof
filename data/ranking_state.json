@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "order": [
     "lovable",
     "decagon",
@@ -8,6 +8,7 @@
     "meow",
     "notte",
     "regal-ai",
+    "sierra-ai",
     "suki",
     "suno"
   ],
@@ -19,6 +20,7 @@
     "meow": "confirmed",
     "notte": "confirmed",
     "regal-ai": "confirmed",
+    "sierra-ai": "confirmed",
     "suki": "confirmed",
     "suno": "confirmed",
     "enrichlead": "unconfirmed",
@@ -54,6 +56,7 @@
     "meow": "repechaje",
     "notte": "repechaje",
     "regal-ai": "repechaje",
+    "sierra-ai": "repechaje",
     "suki": "repechaje",
     "suno": "repechaje"
   }
