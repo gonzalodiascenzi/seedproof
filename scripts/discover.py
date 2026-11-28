@@ -76,9 +76,21 @@ def ask_model(known, dcfg, api_key):
     system = SYSTEM_PROMPT.replace("{max_words}", str(dcfg["max_quote_words"])).replace(
         "{max_n}", str(int(dcfg["max_new_per_run"]) * 2)  # margen: algunos se descartan
     )
-    resp = common.call_anthropic(system, {"known": known}, dcfg["model"], api_key,
-                                 tools=tools, max_tokens=4096)
-    return va.extract_json_object(resp)
+    # la respuesta con búsqueda web a veces llega sin JSON (texto suelto o cortada):
+    # se reintenta una vez y, si vuelve a fallar, el error dice por qué se cortó
+    error = None
+    for attempt in (1, 2):
+        resp = common.call_anthropic(system, {"known": known}, dcfg["model"], api_key,
+                                     tools=tools, max_tokens=4096)
+        try:
+            return va.extract_json_object(resp)
+        except ValueError as e:
+            chars = sum(len(b.get("text", "")) for b in resp.get("content", [])
+                        if b.get("type") == "text")
+            error = ValueError(f"{e}; stop_reason={resp.get('stop_reason')}, "
+                               f"{chars} caracteres de texto, intento {attempt} de 2")
+            print(f"Aviso: {error}", file=sys.stderr)
+    raise error
 
 
 def build_case(cand, quote_url):

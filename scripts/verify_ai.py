@@ -95,16 +95,27 @@ def extract_json_object(response):
     blocks = response.get("content", [])
     text = "".join(b.get("text", "") for b in blocks if b.get("type") == "text").strip()
     try:
-        return json.loads(text)
+        obj = json.loads(text)
+        if isinstance(obj, dict):
+            return obj
     except json.JSONDecodeError:
         pass
-    # el modelo puede haber escrito texto antes del JSON: probar el último objeto
-    for m in reversed(list(re.finditer(r"\{.*\}", text, flags=re.DOTALL))):
+    # el modelo puede haber escrito texto antes o después del JSON (o backticks):
+    # se recorren los objetos de primer nivel y se devuelve el último válido
+    decoder = json.JSONDecoder()
+    found, pos = None, text.find("{")
+    while pos != -1:
         try:
-            return json.loads(m.group(0))
+            obj, end = decoder.raw_decode(text, pos)
         except json.JSONDecodeError:
+            pos = text.find("{", pos + 1)
             continue
-    raise ValueError("la respuesta no contiene un objeto JSON")
+        if isinstance(obj, dict):
+            found = obj
+        pos = text.find("{", end)
+    if found is None:
+        raise ValueError("la respuesta no contiene un objeto JSON")
+    return found
 
 
 def build_payload(case):
